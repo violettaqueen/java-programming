@@ -1,6 +1,6 @@
 package mentorSessions;
 
-public class firstNonRepeatingVowel {
+/*public class firstNonRepeatingVowel {
 
     public static void main(String[] args) {
 
@@ -14,7 +14,7 @@ public class firstNonRepeatingVowel {
 
     }
 
-   public int firstNonRepeatingVowel(String str){
+   /*public int firstNonRepeatingVowel(String str){
 
         for (int i = 0; i < str.length(); i++) {
 
@@ -22,17 +22,16 @@ public class firstNonRepeatingVowel {
             if(currentChar == 'a' || currentChar == 'i' || currentChar == 'u' || currentChar == 'e' || currentChar == '0'){
                 int countThem = 0;
 
-                for (int j = 0; j < str.length(); j++) {
+               // for (int j = 0; j < str.length(); j++) {
                     if(currentChar == str.charAt(i)){
                         countThem ++;
                     }
 
                 }
-                if(countThem == 1){
+                //if(countThem == 1){
                     return i;
                 }
             }
-        }
 
-    }
-}
+*/
+

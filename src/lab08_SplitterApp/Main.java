@@ -106,41 +106,44 @@ public class Main {
                     int userExpenseAmount = 0;
                     int expenseCount = 0;
 
-                    for (int i = 0; i < expenseList.size(); i++) { //check each expense
+                    for (int i = 0; i < expenseList.size(); i++) { //check each expense, that what loop does
 
-                        if(expenseList.get(i).user.equals(username)){
+                        if (expenseList.get(i).user.equals(username)) {
 
                             userExpenseAmount += expenseList.get(i).amount;
                             expenseCount++;
 
-                            System.out.println(i +  " - expense amount: " + expenseList.get(i).amount + ", expense by: "
-                            + expenseList.get(i).user);
+                            System.out.println(i + " - expense amount: " + expenseList.get(i).amount + ", expense by: "
+                                    + expenseList.get(i).user);
 
 
+                        }
                     }
-            }
                     System.out.println(myUser.name + " spent $ " + userExpenseAmount);
 
 
-            break;
-            case 2:
+                    break;
+                case 2:
 
-                for (int i = 0; i < expenseList.size(); i++) {
-                    System.out.println(i + " - expense amount: " + expenseList.get(i).amount + ", expense by: "
-                            + expenseList.get(i).user); //expense object
-                }
-                break;
-            case 3:
-                break;
-            case 4:
-                break;
-            case 5:
-                System.exit(0);
+                    for (int i = 0; i < expenseList.size(); i++) {
+                        System.out.println(i + " - expense amount: " + expenseList.get(i).amount + ", expense by: "
+                                + expenseList.get(i).user); //expense object
+                    }
+                    break;
+                case 3:
+
+                    ArrayList<Split> splitList = calculateSplitByUser(expenseList);
+
+
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    System.exit(0);
+            }
         }
+
     }
-
-}
-
 
 
     public static ArrayList<User> prepareUserLists(Scanner scanner) {
@@ -171,9 +174,42 @@ public class Main {
 
     public static String[] prepareOptionList() {
 
-        String[] optionList = {"Make Expense", "List Specific Person Expense", "list All Expences", "Make Split",
+        String[] optionList = {"Make Expense", "List Specific Person Expense", "list All Expenses", "Make Split",
                 "list All Users", "Close The Budget"};
         return optionList;
     }
 
+    public static ArrayList<Split> calculateSplitByUser(ArrayList<Expense> expenseList) {
+
+        ArrayList<Split> splitList = new ArrayList();
+
+        for (Expense expense : expenseList) {
+
+            // 2 questions come to mind:
+            Split split = existSplitList(expense.user,splitList);
+
+            if(split != null){
+                split.amount += expense.amount;
+            }else{
+                Split willBeAdded = new Split();
+                willBeAdded.userName = expense.user;
+                willBeAdded.amount = expense.amount;
+                splitList.add(willBeAdded);
+            }
+
+
+        }
+return splitList;
+    }
+
+    public static Split existSplitList(String username, ArrayList<Split> splitList){
+
+        for(Split split: splitList){
+            if(split.userName.equals(username)){
+                return split;
+            }
+
+        }
+        return null;//
+    }
 }

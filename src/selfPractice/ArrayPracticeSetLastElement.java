@@ -8,7 +8,7 @@ public class ArrayPracticeSetLastElement {
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
-
+        // index:                 0 1 2 3 4
         list.addAll(Arrays.asList(1,2,3,4,5));
         System.out.println(list);
 

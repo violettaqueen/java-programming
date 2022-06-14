@@ -15,7 +15,7 @@ public class Reverse {
            // System.out.println(each);
             result += each; // comcate to new variable result
 
-
+            System.out.println(result);
         }
 
     }

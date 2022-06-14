@@ -131,8 +131,14 @@ public class Main {
                     }
                     break;
                 case 3:
+                    double totalAmount = 0;
 
                     ArrayList<Split> splitList = calculateSplitByUser(expenseList);
+
+                    for (Split split : splitList) {
+                        totalAmount += split.amount;
+                    }
+                    makeSplit(totalAmount, splitList);
 
 
                     break;
@@ -143,6 +149,22 @@ public class Main {
             }
         }
 
+    }
+
+    public static void makeSplit(double totalAmount, ArrayList<Split> splitList) {
+
+        double amount = totalAmount /splitList.size();
+
+        // total 300
+        //each person 100
+
+        for (Split split : splitList) {
+            if(split.amount > amount){
+                System.out.println(split.userName + " needs to take back " + (split.amount - amount));
+            }else{
+                System.out.println(split.userName + " needs to give back " + (-1 *(split.amount - amount)));
+            }
+        }
     }
 
 

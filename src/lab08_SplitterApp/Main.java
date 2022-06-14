@@ -24,7 +24,7 @@ public class Main {
         // create users:
         ArrayList<User> userList = prepareUserLists(scanner);
 
-        ArrayList<Expense>  expenseList = new ArrayList<>();
+        ArrayList<Expense> expenseList = new ArrayList<>();
 
         System.out.println("Added user count: " + userList.size());
 
@@ -38,11 +38,11 @@ public class Main {
 
         // create 1 Array and keep option in Array elements
 
-       // String[] optionList = {"Make Expense", "List Specific Person Expense", "list All Expences", "Make Split",
-                //"list All Users", "Close The Budget"};
+        // String[] optionList = {"Make Expense", "List Specific Person Expense", "list All Expences", "Make Split",
+        //"list All Users", "Close The Budget"};
         String[] optionList = prepareOptionList();
 
-        while(true) {
+        while (true) {
 
             System.out.println("What would you like to do? ");
 
@@ -59,14 +59,14 @@ public class Main {
                     Expense expense = new Expense();
 
                     System.out.println("Expense name: ");
-                    expense.expenseName  = scanner.next();
+                    expense.expenseName = scanner.next();
 
                     System.out.println("Expense amount: ");
                     expense.amount = scanner.nextInt();
 
                     System.out.println("Which user made this expense? Just type user ID: ");
                     // I want ot print user from system, show all users
-                    for (User user :userList) { // show all users: id: 0 name Ozzy
+                    for (User user : userList) { // show all users: id: 0 name Ozzy
                         System.out.println("id: " + userList.indexOf(user) + "name: " + user.name);
                     }
 
@@ -76,8 +76,8 @@ public class Main {
 
                     expense.user = user.name;
 
-                     //
-                     expenseList.add(expense);
+                    //
+                    expenseList.add(expense);
 
                     break;
                 case 1:
@@ -89,37 +89,57 @@ public class Main {
 
                     for (User chosenUser : userList) {
 
-                        if(chosenUser.name.equals(username)){
+                        if (chosenUser.name.equals(username)) {
                             myUser = chosenUser;
                             break;
                         }
 
                     }
-                    if(myUser == null){
+                    if (myUser == null) {
                         System.out.println("User not exists!");
                         break;
                     }
+                    // list specific person expense
+                    //0 - expense amount : 100, expense by : Ozzy
+                    //1 - expense amount : 100, expense by : Ozzy
+                    //ozzy spent $200
+                    int userExpenseAmount = 0;
+                    int expenseCount = 0;
+
+                    for (int i = 0; i < expenseList.size(); i++) { //check each expense
+
+                        if(expenseList.get(i).user.equals(username)){
+
+                            userExpenseAmount += expenseList.get(i).amount;
+                            expenseCount++;
+
+                            System.out.println(i +  " - expense amount: " + expenseList.get(i).amount + ", expense by: "
+                            + expenseList.get(i).user);
 
 
+                    }
+            }
+                    System.out.println(myUser.name + " spent $ " + userExpenseAmount);
 
-                    break;
-                case 2:
 
-                    for(int i = 0;  i< expenseList.size(); i ++){
+            break;
+            case 2:
+
+                for (int i = 0; i < expenseList.size(); i++) {
                     System.out.println(i + " - expense amount: " + expenseList.get(i).amount + ", expense by: "
                             + expenseList.get(i).user); //expense object
                 }
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    System.exit(0);
-            }
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                System.exit(0);
         }
+    }
 
-        }
+}
 
 
 

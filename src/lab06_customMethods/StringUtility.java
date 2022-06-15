@@ -33,9 +33,27 @@ public class StringUtility {
         return count;
     }
 
+    public static String reverse(String word) {
+        String result = "";
+
+        // to reverse the order
+
+        for (int i = word.length() - 1; i >= 0; i--) { //iterator should decrease by one
+            //i > -1 - variant 2
+            char each = word.charAt(i);// character starting from last char to first char
+            // System.out.println(each);
+            result += each; // comcate to new variable result
+        }
+        return result;
+
+    }
 }
 
-
+/*
+Question 16, lab 6
+Palindrome - reverse string
+Write a method that accepts a string and returns true if the string is palindrome
+ */
 
 
 

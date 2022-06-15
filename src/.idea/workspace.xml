@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day22_ArrayList_Wrapper_PracticeTasks/ReplaceTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mentorSessions/JadenCased.java" afterDir="false" />
+    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05_String/FrequencyOfWord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05_String/FrequencyOfWord2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab06_customMethods/StringUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06_customMethods/StringUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JadenCased">
+  <component name="RunManager" selected="Application.CustomMethodsPractice3">
     <configuration name="ArraysIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day19_array.ArraysIntro" />
       <module name="Java_Programming" />
@@ -121,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JadenCased" />
         <item itemvalue="Application.CustomMethodsPractice3" />
+        <item itemvalue="Application.JadenCased" />
         <item itemvalue="Application.CustomMethodsPractice2" />
         <item itemvalue="Application.FrequencyOfWord2" />
         <item itemvalue="Application.ArraysIntro" />
@@ -150,8 +144,16 @@
       <workItem from="1654182697310" duration="720000" />
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
-      <workItem from="1655298265921" duration="7844000" />
+      <workItem from="1655298265921" duration="15100000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1655307045194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655307045194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +169,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

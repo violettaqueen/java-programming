@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="" />
+    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day22_ArrayList_Wrapper_PracticeTasks/ReplaceTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentorSessions/JadenCased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05_String/FrequencyOfWord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05_String/FrequencyOfWord2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +20,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28ZLb7bbW7fGHADaDhiMwksgsQL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -29,18 +41,20 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vquee/IdeaProjects/Java_Programming/src&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ScannerIntro3">
-    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfPractice.OddOrEven" />
+  <component name="RunManager" selected="Application.FrequencyOfWord2">
+    <configuration name="ArrayObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19_array.ArrayObjects" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfPractice.*" />
+          <option name="PATTERN" value="day19_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerIntro3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09_scanner.ScannerIntro3" />
+    <configuration name="ArrayPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19_array.ArrayPractice2" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_scanner.*" />
+          <option name="PATTERN" value="day19_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDogObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_custonClass.TestDogObjects" />
+    <configuration name="ArraysIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19_array.ArraysIntro" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17_custonClass.*" />
+          <option name="PATTERN" value="day19_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployeeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_custonClass.TestEmployeeObjects" />
+    <configuration name="FrequencyOfWord2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab05_String.FrequencyOfWord2" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17_custonClass.*" />
+          <option name="PATTERN" value="Lab05_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOfCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_custonClass.TestOfCars" />
+    <configuration name="ReplaceTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day22_ArrayList_Wrapper_PracticeTasks.ReplaceTask" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17_custonClass.*" />
+          <option name="PATTERN" value="day22_ArrayList_Wrapper_PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScannerIntro3" />
-        <item itemvalue="Application.TestOfCars" />
-        <item itemvalue="Application.TestEmployeeObjects" />
-        <item itemvalue="Application.TestDogObjects" />
-        <item itemvalue="Application.OddOrEven" />
+        <item itemvalue="Application.FrequencyOfWord2" />
+        <item itemvalue="Application.ArraysIntro" />
+        <item itemvalue="Application.ArrayPractice2" />
+        <item itemvalue="Application.ReplaceTask" />
+        <item itemvalue="Application.ArrayObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -127,12 +141,27 @@
       <workItem from="1653061065418" duration="52728000" />
       <workItem from="1653253326960" duration="14634000" />
       <workItem from="1653328690707" duration="91380000" />
-      <workItem from="1653861354586" duration="1249000" />
+      <workItem from="1653861354586" duration="67341000" />
+      <workItem from="1654182697310" duration="720000" />
+      <workItem from="1654183784325" duration="29000" />
+      <workItem from="1655252250334" duration="3186000" />
+      <workItem from="1655298265921" duration="2264000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

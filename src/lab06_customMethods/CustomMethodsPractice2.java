@@ -12,26 +12,29 @@ public class CustomMethodsPractice2 {
 
         System.out.println(rotatedLast2("Violetta"));
         System.out.println(frontAgain("edited"));
+        System.out.println("--------------------------------------------------------------------------");
+
+        System.out.println(countHi("Hi Hi Hi Hi"));
     }
 
 
     public static String comboString(String a, String b) {
 
-        if(a.length() > b.length()){
+        if (a.length() > b.length()) {
             return b + a + b;
-        }else if(b.length() > a.length()){
+        } else if (b.length() > a.length()) {
             return a + b + a;
 
-        }else{
+        } else {
             return a + b;
         }
 
 
     }
 
-    public static String left2(String str){
+    public static String left2(String str) {
 
-        if(str.length() < 3){
+        if (str.length() < 3) {
             return str;
         }
         String s1 = str.substring(0, 2); //to get first 2 chars "He"
@@ -40,27 +43,42 @@ public class CustomMethodsPractice2 {
         return s2 + s1;
     }
 
-    public static String rotatedLast2(String str){
+    public static String rotatedLast2(String str) {
 
-        if(str.length()< 3){
+        if (str.length() < 3) {
             return str;
         }
-        String s1 = str.substring(0,str.length()-2);
-        String s2 = str.substring(str.length()-2); // from second last chars
+        String s1 = str.substring(0, str.length() - 2);
+        String s2 = str.substring(str.length() - 2); // from second last chars
 
         return s2 + s1;
     }
 
-    public static boolean frontAgain(String str){
+    public static boolean frontAgain(String str) {
 
-        if(str.length()<2){
+        if (str.length() < 2) {
             return false;
         }
 
-        return (str.substring(0,2).equals(str.substring(str.length()-2)));
+        return (str.substring(0, 2).equals(str.substring(str.length() - 2)));
 
-        }
     }
+
+    public static int countHi(String str) {
+
+        return StringUtility.frequency(str, "Hi");
+
+
+    }
+
+    public static boolean catDog (String str){
+
+        str = str.toUpperCase(); // to ignore case sensetivity
+        int countCat = StringUtility.frequency(str, "cat");
+        int countDog = StringUtility.frequency(str, "dog");
+        return countDog ==countCat;
+    }
+}
 
 
 

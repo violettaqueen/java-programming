@@ -1,19 +1,21 @@
 package mentorSessions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class JadenCased {
 
     public static void main(String[] args) {
 
-        String sentence = "How can mirrors be real if our eyes aren't real";
+        System.out.println(toJadenCase2("How can mirrors be real if our eyes aren't real"));
+        System.out.println(toJadenCase("How can mirrors be real if our eyes aren't real"));
 
         // solution 1
 
 
     }
 
-    public String toJadenCase2(String phrase) {
+    public static String toJadenCase2(String phrase) {
 
         if (phrase == null || phrase.isEmpty()) {
             return "";
@@ -30,6 +32,20 @@ public class JadenCased {
             result += (eachWord.charAt(0) + "").toUpperCase() + eachWord.substring(1) + " ";
         }
         return result.trim();
+    }
+    public static String toJadenCase(String phrase){
+
+        if(phrase == null || phrase.isEmpty()){
+            return "";
+        }
+        char[] array = phrase.toCharArray();
+
+        for (int i = 0; i < array.length; i++) {
+            if(i == 0 || array[i -1] == ' '){
+                array[i] = Character.toUpperCase(array[i]);
+            }
+        }
+return new String(array);
     }
 
 }

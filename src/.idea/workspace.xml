@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/CollectionsUtilityMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/FrequencyOfCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07_ifStatements/CappuccinoBuyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_ifStatements/CappuccinoBuyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day24_DateAndTime/RemoveElementsFromCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/day24_DateAndTime/RemoveElementsFromCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/day07_ifStatements/CappuccinoBuyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/day07_ifStatements/CappuccinoBuyer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentorSessions/JadenCased.java" beforeDir="false" afterPath="$PROJECT_DIR$/mentorSessions/JadenCased.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +48,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveElementsFromCollection">
-    <configuration name="Breakfast_ArrayListPractice_day24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23_arrayList.Breakfast_ArrayListPractice_day24" />
+  <component name="RunManager" selected="Application.JadenCased">
+    <configuration name="CappuccinoBuyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07_ifStatements.CappuccinoBuyer" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23_arrayList.*" />
+          <option name="PATTERN" value="day07_ifStatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +62,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CappuccinoBuyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07_ifStatements.CappuccinoBuyer" />
+    <configuration name="CollectionsUtilityMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.CollectionsUtilityMethods" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07_ifStatements.*" />
+          <option name="PATTERN" value="day24_DateAndTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JadenCased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mentorSessions.JadenCased" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mentorSessions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployeeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_customClass.TestEmployeeObjects" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day17_customClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JadenCased" />
+        <item itemvalue="Application.CollectionsUtilityMethods" />
         <item itemvalue="Application.RemoveElementsFromCollection" />
         <item itemvalue="Application.CappuccinoBuyer" />
         <item itemvalue="Application.SwitchIntro" />
-        <item itemvalue="Application.Breakfast_ArrayListPractice_day24" />
-        <item itemvalue="Application.TestEmployeeObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,7 @@
       <workItem from="1654182697310" duration="720000" />
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
-      <workItem from="1655298265921" duration="33663000" />
+      <workItem from="1655298265921" duration="37242000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655307045194</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655396166909</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1655397733566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655397733566</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

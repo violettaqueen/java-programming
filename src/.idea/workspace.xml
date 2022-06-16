@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/TestPersonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.day24_DateAndTime.LocalTimeIntro">
-    <configuration name="JadenCased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mentorSessions.JadenCased" />
+  <component name="RunManager" selected="Application.RemoveElementsFromCollection">
+    <configuration name="RemoveElementsFromCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.RemoveElementsFromCollection" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mentorSessions.*" />
+          <option name="PATTERN" value="day24_DateAndTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.TestPersonObject" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day24_DateAndTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day24_DateAndTime.RemoveElementsFromCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.RemoveElementsFromCollection" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day24_DateAndTime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElementsFromCollection" />
+        <item itemvalue="Application.TestPersonObject" />
         <item itemvalue="Application.day24_DateAndTime.LocalTimeIntro" />
         <item itemvalue="Application.day24_DateAndTime.LocalDateIntro" />
         <item itemvalue="Application.day24_DateAndTime.CollectionsUtilityMethods" />
-        <item itemvalue="Application.JadenCased" />
-        <item itemvalue="Application.day24_DateAndTime.RemoveElementsFromCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,7 @@
       <workItem from="1654182697310" duration="720000" />
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
-      <workItem from="1655298265921" duration="45140000" />
+      <workItem from="1655298265921" duration="46346000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655307045194</created>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655409035655</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1655409588539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409588539</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

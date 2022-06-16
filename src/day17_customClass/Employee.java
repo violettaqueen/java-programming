@@ -2,14 +2,14 @@ package day17_customClass;
 
 public class Employee {
 
-    public String name;
-    public int age;
+    public String name; //instance variables
     public char gender;
     public String jobTitle;
     public double salary;
-
+public int age;
     public String id;
-// sets all the attributes of the employee object at once
+
+    // sets all the attributes of the employee object at once
     public void setInfo(String name, int age, char gender, String jobTitle, double salary, String id) {
         this.name = name; //argument
         this.age = age;
@@ -32,8 +32,12 @@ public class Employee {
                 '}';
     }
 
-    public void work(){
+
+    public void work() {
         System.out.println(name + " is working");
     }
 
+    public void nameAndJobTitle(String name, String jobTitle) {
+        System.out.println("name: " + name + "\n" + "Job Title: " + jobTitle);
+    }
 }

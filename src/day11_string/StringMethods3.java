@@ -29,7 +29,7 @@ public class StringMethods3 {
         String str2 = new String("Cydeo");
         System.out.println(str1.equals(str2));
 
-        // equalsIgnoreCase - to comapare same words, doesn't metter lower or upper case
+        // equalsIgnoreCase - to compare same words, doesn't matter lower or upper case
         String s1 = "JAVA";
         String s2 = "java";
         System.out.println(s1.equals(s2)); // false

@@ -33,5 +33,5 @@ public class FrequencyOfWord {
 /*
 Use a loop to count how many times the characters cat and dog are found in the given String str.
 Output true if cat and dog appear the same number of times, otherwise output false
-Main topics: loops, primitive datatypes, operators, Scanner, String, if statements
+Main topics: loops, primitive datat ypes, operators, Scanner, String, if statements
  */

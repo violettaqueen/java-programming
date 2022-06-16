@@ -8,16 +8,21 @@ public class JadenCased {
 
         String sentence = "How can mirrors be real if our eyes aren't real";
         String result = "";
+        String singleWord ="";
 
-        for (int i = 0; i < sentence.length(); i++) {
-            char each = sentence.charAt(i);
-            System.out.println(each);
 
+
+            }
+            {
+
+        }
 
         }
 
 
-        }
 
-    }
+
+
+
+
 

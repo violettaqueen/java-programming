@@ -70,7 +70,7 @@ public class StringMethods2 {
 
         String sentance7 = "Today is Sunday, Tomorrow is Monday";
         String tomorrow = sentance7.substring(sentance7.lastIndexOf(" ")+1);
-        // create the substring "Monday" from sentance7                     //last space
+        // create the substring "Monday" from sentence7                     //last space
         // do not count any index numbers
         System.out.println(tomorrow);
 

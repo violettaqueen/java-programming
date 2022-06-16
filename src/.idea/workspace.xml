@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/day16_nestedLoop/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16_nestedLoop/LoopPractices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16_nestedLoop/NestedLoopIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23_arrayList/Breakfast_ArrayListPractice_day24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentorSessions/CountTheNumberOfDuplicatedLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06_customMethods/CustomMethodsPractice3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab06_customMethods/StringUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06_customMethods/StringUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_string/FrequencyOfWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_string/FrequencyOfWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11_string/StringMethods2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11_string/StringMethods2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11_string/StringMethods3.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11_string/StringMethods3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_customMethods/calledEmailTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_customMethods/calledEmailTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16_nestedLoop/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16_nestedLoop/DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16_nestedLoop/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16_nestedLoop/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day17_customClass/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/day17_customClass/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentorSessions/JadenCased.java" beforeDir="false" afterPath="$PROJECT_DIR$/mentorSessions/JadenCased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/day16_nestedLoop/DoWhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/day16_nestedLoop/DoWhileLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/day16_nestedLoop/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/day16_nestedLoop/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/day17_customClass/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/day17_customClass/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/mentorSessions/JadenCased.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/mentorSessions/JadenCased.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +62,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CustomMethodsPractice3">
-    <configuration name="ArraysIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day19_array.ArraysIntro" />
+  <component name="RunManager" selected="Application.Breakfast_ArrayListPractice_day24">
+    <configuration name="Breakfast_ArrayListPractice_day24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day23_arrayList.Breakfast_ArrayListPractice_day24" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day19_array.*" />
+          <option name="PATTERN" value="day23_arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,47 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomMethodsPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab06_customMethods.CustomMethodsPractice2" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab06_customMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomMethodsPractice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab06_customMethods.CustomMethodsPractice3" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab06_customMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequencyOfWord2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab05_String.FrequencyOfWord2" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab05_String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JadenCased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mentorSessions.JadenCased" />
+    <configuration name="CountTheNumberOfDuplicatedLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mentorSessions.CountTheNumberOfDuplicatedLetters" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +89,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrequencyOfWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day16_nestedLoop.FrequencyOfWord" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day16_nestedLoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBankAccountObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17_customClass.TestBankAccountObject" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day17_customClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmployeeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17_customClass.TestEmployeeObjects" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day17_customClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomMethodsPractice3" />
-        <item itemvalue="Application.JadenCased" />
-        <item itemvalue="Application.CustomMethodsPractice2" />
-        <item itemvalue="Application.FrequencyOfWord2" />
-        <item itemvalue="Application.ArraysIntro" />
+        <item itemvalue="Application.Breakfast_ArrayListPractice_day24" />
+        <item itemvalue="Application.TestEmployeeObjects" />
+        <item itemvalue="Application.TestBankAccountObject" />
+        <item itemvalue="Application.CountTheNumberOfDuplicatedLetters" />
+        <item itemvalue="Application.FrequencyOfWord" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +159,7 @@
       <workItem from="1654182697310" duration="720000" />
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
-      <workItem from="1655298265921" duration="15100000" />
+      <workItem from="1655298265921" duration="29986000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655307045194</created>
@@ -153,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655307045194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1655320859383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655320859383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1655321066161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655321066161</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

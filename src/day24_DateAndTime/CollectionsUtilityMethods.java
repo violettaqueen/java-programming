@@ -51,7 +51,7 @@ public class CollectionsUtilityMethods {
 
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.addAll(Arrays.asList(10, 20,20,30, 40,40,50,50,50,50,50,50,60,60,50,50));
-
+                                      // looking for 30 - the number that appears once
         for (Integer each : numbers) {
             if(Collections.frequency(numbers, each) == 1){
                 System.out.println(each);

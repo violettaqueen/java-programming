@@ -3,12 +3,25 @@ package day07_ifStatements;
 public class CappuccinoBuyer {
 
     public static void main(String[] args) {
-        String size1 = "tall";
-        String size2 = "grande";
-        String size3 = "venti";
+        String size = "tall";
+         switch(size){
+             case "tall":
+                 System.out.println("price is $3.69\n" +
+                         "90 calories");
+                 break;
+             case "grande":
+                 System.out.println("price is $3.99;\n" +
+                         "120 calories");
+                 break;
+             case "venti":
+                 System.out.println("price is $4.29\n" +
+                         "150 calories");
+             default:
+                 System.out.println("Invalid Size");
+         }
 
 
-    }
+        }
 
 }
 /*

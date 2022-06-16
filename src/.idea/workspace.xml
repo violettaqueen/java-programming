@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/LocalDateIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/LocalDatePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/LocalTimeIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day24_DateAndTime/CollectionsUtilityMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/day24_DateAndTime/CollectionsUtilityMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LocalTimeIntro">
-    <configuration name="CollectionsUtilityMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.CollectionsUtilityMethods" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day24_DateAndTime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.day24_DateAndTime.LocalTimeIntro">
     <configuration name="JadenCased" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mentorSessions.JadenCased" />
       <module name="Java_Programming" />
@@ -76,7 +59,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalDateIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="day24_DateAndTime.CollectionsUtilityMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.CollectionsUtilityMethods" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day24_DateAndTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day24_DateAndTime.LocalDateIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.LocalDateIntro" />
       <module name="Java_Programming" />
       <extension name="coverage">
@@ -89,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalTimeIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="day24_DateAndTime.LocalTimeIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.LocalTimeIntro" />
       <module name="Java_Programming" />
       <extension name="coverage">
@@ -102,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElementsFromCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="day24_DateAndTime.RemoveElementsFromCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.RemoveElementsFromCollection" />
       <module name="Java_Programming" />
       <extension name="coverage">
@@ -117,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocalTimeIntro" />
-        <item itemvalue="Application.LocalDateIntro" />
-        <item itemvalue="Application.CollectionsUtilityMethods" />
+        <item itemvalue="Application.day24_DateAndTime.LocalTimeIntro" />
+        <item itemvalue="Application.day24_DateAndTime.LocalDateIntro" />
+        <item itemvalue="Application.day24_DateAndTime.CollectionsUtilityMethods" />
         <item itemvalue="Application.JadenCased" />
-        <item itemvalue="Application.RemoveElementsFromCollection" />
+        <item itemvalue="Application.day24_DateAndTime.RemoveElementsFromCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +142,7 @@
       <workItem from="1654182697310" duration="720000" />
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
-      <workItem from="1655298265921" duration="44461000" />
+      <workItem from="1655298265921" duration="45140000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655307045194</created>
@@ -204,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655402960323</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1655409035655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409035655</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

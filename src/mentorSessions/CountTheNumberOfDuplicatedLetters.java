@@ -1,32 +1,44 @@
 package mentorSessions;
 
+import java.util.Locale;
+
 public class CountTheNumberOfDuplicatedLetters {
 
 
     public static void main(String[] args) {
 
-
-        // create a string
-        String phrase = "How can mirrors be real if our eyes aren't real";
-
-
-        // stores each characters to a char array
-
-        char[] array = phrase.toCharArray();
+        String str = "aabbcde";
+        System.out.println(getNumberOfDuplicates("aabbcde"));
 
 
-        for (int i = 0; i < array.length; i++) {
+    }
 
-            // if the array element is a letter
-            if (i == 0 || array[i - 1] == ' ') {
+    public static int getNumberOfDuplicates(String str) {
 
-                Character.toUpperCase(array[i]);
+        // convert a string to lowercase
+        str = str.toLowerCase();
 
+        // create an empty temporary String value
+        String temp = "";
 
+        // create a new string value to store data
+        String output = "";
+
+        // getting every character of a String conversion of an array
+        for (char ch : str.toCharArray()) {
+            // condition if empty string doesn't contain a character
+            if (!temp.contains(ch + "")) {
+                temp += ch; //add character to an empty string
+            } else if (!output.contains(ch + "")) {
+                output += ch;
             }
         }
+
+        return output.length();
     }
 }
+
+
 
 
 

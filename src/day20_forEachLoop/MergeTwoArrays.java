@@ -9,7 +9,8 @@ public class MergeTwoArrays {
         int[] arr1 = {1, 2, 3, 4};
         int[] arr2 = {5, 6, 7};
 
-        int[] arr3 = new int[arr1.length + arr2.length]; //to make sure that 3d array has enough capacity to contain arr1 and arr2
+        int[] arr3 = new int[arr1.length + arr2.length]; //to make sure that 3d array has enough capacity to
+        // contain arr1 and arr2
 
         int k = 0; // k is for third arrays index numbers
 

@@ -11,10 +11,12 @@ public class UniqueElementsOfArrayList {
         ArrayList<Integer> list = new ArrayList<>();
 
         list.addAll(Arrays.asList(1, 1, 2, 3, 3, 4, 5, 5));
-        list.retainAll(Arrays.asList(2,4));
+        if(list.indexOf(list.size()) > 1){
+
+        }
 
 
-        System.out.println(list);
+
 
     }
 

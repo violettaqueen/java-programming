@@ -11,9 +11,10 @@ public class UniqueElementsOfArrayList {
         ArrayList<Integer> list = new ArrayList<>();
 
         list.addAll(Arrays.asList(1, 1, 2, 3, 3, 4, 5, 5));
-        if(list.indexOf(list.size()) > 1){
+       list.removeIf(p -> Collections.frequency(list, p) != 1);
+        System.out.println(list);
 
-        }
+
 
 
 

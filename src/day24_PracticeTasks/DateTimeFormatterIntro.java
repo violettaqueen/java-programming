@@ -25,8 +25,21 @@ public class DateTimeFormatterIntro {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEEE, MM/dd/y  hh:mm a");
         LocalDateTime starts = LocalDateTime.now();
         System.out.println(starts.format(dtf));
+        System.out.println("--------------------------------------------------------------------------");
+
+        // lunch break exercise:
+
+        DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("EEEE, h:mm a, MMM/dd/y");
+        LocalDateTime date2 = LocalDateTime.of(2022, 11,24,1,0);
+        System.out.println(date2.format(dtf2));
+
+
 
 
     }
 
 }
+/*
+1. use the LocalDateTime get the date and time in the following format:
+            Tuesday, 1:00 pm, Nov/24/2020
+ */

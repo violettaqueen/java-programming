@@ -12,7 +12,7 @@ public class RemoveAllDigitsFromArrayList {
         ArrayList<Character> list = new ArrayList<>();
         list.addAll(Arrays.asList('$', 'A', 'B', '1', '2', 'C', 'D', '@', '!', '3', '4'));
 
-        list.removeAll(Arrays.asList('1','2','3','4'));
+        list.removeIf(p -> Character.isDigit(p));
         System.out.println(list);
 
     }

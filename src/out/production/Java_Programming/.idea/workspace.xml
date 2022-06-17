@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day22_ArrayList_Wrapper_PracticeTasks/ReplaceTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mentorSessions/JadenCased.java" afterDir="false" />
+    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/Birthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_PracticeTasks/DateTimeFormatterIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_PracticeTasks/RemoveAllTheLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replit/HalfTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replit/SecondElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfPractice/GuestList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05_String/FrequencyOfWord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05_String/FrequencyOfWord2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Programming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Programming/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_DateAndTime/LocalDatePractice.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28ZLb7bbW7fGHADaDhiMwksgsQL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -48,13 +52,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FrequencyOfWord2">
-    <configuration name="ArrayObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day19_array.ArrayObjects" />
+  <component name="RunManager" selected="Application.DateTimeFormatterIntro">
+    <configuration name="DateTimeFormatterIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_PracticeTasks.DateTimeFormatterIntro" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day19_array.*" />
+          <option name="PATTERN" value="day24_PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day19_array.ArrayPractice2" />
+    <configuration name="LocalDateTimeIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_DateAndTime.LocalDateTimeIntro" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day19_array.*" />
+          <option name="PATTERN" value="day24_DateAndTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day19_array.ArraysIntro" />
+    <configuration name="RemoveIfMethodPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_PracticeTasks.RemoveIfMethodPractice" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day19_array.*" />
+          <option name="PATTERN" value="day24_PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyOfWord2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab05_String.FrequencyOfWord2" />
+    <configuration name="day24_PracticeTasks.RemoveAllDigitsFromArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_PracticeTasks.RemoveAllDigitsFromArrayList" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab05_String.*" />
+          <option name="PATTERN" value="day24_PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day22_ArrayList_Wrapper_PracticeTasks.ReplaceTask" />
+    <configuration name="day24_PracticeTasks.UniqueElementsOfArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_PracticeTasks.UniqueElementsOfArrayList" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22_ArrayList_Wrapper_PracticeTasks.*" />
+          <option name="PATTERN" value="day24_PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrequencyOfWord2" />
-        <item itemvalue="Application.ArraysIntro" />
-        <item itemvalue="Application.ArrayPractice2" />
-        <item itemvalue="Application.ReplaceTask" />
-        <item itemvalue="Application.ArrayObjects" />
+        <item itemvalue="Application.DateTimeFormatterIntro" />
+        <item itemvalue="Application.day24_PracticeTasks.UniqueElementsOfArrayList" />
+        <item itemvalue="Application.LocalDateTimeIntro" />
+        <item itemvalue="Application.RemoveIfMethodPractice" />
+        <item itemvalue="Application.day24_PracticeTasks.RemoveAllDigitsFromArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -145,8 +149,135 @@
       <workItem from="1654182697310" duration="720000" />
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
-      <workItem from="1655298265921" duration="2264000" />
+      <workItem from="1655298265921" duration="74281000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1655307045194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655307045194</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1655320859383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655320859383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1655321066161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655321066161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1655394063410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655394063410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1655396166909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655396166909</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1655397733566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655397733566</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1655401552427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655401552427</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1655402960323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655402960323</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1655409035655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409035655</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1655409588539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409588539</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial commit">
+      <created>1655411017787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655411017787</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial commit">
+      <created>1655414875747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655414875747</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial commit">
+      <created>1655433424876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655433424876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="initial commit">
+      <created>1655433700524</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655433700524</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initial commit">
+      <created>1655434719254</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655434719255</updated>
+    </task>
+    <task id="LOCAL-00016" summary="initial commit">
+      <created>1655477686367</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655477686367</updated>
+    </task>
+    <task id="LOCAL-00017" summary="initial commit">
+      <created>1655477794841</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655477794841</updated>
+    </task>
+    <task id="LOCAL-00018" summary="initial commit">
+      <created>1655482603320</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655482603320</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +293,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

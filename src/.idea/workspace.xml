@@ -45,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestPizzaObject">
+  <component name="RunManager" selected="Application.TestSalaryCalculator">
     <configuration name="TestEmployeeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestEmployeeObject" />
       <module name="Java_Programming" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day25_Constructor.ConstructorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25_Constructor.ConstructorInfo" />
+    <configuration name="TestSalaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestSalaryCalculator" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSalaryCalculator" />
         <item itemvalue="Application.TestPizzaObject" />
         <item itemvalue="Application.day25_Constructor.TestPersonObject" />
         <item itemvalue="Application.day25_Constructor.TestEmployeeObject" />
         <item itemvalue="Application.day25_Constructor.TestRectangleObject" />
-        <item itemvalue="Application.day25_Constructor.ConstructorInfo" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package day24_PracticeTasks;
+package day24_DateAndTime;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

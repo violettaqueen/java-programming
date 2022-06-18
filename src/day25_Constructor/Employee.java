@@ -1,8 +1,9 @@
 package day25_Constructor;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
-public class EmployeeClass {
+public class Employee {
 
     public String name, jobTitle;
     public int age;
@@ -10,7 +11,7 @@ public class EmployeeClass {
     public double salary;
     public LocalDate hired_date;
 
-    public EmployeeClass(String name, String jobTitle, int age, char gender, double salary, LocalDate hired_date) {
+    public Employee(String name, String jobTitle, int age, char gender, double salary, LocalDate hired_date) {
         this.name = name;
         this.jobTitle = jobTitle;
         this.age = age;
@@ -27,7 +28,7 @@ public class EmployeeClass {
                 ", age=" + age +
                 ", gender=" + gender +
                 ", salary=" + salary +
-                ", hired_date=" + hired_date +
+                ", hired_date=" + hired_date.format(DateTimeFormatter.ofPattern("MM/dd/y")) +
                 '}';
     } // allows you to print the object when it's passed in print statement
 }

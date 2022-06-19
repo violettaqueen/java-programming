@@ -1,6 +1,7 @@
 package day26_Statics.studentTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StudentGroup {  //StudentsGroup Has A Student - has relationship
 
@@ -25,6 +26,9 @@ public class StudentGroup {  //StudentsGroup Has A Student - has relationship
         // takes one student object and adds it to the arrayList of students
         students.add(student);
 
+    }
+    public void addStudents(Student[] students){
+        this.students.addAll(Arrays.asList(students));
     }
     // second way, overload this method
 

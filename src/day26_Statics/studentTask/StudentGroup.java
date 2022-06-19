@@ -2,7 +2,7 @@ package day26_Statics.studentTask;
 
 import java.util.ArrayList;
 
-public class StudentGroup {
+public class StudentGroup {  //StudentsGroup Has A Student - has relationship
 
     public String groupName;
     public int groupId;

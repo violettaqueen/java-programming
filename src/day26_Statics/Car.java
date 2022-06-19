@@ -7,19 +7,19 @@ public class Car {
     public double price;
     public String color;
 
-    public Car(String make){
+    public Car(String make){  // use generate constructor
         this.make = make;
     }
     public Car(String make, String model){
-        this(make);
+        this(make); // first constructor gets executed
         this.model = model;
     }
     public Car(String make, String model, int year){
-       this(make, model);
+       this(make, model); // the first two constructors get executed
        this.year = year;
     }
     public Car(String make, String model, int year, double price){
-        this(make, model, year);
+        this(make, model, year); // the first three constructor gets executed
         this.price = price;
     }
     public Car(String make, String model, int year, double price, String color){

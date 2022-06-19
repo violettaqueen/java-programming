@@ -5,10 +5,52 @@ import java.util.ArrayList;
 public class StudentGroup {
 
     public String groupName;
-    public String groupId;
+    public int groupId;
+    // create a multiple students:
+    // array -size is not changeable, ArrayList - yes, can change
+    public ArrayList<Student> students = new ArrayList<>(); // create an arraylist object!!!
+
+    // 2. create an ArrayList object when generate a constructor but not a good option
 
 
+    public StudentGroup(String groupName, int groupId) {
+        this.groupName = groupName;
+        this.groupId = groupId;
+       // students = new ArrayList<>(); // size is 0 at the beginning
+    }
+    // add student function , create instance method, each object have it's own method
 
+
+    public void addStudent(Student student){ // you have to have a student object(argument)
+        // takes one student object and adds it to the arrayList of students
+        students.add(student);
+
+    }
+    // second way, overload this method
+
+    public void addStudent(String name, int age, char gender, String id){
+        // takes name, age, gender, id of student info, creates
+
+        // Student student = new Student(name, age, gender, id); // this method create a student object
+        // student.add(student);
+        students.add(new Student(name, age, gender, id));
+    }
+    // remove student from arrayList, by ID
+
+    public void removeStudent(String id){
+        students.removeIf(p -> p.id.equals(id)); //if student with id has this id, removes the student object
+                                                 //
+    }
+    // every time the student object is passed, I need to print their name, id, arrayList - total number of students
+
+    @Override
+    public String toString() {
+        return "StudentGroup{" +
+                "groupName='" + groupName + '\'' +
+                ", groupId=" + groupId +
+                ", students=" + students.size() +
+                '}';
+    }
 }
 /*
  Create a custom class named StudentsGroup

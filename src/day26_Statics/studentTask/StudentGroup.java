@@ -9,7 +9,8 @@ public class StudentGroup {  //StudentsGroup Has A Student - has relationship
     public int groupId;
     // create a multiple students:
     // array -size is not changeable, ArrayList - yes, can change
-    public ArrayList<Student> students = new ArrayList<>(); // create an arraylist object!!!
+    public ArrayList<Student> students = new ArrayList<>(); // create an arraylist object!!! to be able to add multiple student
+                                                            // object in the group
 
     // 2. create an ArrayList object when generate a constructor but not a good option
 
@@ -30,7 +31,7 @@ public class StudentGroup {  //StudentsGroup Has A Student - has relationship
     public void addStudents(Student[] students){
         this.students.addAll(Arrays.asList(students));
     }
-    // second way, overload this method
+    // second way, overload this method, takes one array of students, and adds the array of students to arrayList
 
     public void addStudent(String name, int age, char gender, String id){
         // takes name, age, gender, id of student info, creates
@@ -43,16 +44,16 @@ public class StudentGroup {  //StudentsGroup Has A Student - has relationship
 
     public void removeStudent(String id){
         students.removeIf(p -> p.id.equals(id)); //if student with id has this id, removes the student object
-                                                 //
+                                                 //with specified ID
     }
     // every time the student object is passed, I need to print their name, id, arrayList - total number of students
 
-    @Override
+
     public String toString() {
         return "StudentGroup{" +
                 "groupName='" + groupName + '\'' +
                 ", groupId=" + groupId +
-                ", students=" + students.size() +
+                ", students=" + students.size() + //total number of students
                 '}';
     }
 }

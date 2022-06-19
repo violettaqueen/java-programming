@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="" />
+    <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/day24_DateAndTime/Birthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_PracticeTasks/LunchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24_PracticeTasks/SecondMaxMinNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_Constructor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_Constructor/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_Constructor/TestEmployeeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_Constructor/TestPersonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day25_Constructor/TestPizzaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replit/HalfTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replit/SecondElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfPractice/GuestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_DateAndTime/LocalDatePractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24_PracticeTasks/DateTimeFormatterIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/day24_DateAndTime/DateTimeFormatterIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25_Constructor/EmployeeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day25_Constructor/Employee.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +29,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28ZLb7bbW7fGHADaDhiMwksgsQL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -29,18 +52,20 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vquee/IdeaProjects/Java_Programming/src&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ScannerIntro3">
-    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selfPractice.OddOrEven" />
+  <component name="RunManager" selected="Application.TestPizzaObject">
+    <configuration name="TestEmployeeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestEmployeeObject" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selfPractice.*" />
+          <option name="PATTERN" value="day25_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerIntro3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09_scanner.ScannerIntro3" />
+    <configuration name="TestPersonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestPersonObject" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_scanner.*" />
+          <option name="PATTERN" value="day25_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDogObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_custonClass.TestDogObjects" />
+    <configuration name="TestPizzaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestPizzaObject" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17_custonClass.*" />
+          <option name="PATTERN" value="day25_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployeeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_custonClass.TestEmployeeObjects" />
+    <configuration name="day25_Constructor.ConstructorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_Constructor.ConstructorInfo" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17_custonClass.*" />
+          <option name="PATTERN" value="day25_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOfCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17_custonClass.TestOfCars" />
+    <configuration name="day25_Constructor.TestRectangleObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestRectangleObject" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17_custonClass.*" />
+          <option name="PATTERN" value="day25_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScannerIntro3" />
-        <item itemvalue="Application.TestOfCars" />
-        <item itemvalue="Application.TestEmployeeObjects" />
-        <item itemvalue="Application.TestDogObjects" />
-        <item itemvalue="Application.OddOrEven" />
+        <item itemvalue="Application.TestPizzaObject" />
+        <item itemvalue="Application.day25_Constructor.TestPersonObject" />
+        <item itemvalue="Application.day25_Constructor.TestEmployeeObject" />
+        <item itemvalue="Application.day25_Constructor.TestRectangleObject" />
+        <item itemvalue="Application.day25_Constructor.ConstructorInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -127,12 +152,215 @@
       <workItem from="1653061065418" duration="52728000" />
       <workItem from="1653253326960" duration="14634000" />
       <workItem from="1653328690707" duration="91380000" />
-      <workItem from="1653861354586" duration="1249000" />
+      <workItem from="1653861354586" duration="67341000" />
+      <workItem from="1654182697310" duration="720000" />
+      <workItem from="1654183784325" duration="29000" />
+      <workItem from="1655252250334" duration="3186000" />
+      <workItem from="1655298265921" duration="93696000" />
+      <workItem from="1655580530022" duration="1714000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1655307045194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655307045194</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1655320859383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655320859383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1655321066161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655321066161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1655394063410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655394063410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1655396166909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655396166909</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1655397733566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655397733566</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1655401552427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655401552427</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1655402960323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655402960323</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1655409035655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409035655</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1655409588539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409588539</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial commit">
+      <created>1655411017787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655411017787</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial commit">
+      <created>1655414875747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655414875747</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial commit">
+      <created>1655433424876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655433424876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="initial commit">
+      <created>1655433700524</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655433700524</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initial commit">
+      <created>1655434719254</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655434719255</updated>
+    </task>
+    <task id="LOCAL-00016" summary="initial commit">
+      <created>1655477686367</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655477686367</updated>
+    </task>
+    <task id="LOCAL-00017" summary="initial commit">
+      <created>1655477794841</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655477794841</updated>
+    </task>
+    <task id="LOCAL-00018" summary="initial commit">
+      <created>1655482603320</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655482603320</updated>
+    </task>
+    <task id="LOCAL-00019" summary="initial commit">
+      <created>1655484279514</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655484279514</updated>
+    </task>
+    <task id="LOCAL-00020" summary="initial commit">
+      <created>1655485460326</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655485460326</updated>
+    </task>
+    <task id="LOCAL-00021" summary="initial commit">
+      <created>1655489248920</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655489248920</updated>
+    </task>
+    <task id="LOCAL-00022" summary="initial commit">
+      <created>1655489546161</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655489546161</updated>
+    </task>
+    <task id="LOCAL-00023" summary="initial commit">
+      <created>1655489701734</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655489701735</updated>
+    </task>
+    <task id="LOCAL-00024" summary="initial commit">
+      <created>1655490332214</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655490332214</updated>
+    </task>
+    <task id="LOCAL-00025" summary="initial commit">
+      <created>1655495572505</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655495572505</updated>
+    </task>
+    <task id="LOCAL-00026" summary="initial commit">
+      <created>1655499206632</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655499206632</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

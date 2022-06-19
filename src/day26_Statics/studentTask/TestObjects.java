@@ -28,6 +28,8 @@ public class TestObjects {
 
         group1.removeStudent("123");
 
+        // to iterate ArrayList
+
         for (Student each : group1.students) {
             System.out.println(each.name + " : " + each.id);
         }
@@ -35,6 +37,7 @@ public class TestObjects {
         System.out.println(group1);
 
         StudentGroup group2 = new StudentGroup("Java Cheetahs", 2);
+         // add students
         StudentGroup group3 = new StudentGroup("Java Lions", 3);
         StudentGroup group4 = new StudentGroup("Java Tigers", 4);
 

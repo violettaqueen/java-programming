@@ -2,28 +2,36 @@ package day25_Constructor;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Movie {
 
     public String country, title, genre;
     public LocalDate releaseDate;
     public String director;
-    public ArrayList<String> casts;
+    public ArrayList<String> casts = new ArrayList<>();
 
     public Movie(String country, String title, String genre, LocalDate releaseDate, String director) {
         this.country = country;
         this.title = title;
-        this.genre = genre;
         this.releaseDate = releaseDate;
         this.director = director;
     }
-    public ArrayList<String> addCast(String word){
-         ArrayList<String> casts = new ArrayList<>();
-         return casts;
+    public void addCast(String names){
+         casts.add(names);
+    }
+    public void addCasts(String[]casts){
+        this.casts.addAll(Arrays.asList(casts));
     }
 
-
-
+    public String toString() {
+        return "Movie{" +
+                "country='" + country + '\'' +
+                ", title='" + title + '\'' +
+                ", releaseDate=" + releaseDate +
+                ", casts=" + casts +
+                '}';
+    }
 }
 /*
 1. Create a custom class named  Movie:

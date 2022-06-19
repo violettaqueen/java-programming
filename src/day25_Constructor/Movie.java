@@ -17,10 +17,12 @@ public class Movie {
         this.releaseDate = releaseDate;
         this.director = director;
     }
-    public ArrayList<String> addCast(){
+    public ArrayList<String> addCast(String word){
          ArrayList<String> casts = new ArrayList<>();
          return casts;
     }
+
+
 
 }
 /*

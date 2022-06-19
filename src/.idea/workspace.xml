@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/replit/ReverseStringIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replit/SimpleRoomBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day25_Constructor/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/day25_Constructor/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseStringIf">
+  <component name="RunManager" selected="Application.ArraysPractice1">
     <configuration name="ArrayListCountryName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day24_PracticeTasks.ArrayListCountryName" />
       <module name="Java_Programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day24_PracticeTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19_array.ArraysPractice1" />
+      <module name="Java_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPizzaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestPizzaObject" />
-      <module name="Java_Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day25_Constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSalaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day25_Constructor.TestSalaryCalculator" />
       <module name="Java_Programming" />
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysPractice1" />
         <item itemvalue="Application.ReverseStringIf" />
         <item itemvalue="Application.RemoveIfTask" />
         <item itemvalue="Application.ArrayListCountryName" />
         <item itemvalue="Application.TestSalaryCalculator" />
-        <item itemvalue="Application.TestPizzaObject" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +144,7 @@
       <workItem from="1654183784325" duration="29000" />
       <workItem from="1655252250334" duration="3186000" />
       <workItem from="1655298265921" duration="93696000" />
-      <workItem from="1655580530022" duration="10395000" />
+      <workItem from="1655580530022" duration="12428000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655307045194</created>
@@ -357,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655586280933</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="initial commit">
+      <created>1655597392599</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655597392599</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

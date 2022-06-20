@@ -12,25 +12,34 @@ public class Chef {
         this.hourlyRate = hourlyRate;
         this.fullTime = fullTime;
     }
-    public void makeOrder(){
+
+    public void makeOrder() {
         System.out.println(name + " is making an order");
     }
-    public void washDishes(){
+
+    public void washDishes() {
         System.out.println(name + " is washing dishes");
     }
+
     public String fullTime() {
-        if (fullTime == true) {
-            return "full-time";
+        String result = "";
+
+        if (fullTime) {
+            result = name + "is full time employee";
+        }else {
+            result = name + " is part time employee";
         }
-        return " part-time";
+        return result;
     }
+
+
 
     public String toString() {
         return "Chef{" +
                 "name='" + name + '\'' +
                 ", employeeID=" + employeeID +
                 ", hourlyRate=" + hourlyRate +
-                ", fullTime=" + fullTime() +
+                ", Employment status: " + fullTime() +
                 '}';
     }
 }

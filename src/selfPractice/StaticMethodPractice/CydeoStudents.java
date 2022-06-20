@@ -9,7 +9,7 @@ public class CydeoStudents {
     public int batchNumber;
     public int groupNumber;
     public static String schoolName = "Cydeo";
-    public static String programmingLanguage = "Java";
+    public static String magicWord = "Java";
 
     public CydeoStudents(String name, int age, char gender, String id, String grade, int batchNumber, int groupNumber) {
         this.name = name;
@@ -30,7 +30,7 @@ public class CydeoStudents {
         System.out.println("School name is " + schoolName);
     }
     public static void printProgrammingLanguage(){
-        System.out.println("programming language: " + programmingLanguage);
+        System.out.println("programming language: " + magicWord);
     }
 
 

@@ -8,7 +8,7 @@ import java.util.concurrent.Callable;
 public class LocalRestaurant {
     public static void main(String[] args) {
 
-        Restaurant restaurant1 = new Restaurant("Sato", "Tokio", 5);
+        Restaurant localRestaurant = new Restaurant("Sato", "Tokio", 5);
 
         Server server1 = new Server("Mike", 124, 13.5, true, LocalDate.of(2021, 4, 2));
         Server server2 = new Server("Jane", 12, 14.5, true, LocalDate.of(2019, 5, 27));
@@ -18,7 +18,7 @@ public class LocalRestaurant {
 
         Server[] servers = {server1, server2, server3, server4, server5};
 
-        restaurant1.servers.addAll(Arrays.asList(server1, server2, server3, server4, server5));
+        localRestaurant.hireServer(servers); // have to use method when adding to ArrayList
 
         Chef chef1 = new Chef("Recardo", 23, 25, true);
         Chef chef2 = new Chef("Alex", 45, 45, true);
@@ -26,9 +26,9 @@ public class LocalRestaurant {
 
         Chef[] chefs = {chef1, chef2, chef3};
 
-        restaurant1.chefs.addAll(Arrays.asList(chef1, chef2, chef3));
+        localRestaurant.hireChef(chefs);
 
-        System.out.println(restaurant1);
+        System.out.println(localRestaurant);
 
 
     }

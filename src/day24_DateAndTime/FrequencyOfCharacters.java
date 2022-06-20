@@ -20,7 +20,7 @@ public class FrequencyOfCharacters {
 
             int frequency = Collections.frequency(Arrays.asList(str.split("")), each );
 
-            if(!result.contains(each)){ // to avoid a duplication, it's not going to comcate another a
+            if(!result.contains(each)){ // to avoid a duplication, it's not going to concate another a
                 result += each + frequency;
             }
 

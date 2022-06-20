@@ -79,6 +79,14 @@ public class LocalDateIntro {
 
         // to verify if a year is a leap year
 
+        System.out.println(  grade_date.isBefore(  LocalDate.of(2022, 12, 31) ));
+        System.out.println(  grade_date.isAfter(  LocalDate.of(2022, 12, 31) ));
+
+        System.out.println("----------------------------------------------");
+
+        System.out.println(  LocalDate.of(2022, 6, 16).isLeapYear()  );
+
+
 
 
 

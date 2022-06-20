@@ -38,8 +38,11 @@ public class TestObjects {
 
         StudentGroup group2 = new StudentGroup("Java Cheetahs", 2);
          // add students
+        group2.addStudent(student2);
         StudentGroup group3 = new StudentGroup("Java Lions", 3);
+        group3.addStudent(student5);
         StudentGroup group4 = new StudentGroup("Java Tigers", 4);
+        group4.addStudent(student4);
 
         StudentGroup[] groups = {group1, group2, group3, group4};
 

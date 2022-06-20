@@ -22,11 +22,14 @@ public class Server {
     public void cleanTable(){
         System.out.println(name + " is cleaning a table");
     }
-    public String fullTime(){
-        if(fullTime == true){
-            return "full-time";
+    public String fullTime() {
+        String result = "";
+        if (fullTime) {
+            result = name + " is full time employee";
+        } else {
+            result = name + " is part time employee";
         }
-        return " part-time";
+        return result;
     }
 
     public String toString() {

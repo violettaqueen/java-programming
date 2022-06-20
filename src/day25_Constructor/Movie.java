@@ -28,8 +28,8 @@ public class Movie {
         return "Movie{" +
                 "country='" + country + '\'' +
                 ", title='" + title + '\'' +
-                ", releaseDate=" + releaseDate +
-                ", casts=" + casts +
+                ", releaseDate=" + releaseDate.getYear() +
+                ", casts=" + casts.size() +
                 '}';
     }
 }

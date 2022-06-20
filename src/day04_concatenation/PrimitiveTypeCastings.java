@@ -10,7 +10,7 @@ public class PrimitiveTypeCastings {
 
         short b = (short)a;
 
-        int c = a;
+        int c = a; // because byte is smaller then int
 
         System.out.println(b);
         System.out.println(c);

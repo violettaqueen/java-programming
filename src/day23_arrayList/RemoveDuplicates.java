@@ -1,7 +1,5 @@
 package day23_arrayList;
 
-import selfPractice.ArraylistAverageNumber;
-
 import java.util.ArrayList;
 
 public class RemoveDuplicates {

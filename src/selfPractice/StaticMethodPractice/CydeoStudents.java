@@ -1,4 +1,4 @@
-package selfPractice.ConstructorCallsPractice;
+package selfPractice.StaticMethodPractice;
 
 public class CydeoStudents {
     public String name;

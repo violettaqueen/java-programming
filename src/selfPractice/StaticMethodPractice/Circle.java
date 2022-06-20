@@ -1,4 +1,4 @@
-package selfPractice.ConstructorCallsPractice;
+package selfPractice.StaticMethodPractice;
 
 public class Circle {
     public double radius;

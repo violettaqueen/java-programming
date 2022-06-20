@@ -17,8 +17,8 @@ public class Movie {
         this.releaseDate = releaseDate;
         this.director = director;
     }
-    public void addCast(String names){
-         casts.add(names);
+    public void addCast(String cast){
+        casts.addAll(Arrays.asList(cast));
     }
     public void addCasts(String[]casts){
         this.casts.addAll(Arrays.asList(casts));

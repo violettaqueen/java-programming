@@ -1,6 +1,7 @@
 package utilities;
 
 import day26_Static.StaticMembers.Data;
+import day27_AccessModifiers.AccessModifiers;
 
 public class Test {
 
@@ -21,6 +22,10 @@ public class Test {
 
         // object1.method1();
         // object1.method2();
+
+        System.out.println("---------------------------------------------------------------------------------");
+
+        System.out.println(AccessModifiers.publicDate);
 
 
 

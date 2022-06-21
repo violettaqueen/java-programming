@@ -14,9 +14,9 @@ public class TestIphoneObjects {
 
         // call the static variable through the class!!!
 
-        System.out.println(iPhone.brand); // not a good way
-        System.out.println(iPhone.OS); // don't use
-        iPhone.printOperatingSystem(); // not to use
+        System.out.println(IPhone.brand); // not a good way
+        System.out.println(IPhone.OS); // don't use
+        IPhone.printOperatingSystem(); // not to use
 
         System.out.println(IPhone.OS); // use this, through the class
         System.out.println(IPhone.brand);

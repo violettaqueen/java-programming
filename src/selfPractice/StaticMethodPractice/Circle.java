@@ -1,33 +1,33 @@
 package selfPractice.StaticMethodPractice;
 
 public class Circle {
-    public double radius;
+    public double radius;  // instance - to be able to store different value to a variable
     public double diameter;
-    public static double pi = 3.14;
+    public static double pi = 3.14;  // static - applies same date to all circle objects
 
-    public Circle(double radius, double diameter) {
-        this.radius = radius;
+    public Circle(double radius) {  // no need to provide diameter in argument, fewer arguments is best!!!
+        this.radius = radius;     // as long as I have the radius, I can calculate the diameter
         this.diameter = 2 * radius;
     }
-    public double calcCircleArea(){
-        double area = pi * (this.radius * this.radius);
-        return area;
+    public double calcCircleArea(){  // area is different for every circle object
+         return pi * (radius * radius); // to make data to be reusable - return method; Ex: use in a toString();
+
     }
     public double calcPerimeter(){
-        double perimeter = 2 * pi * radius;
-        return perimeter;
-    }
-    public static void printPi(){
-        System.out.println("Print pi " + pi);
-    }
+        return 2 * radius * pi;
 
+    }
+    public static void printPiValue(){
+        System.out.println("PI value is: " + pi); // static method accepts only static members
+
+    }
 
     public String toString() {
-        return "Circle{" +
+        return "Circle {" +
                 "radius=" + radius +
                 ", diameter=" + diameter +
-                ", print pi =" + pi +
-                ", area =" + calcCircleArea() +
+                ", PI value =" + pi +
+                ", area =" + calcCircleArea() +  // concate area: call the method, and the value be concated to String
                 ", perimeter =" + calcPerimeter() +
                 '}';
     }

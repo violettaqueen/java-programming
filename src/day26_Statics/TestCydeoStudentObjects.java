@@ -15,7 +15,7 @@ public class TestCydeoStudentObjects {
         System.out.println(student1);
         System.out.println(student2);
 
-        System.out.println(student1.schoolName);
+        System.out.println(student1.schoolName); // not a good way to call a static member, that's why it's warning
         System.out.println(student2.schoolName);
 
         System.out.println(student1.secretCode);

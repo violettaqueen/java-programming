@@ -18,4 +18,13 @@ public class StaticInitializationBlock {
 
     }
     // call these variables through the class
+
+    /*
+    public StaticInitializationBlock(){ // a constructor gets executed only when you create an object. it's not the best
+        a = 100;
+        b = 20.5;
+        c = "Java";
+    }
+
+     */
 }

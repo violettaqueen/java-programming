@@ -1,4 +1,4 @@
-package day26_Statics.StaticMembers;
+package day26_Static.StaticMembers;
 
 public class Data {
 

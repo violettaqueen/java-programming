@@ -1,7 +1,5 @@
 package selfPractice.RestaurantTask;
 
-import day26_Statics.studentTask.Student;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -1,7 +1,5 @@
 package day25_Constructor;
 
-import day26_Statics.Car;
-
 public class TestCarpetObject {
 
     public static void main(String[] args) {

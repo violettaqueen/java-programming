@@ -1,4 +1,4 @@
-package day26_Statics;
+package day26_Static;
 
 public class TestCydeoStudentObjects {
 

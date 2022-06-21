@@ -1,4 +1,4 @@
-package day26_Statics.studentTask;
+package day26_Static.StudentTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;

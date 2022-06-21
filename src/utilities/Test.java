@@ -1,6 +1,6 @@
 package utilities;
 
-import day26_Statics.StaticMembers.Data;
+import day26_Static.StaticMembers.Data;
 
 public class Test {
 

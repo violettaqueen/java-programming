@@ -34,7 +34,7 @@ public class StringMethods {
 
         String reversedSentence = ""; //"Java love I"
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = arr.length-1; i >= 0; i--) {
             reversedSentence += arr[i] + " ";
 
         }

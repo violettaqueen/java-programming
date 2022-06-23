@@ -3,7 +3,7 @@ package day28_OOP_Encapsulation.PersonTask;
 public class Person {
 
     /**
-    call them through the object
+     * call them through the object
      */
 
     public String name;
@@ -12,7 +12,7 @@ public class Person {
     public String language;
 
     /**
-    call through class
+     * call through class
      */
     public static String planet;
     public static boolean isHuman;
@@ -40,21 +40,44 @@ public class Person {
     }
 
     public Person(String name, int age, char gender) {
-        this(name,age);
+        this(name, age);
         this.gender = gender;
     }
 
     public Person(String name, int age, char gender, String language) {
-        this(name,age,gender);
+        this(name, age, gender);
         this.language = language;
     }
-    static{
+
+    static {
         planet = "Earth";
         isHuman = true;
         hasNose = true;
         numberOfHead = 1;
         numberOfWings = 0;
 
+    }
+
+    public static void printPlanetName() {  // static: no instance members
+        System.out.println("Planet name: " + planet);
+    }
+
+    public void eat(String food) {  // need to print name and food the person is eating. it has to be instance method
+        System.out.println(name + " is eating " + food);
+    }
+
+    public void drink(String drink) {  // instance method because static doesn't accept instance variables
+        System.out.println(name + " is drinking " + drink);
+    }
+
+    public String toString() {  // only include instance variable.
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", language='" + language + '\'' +
+                ", planet ='" + planet + '\'' +
+                '}';
     }
 }
 /*

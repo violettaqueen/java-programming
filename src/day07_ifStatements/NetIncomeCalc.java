@@ -26,6 +26,7 @@ public class NetIncomeCalc {
 
          double totalTax = salary * taxRate;
         double netIncome = salary - totalTax;
+
         System.out.println(netIncome);
         System.out.println("salary = " + salary);
         System.out.println("totalTax = " + totalTax);

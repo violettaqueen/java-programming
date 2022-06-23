@@ -6,21 +6,23 @@ public class Circle {
     public static double pi;
 
     public Circle(double radius) {
-        getRadius();
+        setRadius(radius);
     }
     static{
         pi = 3.14;
     }
 
     public double getRadius() {
-
-        if (radius <= 0){
-            System.out.println("Radius of the circle can not be zero or negative");
-        }
         return radius;
     }
 
     public void setRadius(double radius) {
+
+        if (radius <= 0) {
+            System.out.println("Radius of the circle can not be zero or negative");
+            System.exit(1);
+
+        }
         this.radius = radius;
     }
     public double calcArea(){

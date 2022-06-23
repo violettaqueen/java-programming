@@ -1,4 +1,4 @@
-package selfPractice;
+package selfPractice.Different;
 
 public class AboutMe {
 

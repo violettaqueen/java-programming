@@ -1,4 +1,4 @@
-package selfPractice;
+package selfPractice.Different;
 
 import java.util.Scanner;
 

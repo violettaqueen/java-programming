@@ -18,6 +18,9 @@ public class Person {
         this.gender = gender;
         this.language = language;
     }
+
+
+
     static{
         planet = "Earth";
         isHuman = true;

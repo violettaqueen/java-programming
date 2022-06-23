@@ -1,4 +1,4 @@
-package selfPractice;
+package selfPractice.Different;
 /*
 4. Create a class named GallonsToLiters and declare the following variables:
                 gallon

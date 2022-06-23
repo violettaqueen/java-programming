@@ -1,4 +1,4 @@
-package selfPractice;
+package selfPractice.Different;
 /*
 5. Create a class named Square and declare the following variables:
                 side

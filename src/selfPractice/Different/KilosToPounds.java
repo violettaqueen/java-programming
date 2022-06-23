@@ -1,4 +1,4 @@
-package selfPractice;
+package selfPractice.Different;
 /*
 1. Create a class named KilosToPounds and declare the following variables:
 				kg

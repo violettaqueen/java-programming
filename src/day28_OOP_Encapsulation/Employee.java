@@ -28,6 +28,11 @@ public class Employee {
     }
 
     public void setSalary(double salary) {
+
+        if(salary <= 0){      // set condition before
+            System.err.println("Invalid salary: " + salary);
+            System.exit(0);
+        }
         this.salary = salary;
     }
 

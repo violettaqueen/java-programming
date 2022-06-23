@@ -11,7 +11,7 @@ public class FirstAndLastCharacter {
 
         for (int i = 0; i < words.length; i++) {
 
-            first += words[i].substring(0, 1) + "" + words[i].charAt(words[i].length() - 1) + "\n";
+        first += words[i].substring(0, 1) + "" + words[i].charAt(words[i].length() - 1) + "\n";
 
 
         }

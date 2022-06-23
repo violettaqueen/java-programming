@@ -1,6 +1,6 @@
 package mentor_Sessions;
 
-public class PalindromeString {
+public class PalindromeStringVioletta {
     public static void main(String[] args) {
 
         System.out.println(palindrome("volk3"));

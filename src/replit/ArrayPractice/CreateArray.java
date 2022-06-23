@@ -1,4 +1,4 @@
-package replit;
+package replit.ArrayPractice;
 
 import java.util.Arrays;
 

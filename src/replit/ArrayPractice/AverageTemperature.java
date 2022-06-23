@@ -1,5 +1,7 @@
 package replit.ArrayPractice;
 
+import java.util.Arrays;
+
 public class AverageTemperature {
 
     public static void main(String[] args) {
@@ -15,6 +17,7 @@ public class AverageTemperature {
         double average = sum / (double )temps.length;
         System.out.println(average);
     }
+
 
 }
 /*

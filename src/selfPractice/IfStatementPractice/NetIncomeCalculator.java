@@ -12,13 +12,13 @@ public class NetIncomeCalculator {
         if (salary >= 130000) {
                     totalTax = salary * (taxRate / 100);
         }
-        if (salary >= 100000 && salary <= 129000) {
+        if (salary >= 100000 && salary < 130000) {
             totalTax = salary * (taxRate / 100);
         }
-        if (salary >= 80000 && salary <= 99000 ) {
+        if (salary >= 80000 && salary < 100000 ) {
             totalTax = salary * (taxRate / 100);
         }
-        if (salary <= 79000) {
+        if (salary < 80000) {
             totalTax = salary * (taxRate / 100);
         }
         if (isMarried) {

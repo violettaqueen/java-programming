@@ -29,9 +29,6 @@ public class Employee {
 
         // I want to make a condition: name doesn't have digit, spaces, empty strings
 
-        if (name.isEmpty() || name.isBlank()){
-            return "Unknown";
-        }
 
         return name;
     }
@@ -42,6 +39,12 @@ public class Employee {
      */
 
     public void setName(String name){
+
+        if (name.isEmpty() || name.isBlank()){
+            System.err.println("Employee can not be empty or blank");
+            System.exit(1);
+        }
+
         this.name = name;
     }
 

@@ -10,7 +10,7 @@ public class TestStudentObject {
 
         System.out.println(student1.getAge());
 
-      student1.setName("Violetta"); // it's going the setter condition
+      student1.setName("Violetta123"); // it's going the setter condition
 
         System.out.println(student1.getName());
     }

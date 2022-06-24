@@ -53,10 +53,10 @@ public class Candy {
 
     public String toString() {
         return "Candy{" +
-                "brand='" + brand + '\'' +
-                ", quantity=" + quantity +
+                "brand='" + getBrand() + '\'' +
+                ", quantity=" + getQuantity() +
                 ", price=" + getPrice() +
-                ", hasPeanuts=" + hasPeanuts +
+                ", hasPeanuts=" + isHasPeanuts() +
                 '}';
     }
 }

@@ -4,7 +4,7 @@ public class Elevator {
 
     public static void main(String[] args) {
 
-        int floorNumber = 10;
+        int floorNumber = 2;
 
 
         String  result = "Invalid floor";

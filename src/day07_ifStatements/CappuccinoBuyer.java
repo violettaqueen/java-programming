@@ -3,27 +3,39 @@ package day07_ifStatements;
 public class CappuccinoBuyer {
 
     public static void main(String[] args) {
+
         String size = "tall";
-         switch(size){
-             case "tall":
-                 System.out.println("price is $3.69\n" +
-                         "90 calories");
-                 break;
-             case "grande":
-                 System.out.println("price is $3.99;\n" +
-                         "120 calories");
-                 break;
-             case "venti":
-                 System.out.println("price is $4.29\n" +
-                         "150 calories");
-             default:
-                 System.out.println("Invalid Size");
-         }
+        double price = 0.0;
+        int calories = 0;
+
+
+        if (size == "tall" ||  size == "grande" || size == "venti") {
+
+            if (size == "tall"){
+                price = 3.69;
+                calories = 90;
+            } else if (size == "grande") {
+                price = 3.99;
+                calories = 120;
+            } else {
+                price = 4.29;
+                calories = 150;
+
+            }
+            System.out.println("Price is: $" + price + "\n" + calories + " calories");
+
+        }else{
+            System.out.println("Invalid Size");
+        }
+
+
+
+            }
 
 
         }
 
-}
+
 /*
 1. Create a class called  CappuccinoBuyer. A variable named Size is given, write a program that can
  display the price and calories of cappuccino
@@ -42,7 +54,7 @@ public class CappuccinoBuyer {
 								price is $4.29
 								150 calories
 
-			If the size is invalid then the output shoud be "Invalid Size"
+			If the size is invalid then the output should be "Invalid Size"
 
 			Note: MUST use nested if
  */

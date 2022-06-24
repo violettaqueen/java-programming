@@ -19,6 +19,20 @@ public class IfStatementWithOutCurlyBraces {
 
         System.out.println("-------------------------------------");
 
+          /*
+        int itemNum = 1;
+        if(itemNum == 1)
+            System.out.println("Eggs");
+            System.out.println("Orange");
+        else if(itemNum == 2)
+            System.out.println("Milk");
+            System.out.println("Onion");
+        else
+            System.out.println("Apple");
+            System.out.println("Cherry");
+        */
+
+
         int day = 7;
         String result = "";
 

@@ -8,10 +8,10 @@ public class Candy {
     private boolean hasPeanuts;
 
     public Candy(String brand, int quantity, double price, boolean hasPeanuts) {
-        getBrand();
-        getQuantity();
-        getPrice();
-        isHasPeanuts();
+        setBrand(brand);
+        setQuantity(quantity);
+        setPrice(price);
+        setHasPeanuts(isHasPeanuts());
     }
 
     public String getBrand() {

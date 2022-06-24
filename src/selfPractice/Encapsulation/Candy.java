@@ -8,10 +8,10 @@ public class Candy {
     private boolean hasPeanuts;
 
     public Candy(String brand, int quantity, double price, boolean hasPeanuts) {
-        this.brand = brand;
-        this.quantity = quantity;
-        this.price = price;
-        this.hasPeanuts = hasPeanuts;
+        getBrand();
+        getQuantity();
+        getPrice();
+        isHasPeanuts();
     }
 
     public String getBrand() {

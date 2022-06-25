@@ -15,7 +15,7 @@ public class TernariesIntro {
 
         System.out.println("-------------------------------------");
 
-       String result2 = (score >= 60) ? "Passed" : "Failed";
+        String result2 = (score >= 60) ? "Passed" : "Failed";
         System.out.println(result2);
 
         System.out.println("---------------------------------------");
@@ -27,7 +27,7 @@ public class TernariesIntro {
         }else{
             r = "Not eligible";
          */
-       int age = 34;
+        int age = 34;
         String result3 = (age >= 21) ? "Eligible" : "Not eligible";
 
         System.out.println(result3);

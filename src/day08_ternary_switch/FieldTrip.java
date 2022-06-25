@@ -42,15 +42,15 @@ public class FieldTrip {
 
     public static void main(String[] args) {
 
-        int grade = 5;
+        int grade = 110; // if the grade is invalid
 
-        String location = "Unknown";
+        String location = "Unknown"; // this statement to be executed
         int numOfGroups = 0;
         String teacher = "Unknown";
 
-        if (grade >= 1 && grade <= 6){
+        if (grade >= 1 && grade <= 6){ // but if data is VALID
 
-            if(grade == 1){
+            if(grade == 1){            // one of these conditions to be executed
                 location = "Apple orchard";
                 numOfGroups = 3;
                 teacher = "Ms.Smith";

@@ -1,6 +1,6 @@
 package day08_ternary_switch;
 
-public class TernaryIntro3 {
+public class Ternary_Nested_If {
 
     public static void main(String[] args) {
 
@@ -31,11 +31,14 @@ public class TernaryIntro3 {
         System.out.println("--------------------------------------");
 
         int n = 9;
+
         String day = (n >= 1 && n <= 7) ?
-                (n == 1) ? "Monday" : (n == 2) ? "Tuesday" : (n == 3) ? "Wednesday"
-                        : (n == 4) ? "Thurday" : (n == 5) ? "Friday" : (n == 6) ? "Saturday"
-                        : "Sunday"
-                : "No such a day";
+
+                (n == 1) ? "Monday" : (n == 2) ? "Tuesday" : (n == 3) ? "Wednesday" : (n == 4) ? "Thursday"
+                        : (n == 5) ? "Friday" : (n == 6) ? "Saturday" : "Sunday"
+
+                        : "No such a day";
+
         System.out.println(day);
     }
 }

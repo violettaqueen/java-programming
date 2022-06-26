@@ -101,11 +101,11 @@ public class Tester {
 
     public String toString() {
         return "Tester {" +
-                "name = '" + getName() + '\'' +
-                ", age = " + getAge() +
-                ", gender = " + getGender() +
-                ", employeeID = '" + getEmployeeID() + '\'' +
-                ", jobTitle = '" + getJobTitle() + '\'' +
+                "name = '" + name + '\'' +
+                ", age = " + age +
+                ", gender = " + gender +
+                ", employeeID = '" + employeeID + '\'' +
+                ", jobTitle = '" + jobTitle + '\'' +
                 ", annual salary = " + getSalary() +
                 '}';
     }

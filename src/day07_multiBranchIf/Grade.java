@@ -1,4 +1,4 @@
-package day07_ifStatements;
+package day07_multiBranchIf;
 
 public class Grade {
 

@@ -16,6 +16,7 @@ public class EligibleToBuyAlcohol {
         }else{
             System.err.println("Not Eligible to buy alcohol");
         }
+        input.close();
 
 
     }

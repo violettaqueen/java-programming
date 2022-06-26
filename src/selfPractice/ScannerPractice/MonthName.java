@@ -17,6 +17,8 @@ public class MonthName {
                 :(month==6)?"June":(month==7)?"July":(month==8)?"Aug":(month==9)?"Sept":(month==10)?"Oct" :(month==11)?"Nov":"December";
 
         System.out.println(month + " is " + result);
+
+        input.close();
     }
 }
 /*

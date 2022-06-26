@@ -1,4 +1,5 @@
 package day09_scanner;
+
 import java.util.Scanner;
 
 public class NextLineMethodPractice {
@@ -20,10 +21,12 @@ public class NextLineMethodPractice {
         int age = input.nextInt(); //28
 
         input.nextLine(); // we have to give extra nextLine() if we are using
-// a nextLine() method after the other methods of scanner
+        // a nextLine() method after the other methods of scanner
+
         System.out.println("Enter your street name: ");
         String address = input.nextLine();
 
+        input.close();
     }
 
 }

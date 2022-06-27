@@ -1,6 +1,4 @@
-package day01_selfPractice;
-
-import java.sql.SQLOutput;
+package day01_introToProgramming.day01_selfPractice;
 
 public class GasReceipt {
 

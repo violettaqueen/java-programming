@@ -1,4 +1,4 @@
-package day01_selfPractice;
+package day01_introToProgramming.day01_selfPractice;
 
 public class PrintExecution {
 

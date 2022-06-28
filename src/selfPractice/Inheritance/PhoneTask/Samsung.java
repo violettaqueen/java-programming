@@ -6,7 +6,7 @@ public class Samsung extends Phones{
         super("Samsung", model, size, price, color );
     }
     public void freeze(){
-        System.out.println(getBrand() + " " + getModel() + " " + "freezes");
+        System.out.println(getBrand() + " " + getModel() + " " + "freezes a lot");
     }
 
 

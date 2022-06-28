@@ -15,5 +15,28 @@ public class TestPhoneObjects {
         nokia1.call(911);
 
 
+        iPhone1.text(123456789);
+        samsung1.text(123456789);
+        nokia1.text(123456789);
+
+        System.out.println("-------------------------------");
+
+        iPhone1.faceTime(123456789);
+        // samsung.faceTime(123456789);
+        // nokia.faceTime(123456789);
+
+        samsung1.freeze();
+        // iphone.freeze();
+        //  nokia.freeze();
+
+        nokia1.selfDefence();
+        //   iphone.selfDefense();
+        //   samsung.selfDefense();
+
+        System.out.println(iPhone1);
+        System.out.println(samsung1);
+        System.out.println(nokia1);
+
+
     }
 }

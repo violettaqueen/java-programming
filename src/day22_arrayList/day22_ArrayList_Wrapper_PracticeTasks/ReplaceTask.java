@@ -1,4 +1,4 @@
-package day22_ArrayList_Wrapper_PracticeTasks;
+package day22_arrayList.day22_ArrayList_Wrapper_PracticeTasks;
 
 import java.util.Arrays;
 

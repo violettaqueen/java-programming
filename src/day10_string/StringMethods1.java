@@ -1,4 +1,5 @@
 package day10_string;
+
 import java.util.Scanner;
 
 public class StringMethods1 {
@@ -9,14 +10,18 @@ public class StringMethods1 {
         // index:     01234
 
         // Char method:
-        char firstChar = str.charAt(0);
+        char firstChar = str.charAt(0); // returns a first char
         System.out.println("firstChar = " + firstChar);
+
         char secondChar = str.charAt(1);
         System.out.println("secondChar = " + secondChar);
+
         char thirdChar = str.charAt(2);
         System.out.println("thirdChar = " + thirdChar);
+
         char fourthChar = str.charAt(3);
         System.out.println("fourth = " + fourthChar);
+
         char fifthChar = str.charAt(4);
         System.out.println("firthChar = " + fifthChar);
 
@@ -28,6 +33,7 @@ public class StringMethods1 {
 
         int length = sentence.length(); // the length of string
         System.out.println(length);
+
         int lastIndex = length - 1; // to find put the last index in the string
         System.out.println(lastIndex);
 
@@ -35,10 +41,10 @@ public class StringMethods1 {
 
         String s1 = "Wooden spoon";  // get a first and a last character
         char firstChar1 = s1.charAt(0);
-        int lastIndexNum = s1.length() -1; //length -1
+        int lastIndexNum = s1.length() - 1; //length -1
         char lastCharacter = s1.charAt(lastIndexNum); // last character in string
 
-        System.out.println(firstChar1 + ":" +1);
+        System.out.println(firstChar1 + ":" + 1);
 
         System.out.println("----------------------------------------");
 
@@ -71,11 +77,12 @@ public class StringMethods1 {
         System.out.println("Are you a US citizen? yes/no");
         String answer = input.next();
 
-        if (age >= 21 && answer.equals("yes")){
+        if (age >= 21 && answer.equals("yes")) {
             System.out.println("Eligible to vote");
-        }else{
+        } else {
             System.out.println("Not Eligible to vote");
         }
+        input.close();
 
     }
 

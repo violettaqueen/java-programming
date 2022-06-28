@@ -5,15 +5,31 @@ public class HasJava {
     public static void main(String[] args) {
 
         String word = "javapython";
+        String java = word.substring(0, word.indexOf("java") + 4);
         boolean hasJava = true;
 
-        if (word.contains("" + word.indexOf("java")) && word.startsWith(""+ word.indexOf(0)) && word.substring(1,2).contains("java")){
-            hasJava = true;
+        if (word.contains(java)) {
+            if (word.charAt(0) == word.indexOf(java) && word.charAt(1) == (word.indexOf(java))) {
+                hasJava = true;
+            } else {
+                hasJava = false;
+            }
+
+
+        }
+        System.out.println(hasJava);
+
+
+/*
+        if (word.contains("java")))) || {
+          boolean  hasJava = true;
 
         }else{
             hasJava = false;
         }
         System.out.println(hasJava);
+*/
+
     }
 }
 /*

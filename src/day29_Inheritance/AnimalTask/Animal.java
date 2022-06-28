@@ -1,4 +1,4 @@
-package day29_Inheritance.Inheritance;
+package day29_Inheritance.AnimalTask;
 
 public class Animal {
 
@@ -34,7 +34,7 @@ public class Animal {
     }
 
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName() + "{ " +  // getSimpleName method gives me a name of a child class
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +

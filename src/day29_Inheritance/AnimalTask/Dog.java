@@ -1,4 +1,4 @@
-package day29_Inheritance.Inheritance;
+package day29_Inheritance.AnimalTask;
 
 public class Dog extends Animal{ // dog is Animal
     //     child        parent

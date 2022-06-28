@@ -6,16 +6,19 @@ public class HalfTwice {
 
     public static void main(String[] args) {
 
-        String word = "cats";
-        String result = "";
-        String char2 = "";
-
-
-        char2 += word.charAt(word.length() / 2 - 1);
+        String word = "umkar";
 
 
 
-        System.out.println(result);
+         char char2 = word.charAt(word.length() / 2 - 1);
+
+         int index = word.indexOf(char2);
+
+        word = word.substring(0, index+1);
+
+
+
+        System.out.println(word);
     }
 
 

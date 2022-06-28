@@ -69,7 +69,7 @@ public class StringMethods1 {
 
         System.out.println(word1.lastIndexOf('a')); //index #3
 
-String word2 = "Java Python JavaScript Cydeo Python";
+        String word2 = "Java Python JavaScript Cydeo Python";
         System.out.println(word2.lastIndexOf('a'));
         System.out.println(word2.lastIndexOf('P'));
 

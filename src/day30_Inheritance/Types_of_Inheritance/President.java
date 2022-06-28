@@ -7,7 +7,7 @@ public class President extends Person{
 
     private LocalDate electedDate;
 
-    public President(String name, char gender, LocalDateTime date_Of_birth, LocalDate electedDate) {
+    public President(String name, char gender, LocalDate date_Of_birth, LocalDate electedDate) {
         super(name, gender, date_Of_birth);
         setElectedDate(electedDate);
     }

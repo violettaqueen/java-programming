@@ -1,7 +1,7 @@
 package day30_Inheritance.Types_of_Inheritance;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 public class Person {
 
@@ -9,14 +9,14 @@ public class Person {
     private int age;
     private char gender;
 
-    public Person(String name, char gender, LocalDateTime date_Of_birth) {
+    public Person(String name, char gender, LocalDate date_Of_birth) {
        setName(name);
        setGender(gender);
        setDate_Of_birth(date_Of_birth);
        setAge(LocalDate.now().getYear() - date_Of_birth.getYear());
     }
 
-    private LocalDateTime date_Of_birth;
+    private LocalDate date_Of_birth;
 
     public String getName() {
         return name;
@@ -47,11 +47,11 @@ public class Person {
         this.gender = gender;
     }
 
-    public LocalDateTime getDate_Of_birth() {
+    public LocalDate getDate_Of_birth() {
         return date_Of_birth;
     }
 
-    public void setDate_Of_birth(LocalDateTime date_Of_birth) {
+    public void setDate_Of_birth(LocalDate date_Of_birth) {
         this.date_Of_birth = date_Of_birth;
     }
 

@@ -8,9 +8,13 @@ public class Login {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your username and a password:");
+        System.out.println("Enter your username:");
         String userName = input.next();
+
+        System.out.println("Enter your password:");
         String password = input.next();
+
+        input.close();
 
         String userNameValid = "Cydeo";
         String passwordValid = "WoodenSpoon";
@@ -20,7 +24,7 @@ public class Login {
         }else{
             System.out.println("Incorrect username or password. Please try again");
         }
-        input.close();
+
     }
 }
 /*

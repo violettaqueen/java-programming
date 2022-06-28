@@ -20,6 +20,7 @@ public class Login {
         }else{
             System.out.println("Incorrect username or password. Please try again");
         }
+        input.close();
     }
 }
 /*

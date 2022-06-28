@@ -4,9 +4,17 @@ import java.util.Arrays;
 
 public class Phones {
 
-    private String brand, model, size; // encapsulate the variable
+    private String brand, model, size, color; // encapsulate the variable
     private double price;
-    private String color;
+    // constructor
+    public Phones (String brand, String model, String size, double price, String color) {
+        setBrand(brand);
+        setModel(model);
+        setSize(size);
+        setPrice(price);
+        setColor(color);
+    }
+
 
     public String getBrand() {
         return brand;
@@ -49,7 +57,7 @@ public class Phones {
     public void setPrice(double price) {
 
         if (price <= 0){
-            System.err.println("Invalid price");
+            System.err.println("Invalid price: " + price);
             System.exit(1);
         }
         this.price = price;
@@ -75,14 +83,7 @@ public class Phones {
         }
 
     }
-// constructor
-    public Phones (String brand, String model, String size, double price, String color) {
-        setBrand(brand);
-        setModel(model);
-        setSize(size);
-        setPrice(price);
-        setColor(color);
-    }
+
     public void call(long phoneNumber){
         System.out.println(getModel() + " is calling " + phoneNumber);
     }
@@ -100,3 +101,19 @@ public class Phones {
                 '}';
     }
 }
+/*
+/*
+1. Create a named Phone:
+				Variables:
+					brand, model, size, price, color
+				Encapsulate all the fields
+					Conditions:
+						1. price can not be zero or negative
+						2. color can only be set to:
+								{"Black", "White", "Silver", "Gold", "Pink"}
+				Add a constructor that can set all the fields
+				Methods:
+					call(long phoneNumber)
+					text(long phoneNumber)
+					toString()
+ */

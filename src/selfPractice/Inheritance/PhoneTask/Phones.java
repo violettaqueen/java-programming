@@ -83,6 +83,12 @@ public class Phones {
         setPrice(price);
         setColor(color);
     }
+    public void call(long phoneNumber){
+        System.out.println(getModel() + " is calling " + phoneNumber);
+    }
+    public void text(long phoneNumber){
+        System.out.println(getModel() + " is texting " + phoneNumber);
+    }
 
     public String toString() { // to be able to print objects
         return getClass().getSimpleName() + "{" + // call getClass method --> Object class in Java

@@ -11,11 +11,11 @@ public class IPhone extends Phones{
     public static boolean hasApplePay;
 
     public void faceTime(long phoneNumber){
-        System.out.println(getModel() + " is facetiming with " + phoneNumber);
+        System.out.println(getModel() + " is face timing with " + phoneNumber);
 
     }
     public void faceTime(String email){
-        System.out.println(getModel() + " is facetiming with " + email);
+        System.out.println(getModel() + " is face timing with " + email);
     }
     public void call(long phoneNumber){
 

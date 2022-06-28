@@ -8,14 +8,16 @@ public class LongestString {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter two words:");
+        System.out.println("Enter a first word:");
         String word1 = input.next();
+
+        System.out.println("Enter a second word:");
         String word2 = input.next();
 
         if (word1.length() > word2.length()){
-            System.out.println(word1 + " is the longest string");
+            System.out.println(word1 + " is the longest word");
         } else if (word2.length() > word1.length()) {
-            System.out.println(word2 + " is the longest string");
+            System.out.println(word2 + " is the longest word");
         }else{
             System.out.println("Equal");
         }

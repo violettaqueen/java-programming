@@ -8,17 +8,23 @@ public class HalfTwice {
 
         String word = "umkar";
 
+        String word2 = "doctor";
 
+        // 1. find an index number of word at the middle position
+        int word2Half = word2.length() / 2 - 1;
 
-         char char2 = word.charAt(word.length() / 2 - 1);
+        // 2. return it as a character:
+        char char2 = word.charAt(word.length() / 2 - 1);
 
-         int index = word.indexOf(char2);
+        // 3. find index number of this character:
+        int index = word.indexOf(char2);
 
-        word = word.substring(0, index+1);
-
+        // 4. substring from index 0 to index of middle character
+        word = word.substring(0, index + 1);
 
 
         System.out.println(word);
+        System.out.println(word2Half);
     }
 
 

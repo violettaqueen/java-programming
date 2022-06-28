@@ -8,16 +8,19 @@ public class HasJava {
         String java = word.substring(0, word.indexOf("java") + 4);
         boolean hasJava = true;
 
-        if (word.contains(java)) {
-            if (word.charAt(0) == word.indexOf(java) && word.charAt(1) == (word.indexOf(java))) {
+        if (word.length() >= 6) {
+
+
+            if (word.charAt(0) == word.charAt(word.indexOf('j')) || word.charAt(1) == word.charAt(word.indexOf('j'))) {
                 hasJava = true;
             } else {
                 hasJava = false;
             }
-
-
         }
         System.out.println(hasJava);
+
+    }
+
 
 
 /*
@@ -30,8 +33,8 @@ public class HasJava {
         System.out.println(hasJava);
 */
 
-    }
 }
+
 /*
 if (word.equals(word.indexOf("java")) && word.startsWith("" + word.indexOf(0))){
       //      exists = true;

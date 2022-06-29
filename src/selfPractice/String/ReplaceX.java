@@ -1,8 +1,9 @@
 package selfPractice.String;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Replace {
+public class ReplaceX {
 
     public static void main(String[] args) {
 
@@ -11,17 +12,17 @@ public class Replace {
         System.out.println("Enter a word:");
         String word = input.next();
 
-        if (word.startsWith("x")){
-            word = word.replaceFirst("x", "a");
-        }
+        input.close();
+
+        word = word.replace("x", "a").replace("X", "a");
 
         System.out.println(word);
     }
 }
 /*
-2. Write a program that asks user to enter a word. If the work starts with x, replace it with a.
+ Write a program that asks user to enter a word. and replace all the x or X with character a
 	                    Input:
-	                        xcodex
+	                        xcodeX
 	                    Output:
-	                        acodex
+	                        acodea
  */

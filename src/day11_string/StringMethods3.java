@@ -23,7 +23,7 @@ public class StringMethods3 {
         System.out.println(r4);
         System.out.println(r3);
 
-        // equals() method, used a lot more to compare textures of two strings
+        // equals() method, used a lot more to compare values of two strings
 
         String str1 = "Cydeo";
         String str2 = new String("Cydeo");

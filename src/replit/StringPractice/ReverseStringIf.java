@@ -1,4 +1,4 @@
-package replit;
+package replit.StringPractice;
 
 public class ReverseStringIf {
 

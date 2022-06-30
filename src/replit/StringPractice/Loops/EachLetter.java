@@ -1,4 +1,4 @@
-package replit;
+package replit.StringPractice.Loops;
 
 import java.util.Scanner;
 

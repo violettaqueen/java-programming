@@ -16,4 +16,7 @@ public class Cat extends Animal_parent{
     public void sleep() {
         System.out.println("Cat " + getName() + " sleeps 12 hrs a day");
     }
+    public void scratch(){
+        System.out.println("Cat " + getName() + " is scratching");
+    }
 }

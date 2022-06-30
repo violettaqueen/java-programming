@@ -8,21 +8,81 @@ public class TipCalculator {
 
         Scanner input = new Scanner(System.in);
 
+        /*
+        String answer ="";
+        double tipPercentage = 0;
+
+        double totalToPay = 0;
+        double totalTip = checkAmount * tipPercentage/100;
+        double totalPerPerson = (totalToPay + totalTip) / numberOfPeople;
+        double tipPerPerson = totalPerPerson / tipPercentage;
+*/
+
         System.out.println("Split or No split (Yes or No)");
-        String answer = input.next();
+        String yesOrNo = input.next().toLowerCase();
 
         System.out.println("Enter the number of people (number)");
-        int numberOfPeople = input.nextInt();
+       int numberOfPeople = input.nextInt();
 
         System.out.println("Enter the check amount");
         double checkAmount = input.nextDouble();
 
         System.out.println("How was the service quality? (Excellent/Great/Good/Fair/Poor)");
-        String serviceQuality = input.next();
+       String serviceQuality = input.next();
 
-        double totalToPay = numberOfPeople * checkAmount;
 
-        double tipPercentage = 0/100;
+
+
+
+
+
+/*
+             totalTip = checkAmount * tipPercentage/100;
+             totalPerPerson = (totalToPay + totalTip) / numberOfPeople;
+            tipPerPerson = totalPerPerson / tipPercentage;
+            System.out.println("Number of people entered: " + numberOfPeople);
+            System.out.println("Total to pay: " + totalToPay);
+            System.out.println("Total tip: " + totalTip);
+            System.out.println("Total per person: " + totalPerPerson);
+            System.out.println("Tip per person: " + tipPerPerson);
+
+             switch (serviceQuality){
+
+                 case "Excellent":
+                     tipPercentage = 25;
+                     break;
+                 case "Great":
+                 tipPercentage = 20;
+                 break;
+                 case "Good":
+                     tipPercentage = 15;
+                     break;
+                 case"Fair":
+                     tipPercentage = 10;
+                     break;
+                 default:
+                     tipPercentage = 5;
+                     totalToPay = numberOfPeople * checkAmount;
+             }
+
+
+        }else {
+            System.out.println("Total to pay: " + totalToPay);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,3 +143,5 @@ public class TipCalculator {
             Total per person: 148.75
             Tip per person: 29.75
  */
+    }
+}

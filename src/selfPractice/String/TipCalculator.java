@@ -1,10 +1,51 @@
 package selfPractice.String;
 
+import java.util.Scanner;
+
 public class TipCalculator {
 
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Split or No split (Yes or No)");
+        String answer = input.next();
+
+        System.out.println("Enter the number of people (number)");
+        int numberOfPeople = input.nextInt();
+
+        System.out.println("Enter the check amount");
+        double checkAmount = input.nextDouble();
+
+        System.out.println("How was the service quality? (Excellent/Great/Good/Fair/Poor)");
+        String serviceQuality = input.next();
+
+        double totalToPay = numberOfPeople * checkAmount;
+
+        double tipPercentage = 0/100;
 
 
-}
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
 /*
 1. Create a class called TipCalculator, and write a program for a tip calculator.
     There will be different service quality benchmarks that will determine the tip given.

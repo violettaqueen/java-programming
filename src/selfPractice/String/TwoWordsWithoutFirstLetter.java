@@ -14,6 +14,8 @@ public class TwoWordsWithoutFirstLetter {
         System.out.println("Enter second word:");
         String word2 = input.next();
 
+        input.close();
+
         word1 = word1.substring(1);
         word2 = word2.substring(1);
         String result = word1 + word2;

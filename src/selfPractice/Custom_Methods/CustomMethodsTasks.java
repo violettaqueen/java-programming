@@ -1,5 +1,7 @@
 package selfPractice.Custom_Methods;
 
+import utilities.StringUtility;
+
 public class CustomMethodsTasks {
 
     public static void eligibleToBuyAlcohol(int age) {
@@ -80,6 +82,10 @@ public class CustomMethodsTasks {
 
         initials("Violetta", "Queen");
 
+        StringUtility.reverse("Violetta");
+        System.out.println(StringUtility.reverse("Violetta"));
+
+        initials("violetta", "queen");
 
     }
 }

@@ -12,5 +12,11 @@ public class StringUtility {
         return reverse;
     }
 
+    public static void initials(String firstName, String lastName) {
+
+        firstName = firstName.substring(0, 1).toUpperCase();
+        lastName = lastName.substring(0, 1).toUpperCase();
+        System.out.println(firstName + "." + lastName + ".");
+    }
 
 }

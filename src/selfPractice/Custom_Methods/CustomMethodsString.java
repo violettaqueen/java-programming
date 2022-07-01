@@ -7,6 +7,8 @@ public class CustomMethodsString {
         monthName(12);
         day(1);
         daysInMonth("April");
+        eligibleToVote(22,true);
+        salary(85,40);
     }
 
     public static void emailDomain(String email) {
@@ -77,7 +79,45 @@ public class CustomMethodsString {
         }
 
     }
+    public static void eligibleToVote(int age, boolean isAmerican){
+        if (age >=18 && isAmerican){
+            System.out.println("You are eligible to vote");
+        }else{
+            System.out.println("Not eligible");
+        }
+    }
+    public static void salary(double hourlyRate, int weeklyHours){
+      double salary = hourlyRate * weeklyHours * 52;
+        System.out.println("You make $" + hourlyRate + " per hour\nYou work " + weeklyHours+" hours in a week\nYour " +
+                "gross income is $" + salary);
+    }
 }
+/*
+7. Create a method named salary that takes two arguments:
+        1. hourlyRate (double)
+        2. weeklyHours (int)
+
+    Then the method should display the salary of the person.
+        Ex:
+            salary(45, 40)
+
+        output:
+            You make $45.0 per hour
+            You work 40 hours in a week
+            Your gross income is $93600.0
+ */
+/*
+ Create a method named eligibleToVote that takes two arguments:
+        1. age (int)
+        2. isAmerican (boolean)
+
+    Then the method should determine if the person eligible to vote
+        Ex:
+            eligibleToVote(23, true)
+
+        output:
+            You are eligible to vote
+ */
 /*
 5. Create a method that can print how many days a month has
     Ex:

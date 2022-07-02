@@ -2,11 +2,13 @@ package day31_Inheritance.Shape;
 
 public class Circle extends Shape_Parent{  //default constructor
 
+    private double radius;
+
+
     public Circle(double radius) {
         setRadius(radius);
     }
 
-    private double radius;
 
     public double getRadius() {
         return radius;

@@ -11,9 +11,17 @@ public class TestShapeObjects {
 
         System.out.println(square1);
 
-
         Circle circle1 = new Circle(3);
 
         System.out.println(circle1);
+
+        Rectangle rectangle = new Rectangle(7,3);
+
+        rectangle.area();
+        rectangle.perimeter();
+        rectangle.draw();
+
+        System.out.println(rectangle);
+
     }
 }

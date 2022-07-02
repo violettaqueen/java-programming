@@ -6,8 +6,8 @@ public class States {
     private double population;
            private double stateTaxRate;
 
-    public States(String name, String abbreviation, String politicalParty, String governor, String senator, double population, double stateTaxRate) {
-        setName(name);
+    public States(String abbreviation, String politicalParty, String governor, String senator, double population, double stateTaxRate) {
+        setName(getClass().getSimpleName());
         setAbbreviation(abbreviation);
         setPoliticalParty(politicalParty);
         setGovernor(governor);
@@ -98,19 +98,19 @@ public class States {
         return stateTaxRate;
     }
 
-    public void setStateTax(double stateTax) {
+    public void setStateTax(double stateTaxRate) {
 
         if (stateTaxRate < 0){
-            System.err.println("State tax rate can not be negative");
+            System.err.println("State tax rate can not be negative: " + stateTaxRate);
             System.exit(1);
         }
-        this.stateTaxRate = stateTax;
+        this.stateTaxRate = stateTaxRate;
     }
 
     @Override
     public String toString() {
         return getClass().getSimpleName() + "{" +
-                "name='" + name + '\'' +
+                " name='" + name + '\'' +
                 ", abbreviation='" + abbreviation + '\'' +
                 ", politicalParty='" + politicalParty + '\'' +
                 ", governor='" + governor + '\'' +

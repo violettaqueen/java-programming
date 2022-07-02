@@ -31,21 +31,22 @@ public class Circle extends Shape_Parent{  //default constructor
     @Override
     public void draw() {
         super.draw();
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
+        System.out.println("    *    ");
+        System.out.println("  *   *  ");
+        System.out.println("*       *");
+        System.out.println("*       *");
+        System.out.println("  *   *  ");
+        System.out.println("    *    ");
     }
-
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "{" +
+        return  getClass().getSimpleName() + "{" +
                 " name= '" + getName() + '\'' +
-                ", radius= '" + getRadius()+ '\'' +
+                " radius= '" + radius + '\'' +
                 ", area= '" + area() + '\'' +
                 ", perimeter= '" + perimeter() + '\'' +
                 '}';
     }
 }
+

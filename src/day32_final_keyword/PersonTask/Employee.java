@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Employee extends Person{
 
     public Employee(String name, char gender, int age, LocalDate dateOfBirth) {
-        super(name, gender, age, dateOfBirth);
+        super(name, gender, dateOfBirth);
         setJobTitle(jobTitle);
         setSalary(salary);
 

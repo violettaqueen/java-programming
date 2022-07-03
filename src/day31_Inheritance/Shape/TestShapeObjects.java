@@ -23,5 +23,13 @@ public class TestShapeObjects {
 
         System.out.println(rectangle);
 
+        Circle circle = new Circle(5);
+
+        circle.draw();
+        circle.area();
+        circle.perimeter();
+
+        System.out.println(circle);
+
     }
 }

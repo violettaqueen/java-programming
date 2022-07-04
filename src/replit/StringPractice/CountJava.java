@@ -11,12 +11,8 @@ public class CountJava {
         String word2 = "python";
         boolean result = false;
 
-        for (int i = 0; i <= sentence.length(); i++) {
-
-            while(sentence.contains("Java")){
-                //remove one Java at the time
-                sentence = sentence.replaceFirst("Java", " ");
-                //increase the number of Java by one
+        for (int i = 0; i <= sentence.length()-1; i++) {
+            if (i == sentence.indexOf("java")){
                 count++;
             }
             System.out.println(count);

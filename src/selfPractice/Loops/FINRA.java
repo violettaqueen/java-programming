@@ -1,12 +1,10 @@
 package selfPractice.Loops;
 
-public class Multiple {
+public class FINRA {
 
     public static void main(String[] args) {
 
-        String result = "";
-        String fin ="";
-        String ra ="";
+
 
         for (int i = 1; i <= 100; i++) {
 

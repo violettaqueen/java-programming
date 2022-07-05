@@ -5,18 +5,22 @@ public class CountTriples {
     public static void main(String[] args) {
 
         String word = "xxxabyyyycd";
-        int num = 0;
+        int result = 0;
 
 
         for (int i = 0; i < word.length() ; i++) {
+            char each = word.charAt(i);
 
-            if (word.charAt(i) == 3) {
-                num++;
+
+              if (each >= '0' && each <= '9'){
+                  if (each == 3) {
+                  result += each;
+              }
 
             }
-            System.out.println(num);
-        }
 
+        }
+        System.out.println(result);
     }
 }
 /*

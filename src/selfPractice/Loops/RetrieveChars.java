@@ -7,11 +7,19 @@ public class RetrieveChars {
         String str = "mn@#123Ab!";
         String result = "";
 
-        for (int i = 0; i < str.length()-1; i++) {
+        for (int i = 0; i <= str.length()-1; i++) {
 
-            if (str.charAt(i) >= 48 && str.charAt(i) <= 57){
-                result += str.substring(str.charAt(i));
+            char each = str.charAt(i);
+
+            if (each >= 48 && each <= 57){
+                result += " " + each;
+            } else if (each >= 'a' && each <= 'z' || each>='A' && each <='Z') {
+                result += each;
+            }else{
+                result += each;
             }
         }
+        System.out.println(result);
+
     }
 }

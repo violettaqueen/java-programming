@@ -1,17 +1,17 @@
-package selfPractice.Loops;
+package selfPractice.Loops.ForLoop;
 
 public class isPalindrome {
 
     public static void main(String[] args) {
 
-        boolean isPalindrome = true;
-
         String str = "level";
+        String result = "";
 
-        for (int i = str.length(); i >= 0 ; i--) {
-            char each = str.charAt(i);
-
+        for (int i = str.length()-1; i >= 0 ; i--) {
+            result += str.charAt(i);
         }
+        boolean isPalindrome = str.equalsIgnoreCase(result);
+        System.out.println(isPalindrome);
     }
 }
 /*

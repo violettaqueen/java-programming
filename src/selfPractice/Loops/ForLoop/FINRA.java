@@ -1,4 +1,4 @@
-package selfPractice.Loops;
+package selfPractice.Loops.ForLoop;
 
 public class FINRA {
 

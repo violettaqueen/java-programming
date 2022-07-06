@@ -4,21 +4,19 @@ public class CountTriplets {
 
     public static void main(String[] args) {
 
-        String word = "xxxabyyyycd";
-        int count = 0;
+        String str = "abcXXXabc";
 
-        for (int i = 0; i < word.length(); i++) {
-            char each = word.charAt(i);
+        int count = 0 ;
 
+        for (int i = 0; i < str.length()-2; i++) {
+            char each = str.charAt(i);
 
-
-            if (each>3){
-                each ++;
-            }else{
-                System.out.println(0);
+            if (each == str.charAt(i+1)&& each== str.charAt(i+2)){
+                count++;
             }
-            System.out.println(count);
         }
+        System.out.println(count);
+
 
 
     }

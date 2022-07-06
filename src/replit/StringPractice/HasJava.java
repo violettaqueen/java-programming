@@ -4,20 +4,35 @@ public class HasJava {
 
     public static void main(String[] args) {
 
-        String word = "javapython";
-        String java = word.substring(0, word.indexOf("java") + 4);
-        boolean hasJava = true;
+        String word = "Java is a programming language";
 
-        if (word.length() >= 6) {
+        int countJava = 0;
+        int countPython = 0;
+
+        if (word.length() > 10) {
 
 
-            if (word.charAt(0) == word.charAt(word.indexOf('j')) || word.charAt(1) == word.charAt(word.indexOf('j'))) {
-                hasJava = true;
-            } else {
-                hasJava = false;
+            for (int i = 0; i < word.length() - 1; i++) {
+                char each = word.charAt(i);
+
+                if (each == word.charAt(word.indexOf("java") + 4) ) {
+                    countJava++;
+                }
+                if (each == word.charAt(word.indexOf("python") + 6)) {
+                    countPython++;
+                }
+
             }
         }
-        System.out.println(hasJava);
+
+        if (countJava == countPython) {
+            System.out.println(true);
+
+        } else {
+            System.out.println(false);
+        }
+
+
 
     }
 

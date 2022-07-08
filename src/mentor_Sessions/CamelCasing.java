@@ -4,15 +4,29 @@ import java.util.Arrays;
 
 public class CamelCasing {
 
-    public static void main(String[] args) {
+    public static String camelCasing(String str) {
 
-        String str = "camelCasing";
-        String result = "";
+        String result = " ";
+        for (char each: str.toCharArray()) {
 
-
-
+            if(each != Character.toUpperCase(each)){
+                result += each;
+            }else if(each == Character.toUpperCase(each)) {
+                result += " " + Character.toUpperCase(each);
+            }else{
+                result += str;
             }
         }
+        return result.trim();
+
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(camelCasing(""));
+
+    }
+}
 
 
 

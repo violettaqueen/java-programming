@@ -53,7 +53,7 @@ public abstract class Transportation {
 
     @Override
     public String toString() {
-        return "Transportation{" +
+        return getClass().getSimpleName()+"{" +
                 "make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 ", color='" + color + '\'' +

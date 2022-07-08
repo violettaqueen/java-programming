@@ -34,5 +34,13 @@ public class CydeoCar extends Car implements Flyable, Electric, AutoPilot, Swimm
 
     }
 
+    @Override
+    public void autoPark() {
 
+    }
+
+    @Override
+    public void selfDrive() {
+
+    }
 }

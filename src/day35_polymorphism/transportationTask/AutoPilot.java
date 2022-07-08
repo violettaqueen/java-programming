@@ -1,9 +1,13 @@
 package day35_polymorphism.transportationTask;
 
-public interface AutoPilot extends AutoPark{
+public interface AutoPilot extends AutoPark {
 
-    @Override
-    default void autoPark() {
-
-    }
+    void selfDrive();
 }
+/*
+Create a sub interface of AutoPark named AutoPilot:
+
+				abstract methods:
+						autoPilot()
+
+ */

@@ -20,4 +20,17 @@ public class Tesla extends Car implements Electric, AutoPilot{
     public void start() {
 
     }
+
+    @Override
+    public void autoPark() {
+
+    }
+
+    @Override
+    public void selfDrive() {
+
+    }
 }
+/*
+Create a sub class of Car named Tesla that implements AutoPark, AutoPilot and Electric
+ */

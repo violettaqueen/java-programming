@@ -10,3 +10,10 @@ public abstract class Car extends Transportation{
     }
 
 }
+/*
+Create an abstract sub class of Transpotation named Car
+
+				extra methods:
+					drive()
+
+ */

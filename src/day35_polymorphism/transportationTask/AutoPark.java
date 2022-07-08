@@ -6,3 +6,9 @@ public interface AutoPark {
 
     void autoPark();
 }
+/*
+ Create an interface named AutoPark
+
+				abstract methods:
+					autoPark()
+ */

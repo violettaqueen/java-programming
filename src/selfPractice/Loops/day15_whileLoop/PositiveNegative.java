@@ -26,6 +26,7 @@ public class PositiveNegative {
             }
         }
         System.out.println(positive + " positive and " + negative + " negative");
+        input.close();
     }
 }
 /*

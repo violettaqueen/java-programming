@@ -15,11 +15,10 @@ public class BreakStatement {
 
         for (char i = 'A'; i <= 'Z'; i++) {
 
-            System.out.println(i);
-
             if(i == 'J'){
                 break;
             }
+            System.out.println(i);
         }
     }
 

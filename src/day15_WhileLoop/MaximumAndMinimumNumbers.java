@@ -8,7 +8,7 @@ public class MaximumAndMinimumNumbers {
 
         Scanner input = new Scanner(System.in);
 
-        int max = -2147483648; //any integer that user enters be bigger then max number
+        int max = -2147483648; //any integer number that user enters will ALWAYS be less than 2147483647
         int min = 2147483647;
 
         for (int i = 0; i < 5; i++) {

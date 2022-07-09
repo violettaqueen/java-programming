@@ -11,18 +11,18 @@ public class MarriageProposal {
         System.out.println("Will you marry me? Yes/No");
         String yesNo = input.next().toLowerCase();
 
-       while (!(yesNo.equals("yes") || yesNo.equals("no"))){
-           System.err.println("Invalid answer, please re-enter");
-           System.out.println("Will you marry me? Yes/No");
-           yesNo = input.next().toLowerCase();
+        while (!(yesNo.equals("yes") || yesNo.equals("no"))) {
+            System.err.println("Invalid answer, please re-enter");
+            System.out.println("Will you marry me? Yes/No");
+            yesNo = input.next().toLowerCase();
         }
-        if (yesNo.equals("yes")){
+        if (yesNo.equals("yes")) {
             System.out.println("Congrats");
-        }else{
+        } else {
             System.out.println("Goodbye");
         }
 
-
+        input.close();
     }
 }
 /*

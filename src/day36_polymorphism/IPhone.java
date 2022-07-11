@@ -94,13 +94,12 @@ public class IPhone {
             System.exit(1);
         }
 
-        if (obj instanceof IPhone) { // if the given object is Iphone
+
             if (model.equals(((IPhone) obj).model)) {
                 if (color.equals(((IPhone) obj).color)) {
                     return true;
                 }
             }
-        }
-        return false;
+            return false;
     }
 }

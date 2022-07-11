@@ -1,11 +1,43 @@
 package selfPractice.Loops.day15_whileLoop;
 
+import java.util.Scanner;
+
 public class Login {
 
     public static void main(String[] args) {
 
-      String username = "Cydeo";
-      String password= "Cydeo123";
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your username:");
+        String userName = input.next();
+
+        System.out.println("Enter your password:");
+        String password =  input.next();
+
+while(userName.equals("Cydeo") && password.equals("Cydeo123")){
+    System.out.println("You are logged in");
+}
+        for (int i = 1; i <= 3; i++) {
+
+      if (!(userName.equals("Cydeo") && password.equals("Cydeo123"))) {
+          System.out.println("Incorrect credentials. Please try again. You have 3 attempts");
+          userName = input.next();
+          password = input.next();
+
+      }else {
+          System.out.println("Your account is logged");
+
+
+
+          }
+
+
+      }
+
+
+
+
+
     }
 }
 /*

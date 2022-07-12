@@ -12,12 +12,12 @@ public class RoomReservation {
         String yesNo = input.next();
         input.nextLine();
 
-        while( ! (yesNo.equalsIgnoreCase("yes") || yesNo.equalsIgnoreCase("no"))){
+        while (!(yesNo.equalsIgnoreCase("yes") || yesNo.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter:");
             yesNo = input.next();
         }
 
-        if(yesNo.equalsIgnoreCase("yes")) {
+        if (yesNo.equalsIgnoreCase("yes")) {
             System.out.println("What type of room would you like to reserve?\n\tKing Bed ==> 120$\n" +
                     "\t            Queen Bed ==> 100$\n" +
                     "\t            single Bed ==> 80$");
@@ -25,21 +25,21 @@ public class RoomReservation {
 
             int price = 0;
 
-          if (roomType.equalsIgnoreCase("king bed")){
-              System.out.println("Total price = $120");
-          } else if (roomType.equalsIgnoreCase("queen bed")) {
-              System.out.println("Total price = $100");
-          } else if (roomType.equalsIgnoreCase("single bed")) {
-              System.out.println("Total price = $80");
-          }else{
-              System.err.println("Invalid entry. Please try again");
-          }
-
-
-        }else{
-                System.out.println("Have a nice day!");
+            if (roomType.equalsIgnoreCase("king bed")) {
+                System.out.println("Total price = $120");
+            } else if (roomType.equalsIgnoreCase("queen bed")) {
+                System.out.println("Total price = $100");
+            } else if (roomType.equalsIgnoreCase("single bed")) {
+                System.out.println("Total price = $80");
+            } else {
+                System.err.println("Invalid entry. Please try again");
             }
 
+
+        } else {
+            System.out.println("Have a nice day!");
+        }
+        input.close();
     }
 }
 /*

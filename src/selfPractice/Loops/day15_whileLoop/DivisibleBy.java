@@ -9,9 +9,14 @@ public class DivisibleBy {
         int divisibleBy15 = 0;
         int divisibleBy3 = 0;
         int divisibleBy5 = 0;
+        for (int i = 1; i <= 100; i++) {
 
-        if (num %15 == 0){
-           divisibleBy15 ++;
+
+            if (i % 15 == 0 && i % 5 == 0 && i % 3 == 0) {
+                divisibleBy15 += i;
+            }  {
+
+            }
         }
         System.out.println(divisibleBy15);
     }

@@ -1,6 +1,6 @@
 package selfPractice.Loops.day15_whileLoop;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class InsuranceQuote {
@@ -14,25 +14,30 @@ public class InsuranceQuote {
         System.out.println("Enter your gender: M/F");
         char gender = input.next().charAt(0);
 
-        while (!(gender == 'M' || gender == 'F')) {
+        while (!(gender == 'M' || gender == 'F' || gender == 'm' || gender == 'f')) {
             System.err.println("Invalid gender. Please re-entry");
+            gender = input.next().charAt(0);
         }
         System.out.println("Are you married? Yes/No");
         String married = input.next();
 
         while (!(married.equalsIgnoreCase("yes") || married.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter");
+            married = input.next();
         }
         System.out.println("Enter your age:");
         int age = input.nextInt();
 
         while ((age < 0 || age > 120)) {
             System.err.println("Invalid age. Please provide a valid age.");
+            age = input.nextInt();
         }
         System.out.println("How many miles do you drive in a day?");
         double miles = input.nextDouble();
+
         while ((miles < 0 || miles < 5)) {
             System.err.println("Invalid mileage. Please provide a valid mileage.");
+            miles = input.nextDouble();
         }
 
         input.nextLine();
@@ -42,13 +47,17 @@ public class InsuranceQuote {
 
         System.out.println("Have you had any accidents or claims in past 5 years (Yes/No)");
         String yesOrNo = input.next().toLowerCase();
+
         while (!(yesOrNo.equalsIgnoreCase("yes") || yesOrNo.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter");
+            yesOrNo = input.next().toLowerCase();
         }
         System.out.println("Does your car has an anti-theft device (Yes/No)");
         String deviceYesOrNo = input.next();
+
         while (!(deviceYesOrNo.equalsIgnoreCase("yes") || deviceYesOrNo.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter");
+            deviceYesOrNo = input.next();
         }
         double insurancePriceLiability = 0;
 
@@ -65,7 +74,7 @@ public class InsuranceQuote {
             insurancePriceLiability += 50;
         }
 
-        double insurancePriceFull =0;
+        double insurancePriceFull = 0;
 
         if (insuranceType.equalsIgnoreCase("full coverage") && age < 25) {
             insurancePriceFull += 160;
@@ -79,28 +88,28 @@ public class InsuranceQuote {
         } else {
             insurancePriceFull += 70;
         }
-        if(deviceYesOrNo.equalsIgnoreCase("yes")){
+        if (deviceYesOrNo.equalsIgnoreCase("yes")) {
             insurancePriceLiability += insurancePriceLiability - 0.05;
         }
-        if(deviceYesOrNo.equalsIgnoreCase("yes")) {
+        if (deviceYesOrNo.equalsIgnoreCase("yes")) {
             insurancePriceFull += insurancePriceFull - 0.05;
         }
-        if (yesOrNo.equalsIgnoreCase("yes")){
+        if (yesOrNo.equalsIgnoreCase("yes")) {
             insurancePriceLiability += 0.15;
         }
-        if (yesOrNo.equalsIgnoreCase("yes")){
+        if (yesOrNo.equalsIgnoreCase("yes")) {
             insurancePriceFull += 0.15;
         }
-        if (yesOrNo.equalsIgnoreCase("no")){
+        if (yesOrNo.equalsIgnoreCase("no")) {
             insurancePriceLiability += insurancePriceLiability - 0.10;
         }
-        if (yesOrNo.equalsIgnoreCase("no")){
+        if (yesOrNo.equalsIgnoreCase("no")) {
             insurancePriceFull += insurancePriceFull - 0.10;
         }
-        if (married.equalsIgnoreCase("yes")){
+        if (married.equalsIgnoreCase("yes")) {
             insurancePriceLiability += insurancePriceLiability - 0.05;
         }
-        if (married.equalsIgnoreCase("no")){
+        if (married.equalsIgnoreCase("no")) {
             insurancePriceFull += insurancePriceFull - 0.05;
         }
         System.out.println(insurancePriceFull);

@@ -1,16 +1,18 @@
 package selfPractice.Loops.day15_whileLoop;
 
-public class DivisibleTwoNumbers {
+public class DivideTwoNumbers {
 
     public static void main(String[] args) {
 
         int num1 = 5;
         int num2 = 2;
+        int count = 0;
 
-        while (num1 > 0 && num2 > 0){
-
+        while (num1 >= num2) {
+            num1 -= num2;
+            count++;
         }
-
+        System.out.println(count + " with a remainder of " + num1);
 
     }
 }

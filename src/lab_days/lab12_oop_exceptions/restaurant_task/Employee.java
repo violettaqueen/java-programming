@@ -83,13 +83,13 @@ public abstract class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return getClass().getSimpleName()+"{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
                 ", id='" + id + '\'' +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
+                ", salary=$" + salary +
                 '}';
     }
 }

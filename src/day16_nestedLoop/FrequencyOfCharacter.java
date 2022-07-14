@@ -4,9 +4,9 @@ public class FrequencyOfCharacter {
 
     public static void main(String[] args) {
 
-        String str = "aabbbcccc"; // how many char appeared in a string
+        String str = "aabbbcccccccc"; // how many char appeared in a string
         char ch = 'c';
-        // 1. create a variable that contain result in the end
+        // 1. create a variable that contain result at the end
         int count = 0;
 
         // get all the characters in the string
@@ -18,6 +18,7 @@ public class FrequencyOfCharacter {
         }
 
     }
+        System.out.println(count);
 
     }
 }

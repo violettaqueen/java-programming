@@ -14,7 +14,7 @@ public class FrequencyOfWord {
 
         while(sentence.contains(word)){
             count ++;
-            sentence = sentence.replaceFirst(word, "");
+            sentence = sentence.replaceFirst(word, ""); // remove java one by one and replace with empty string
 
         }
         System.out.println(count);

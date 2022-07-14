@@ -4,21 +4,33 @@ public class CountJava {
 
     public static void main(String[] args) {
 
-        String sentence = "What's the difference between java, java, javascript and python?";
+        String sentence = "What's the difference between java, javascript and python?";
 
-        int count = 0;
-        String word = "java";
-        String word2 = "python";
-        boolean result = false;
+        int countJava = 0;
+        int countPython = 0;
 
-        for (int i = 0; i <= sentence.length()-1; i++) {
-            if (i == sentence.indexOf("java")){
-                count++;
+
+        while (sentence.contains("java") || sentence.contains("python")) {
+
+
+            while (sentence.contains("java")) {
+
+                sentence = sentence.replaceFirst("java", " ");
+                countJava += 1;
+                continue;
             }
-            System.out.println(count);
-        }
-    }
+            while (sentence.contains("python")) {
 
+                sentence = sentence.replaceFirst("python", " ");
+                countPython += 1;
+                continue;
+            }
+        }
+        boolean equal = countJava == countPython;
+
+        System.out.println(equal);
+
+    }
 }
 /*
 Use a loop to count how many times the characters java and python are found in the given String

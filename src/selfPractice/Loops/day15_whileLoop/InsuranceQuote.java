@@ -15,15 +15,15 @@ public class InsuranceQuote {
         char gender = input.next().charAt(0);
 
         while (!(gender == 'M' || gender == 'F' || gender == 'm' || gender == 'f')) {
-            System.err.println("Invalid gender. Please re-entry");
+            System.err.println("Invalid gender. Please re-enter your gender:");
             gender = input.next().charAt(0);
         }
         System.out.println("Are you married? Yes/No");
-        String married = input.next();
+        String married = input.next().toLowerCase();
 
         while (!(married.equalsIgnoreCase("yes") || married.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter");
-            married = input.next();
+            married = input.next().toLowerCase();
         }
         System.out.println("Enter your age:");
         int age = input.nextInt();
@@ -35,86 +35,102 @@ public class InsuranceQuote {
         System.out.println("How many miles do you drive in a day?");
         double miles = input.nextDouble();
 
-        while ((miles < 0 || miles < 5)) {
+        while (miles < 5) {
             System.err.println("Invalid mileage. Please provide a valid mileage.");
             miles = input.nextDouble();
         }
 
         input.nextLine();
 
-        System.out.println("Would you like full coverage or liability insurance?");
-        String insuranceType = input.nextLine();
+        System.out.println("Would you like full coverage or liability insurance? (full coverage/liability)");
+        String insuranceType = input.nextLine().toLowerCase();
+
+        while (!(insuranceType.equalsIgnoreCase("full coverage") || insuranceType.equalsIgnoreCase("liability"))) {
+            System.err.println("Invalid entry, please re-enter! full coverage or liability?");
+            insuranceType = input.nextLine();
+        }
 
         System.out.println("Have you had any accidents or claims in past 5 years (Yes/No)");
-        String yesOrNo = input.next().toLowerCase();
+        String hadAccidentOrClaims = input.next().toLowerCase();
 
-        while (!(yesOrNo.equalsIgnoreCase("yes") || yesOrNo.equalsIgnoreCase("no"))) {
+        while (!(hadAccidentOrClaims.equalsIgnoreCase("yes") || hadAccidentOrClaims.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter");
-            yesOrNo = input.next().toLowerCase();
+            hadAccidentOrClaims = input.next().toLowerCase();
         }
         System.out.println("Does your car has an anti-theft device (Yes/No)");
-        String deviceYesOrNo = input.next();
+        String deviceYesOrNo = input.next().toLowerCase();
 
         while (!(deviceYesOrNo.equalsIgnoreCase("yes") || deviceYesOrNo.equalsIgnoreCase("no"))) {
             System.err.println("invalid answer. Please re-enter");
             deviceYesOrNo = input.next();
         }
-        double insurancePriceLiability = 0;
+        double insurancePrice = 0;
 
-        if (insuranceType.equalsIgnoreCase("liability") && age < 25) {
-            insurancePriceLiability += 90;
+        if (insuranceType.equalsIgnoreCase("liability")) {
+
+            if (age < 25) {
+                insurancePrice += 90;
+            } else {
+                insurancePrice += 50;
+            }
+
+            if (miles > 50) {
+                insurancePrice += 50;
+            } else if (miles > 10) {
+                insurancePrice += 30;
+            } else {
+                insurancePrice += 10;
+            }
+
         } else {
-            insurancePriceLiability += 50;
-        }
-        if (miles <= 10) {
-            insurancePriceLiability += 10;
-        } else if (miles > 10 && miles <= 50) {
-            insurancePriceLiability += 30;
-        } else {
-            insurancePriceLiability += 50;
+
+
+            if (age < 25) {
+                insurancePrice += 160;
+            } else {
+                insurancePrice += 120;
+            }
+
+            if (miles > 50) {
+                insurancePrice += 70;
+            } else if (miles > 10) {
+                insurancePrice += 40;
+            } else {
+                insurancePrice += 20;
+            }
         }
 
-        double insurancePriceFull = 0;
+        double discountRate = 0;
 
-        if (insuranceType.equalsIgnoreCase("full coverage") && age < 25) {
-            insurancePriceFull += 160;
-        } else {
-            insurancePriceFull += 120;
-        }
-        if (miles <= 10) {
-            insurancePriceFull += 20;
-        } else if (miles > 10 && miles <= 50) {
-            insurancePriceFull += 40;
-        } else {
-            insurancePriceFull += 70;
-        }
+        // discount rate calculation
         if (deviceYesOrNo.equalsIgnoreCase("yes")) {
-            insurancePriceLiability += insurancePriceLiability - 0.05;
+            discountRate += 0.05;
         }
-        if (deviceYesOrNo.equalsIgnoreCase("yes")) {
-            insurancePriceFull += insurancePriceFull - 0.05;
+        if (hadAccidentOrClaims.equalsIgnoreCase("yes")) {
+            discountRate += 0.15;
+        } else {
+            discountRate -= 0.1;
         }
-        if (yesOrNo.equalsIgnoreCase("yes")) {
-            insurancePriceLiability += 0.15;
-        }
-        if (yesOrNo.equalsIgnoreCase("yes")) {
-            insurancePriceFull += 0.15;
-        }
-        if (yesOrNo.equalsIgnoreCase("no")) {
-            insurancePriceLiability += insurancePriceLiability - 0.10;
-        }
-        if (yesOrNo.equalsIgnoreCase("no")) {
-            insurancePriceFull += insurancePriceFull - 0.10;
-        }
+
         if (married.equalsIgnoreCase("yes")) {
-            insurancePriceLiability += insurancePriceLiability - 0.05;
+            discountRate += 0.05;
         }
-        if (married.equalsIgnoreCase("no")) {
-            insurancePriceFull += insurancePriceFull - 0.05;
-        }
-        System.out.println(insurancePriceFull);
+
+        double totalPrice = insurancePrice * (1 - discountRate);
+
+        System.out.println("Name = " + name);
+        System.out.println("Gender = " + gender);
+        System.out.println("Age = " + age);
+        System.out.println("Married = " + married);
+        System.out.println("Has Anti-Theft Device = " + deviceYesOrNo);
+        System.out.println("Had Accident Or Claims = " + hadAccidentOrClaims);
+        System.out.println("InsuranceType = " + insuranceType);
+        System.out.println("Your insurance price is: " + totalPrice);
+
+        input.close();
     }
 }
+
 /*
  Create a class called InsuranceQuote, write a program that can calculate the insurance cost of a person based on the following info:
 	    		1. Ask the user to enter your name

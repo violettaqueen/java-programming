@@ -21,10 +21,10 @@ public class PositiveNegative {
                 positive++;
             } else if (num < 0){
                 negative++;
-            }else{
-                num =0;
             }
-        }
+
+            }
+
         System.out.println(positive + " positive and " + negative + " negative");
         input.close();
     }

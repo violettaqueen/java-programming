@@ -12,31 +12,37 @@ public class Login {
         String userName = input.next();
 
         System.out.println("Enter your password:");
-        String password =  input.next();
+        String password = input.next();
 
-while(userName.equals("Cydeo") && password.equals("Cydeo123")){
-    System.out.println("You are logged in");
-}
-        for (int i = 1; i <= 3; i++) {
-
-      if (!(userName.equals("Cydeo") && password.equals("Cydeo123"))) {
-          System.out.println("Incorrect credentials. Please try again. You have 3 attempts");
-          userName = input.next();
-          password = input.next();
-
-      }else {
-          System.out.println("Your account is logged");
+        if (userName.equals("Cydeo") && password.equals("Cydeo123")) { // if the credentials are correct
+            System.out.println("You are logged in");
+        } else { // otherwise
 
 
+            for (int i = 1; i <= 3; i++) {
 
-          }
+                System.err.println("Incorrect username or password, please re-enter");
+
+                System.out.println("Enter your username:");
+                userName = input.next();
+
+                System.out.println("Enter your password:");
+                password = input.next();
+
+                if (userName.equals("Cydeo") && password.equals("Cydeo123")) { // if the user enters valid credentials
+                    System.out.println("You are now logged in");
+                    break;  // exit the loop
+                }
+            }
+            if (!(userName.equals("Cydeo") && password.equals("Cydeo123"))) { // after all three attempts, if credentials are still incorrect
+                System.err.println("Your account now is locked, please contact with support team");
 
 
-      }
+            }
 
 
-
-
+        }
+        input.close();
 
     }
 }

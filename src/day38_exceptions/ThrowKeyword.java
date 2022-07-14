@@ -18,7 +18,7 @@ public class ThrowKeyword {
             }
         }
         if (age >= 21){
-            System.out.println();
+            System.out.println("Eligible");
         }
 
 

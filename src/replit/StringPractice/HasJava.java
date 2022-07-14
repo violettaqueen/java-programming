@@ -4,37 +4,35 @@ public class HasJava {
 
     public static void main(String[] args) {
 
-        String word = "Java is a programming language";
+        String sentence = "Java is a programming language";
 
         int countJava = 0;
         int countPython = 0;
 
-        if (word.length() > 10) {
+        while (sentence.contains("java") || sentence.contains("python")) {
 
-
-            for (int i = 0; i < word.length() - 1; i++) {
-                char each = word.charAt(i);
-
-                if (each == word.charAt(word.indexOf("java") + 4) ) {
-                    countJava++;
-                }
-                if (each == word.charAt(word.indexOf("python") + 6)) {
-                    countPython++;
-                }
-
+            while (sentence.contains("java")) {
+                sentence = sentence.replaceFirst("java", " ");
+                countJava += 1;
+                continue;
             }
+
+            while (sentence.contains("python")) {
+                sentence = sentence.replaceFirst("python", " ");
+                countPython += 1;
+                continue;
+            }
+
         }
 
-        if (countJava == countPython) {
-            System.out.println(true);
+        boolean equal = countJava == countPython;
 
-        } else {
-            System.out.println(false);
-        }
-
-
+        System.out.println(equal);
 
     }
+}
+
+
 
 
 
@@ -48,7 +46,7 @@ public class HasJava {
         System.out.println(hasJava);
 */
 
-}
+
 
 /*
 if (word.equals(word.indexOf("java")) && word.startsWith("" + word.indexOf(0))){

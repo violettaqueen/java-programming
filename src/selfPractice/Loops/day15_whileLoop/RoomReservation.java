@@ -8,6 +8,7 @@ public class RoomReservation {
 
         Scanner input = new Scanner(System.in);
 
+
         System.out.println("Would you like to reserve the room? Yes/No");
         String yesNo = input.next();
         input.nextLine();
@@ -19,8 +20,8 @@ public class RoomReservation {
 
         if (yesNo.equalsIgnoreCase("yes")) {
             System.out.println("What type of room would you like to reserve?\n\tKing Bed ==> 120$\n" +
-                    "\t            Queen Bed ==> 100$\n" +
-                    "\t            single Bed ==> 80$");
+                    "\tQueen Bed ==> 100$\n" +
+                    "\tsingle Bed ==> 80$");
             String roomType = input.nextLine().toLowerCase();
 
             int price = 0;
@@ -34,11 +35,15 @@ public class RoomReservation {
             } else {
                 System.err.println("Invalid entry. Please try again");
             }
+            System.out.println("Would you like to reserve another room? Yes/No");
+            yesNo = input.next();
+
 
 
         } else {
             System.out.println("Have a nice day!");
         }
+
         input.close();
     }
 }

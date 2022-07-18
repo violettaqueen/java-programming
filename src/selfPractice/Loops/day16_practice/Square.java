@@ -1,9 +1,48 @@
 package selfPractice.Loops.day16_practice;
 
+import java.util.Scanner;
+
 public class Square {
 
+    public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+        String answer = "yes";
+
+        while (answer.equalsIgnoreCase("yes")) {
+
+            System.out.println("Enter the side of the square:");
+            double side = input.nextDouble();
+
+            if (side <= 0) {
+                System.err.println("Invalid Entry for the side of the square");
+                System.exit(1);
+            }
+            double area = side * side;
+            double perimeter = 4 * side;
+
+            System.out.println("Perimeter of square = " + perimeter);
+            System.out.println("area of square = " + area);
+
+            System.out.println("Would you like to calculate another Square? Yes/No");
+            answer = input.next();
+
+            while ( ! (answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))) {
+                System.err.println("Invalid entry. Please re-enter");
+            }
+            if (answer.equalsIgnoreCase("no")) {
+                System.out.println("Thank you for using Cydeo Square Calculator APP");
+
+            }
+
+        }
+
+
+    }
 }
+
+
+
 /*
  Write a program that can calculate the area and perimeter of a Square:
                         1. Ask the user "Enter the side of the square:"

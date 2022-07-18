@@ -1,6 +1,45 @@
 package selfPractice.Loops.day16_practice;
 
+import java.util.Scanner;
+
 public class GradeCalculator {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        while(true) {
+
+            System.out.println("Enter your score:");
+            int score = input.nextInt();
+
+            if (score > 100 || score < 0) {
+                System.err.println("Invalid Entry");
+                System.exit(0);
+            }
+
+            char grade = (score >= 90) ? 'A' : (score >= 80) ? 'B' : (score >= 70) ? 'C' : (score >= 60) ? 'D' : 'F';
+
+            System.out.println("grade = " + grade);
+
+            System.out.println("Would you like to continue?");
+            String a = input.next().toLowerCase();
+
+            while( !(a.equals("yes") || a.equals("no")) ){
+                System.err.println("Invalid Entry, please re-enter! Would you like to continue?");
+                a = input.next().toLowerCase();
+            }
+
+            if(a.equals("no")){
+                System.out.println("Thank you for using Cydeo grade calculator app!");
+                break;
+            }
+
+        }
+
+
+        input.close();
+    }
 }
 /*
 Write a program for grade calculator:

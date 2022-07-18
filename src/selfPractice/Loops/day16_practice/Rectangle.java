@@ -36,15 +36,15 @@ public class Rectangle {
             System.out.println("Would you like to calculate another Rectangle?");
             answer = input.next().toLowerCase();
 
-            if (answer.equals("no")){
+            if (answer.equals("no")) {
                 System.out.println("Thank you for using Cydeo Rectangle Calculator APP");
             }
-            while ( ! (answer.equals("yes") || answer.equals("no"))){
+            while (!(answer.equals("yes") || answer.equals("no"))) {
                 System.err.println("Invalid entry. Please re-enter");
             }
         }
 
-
+        input.close();
 
     }
 }

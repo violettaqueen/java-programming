@@ -27,7 +27,7 @@ public class Square {
             System.out.println("Would you like to calculate another Square? Yes/No");
             answer = input.next();
 
-            while ( ! (answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))) {
+            while (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))) {
                 System.err.println("Invalid entry. Please re-enter");
             }
             if (answer.equalsIgnoreCase("no")) {
@@ -37,6 +37,7 @@ public class Square {
 
         }
 
+        input.close();
 
     }
 }

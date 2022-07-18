@@ -5,6 +5,7 @@ public class UniqueCharacters1 {
     public static void main(String[] args) {
 
         String str = "aabccd";
+
         String unique = ""; // save result in this string
 
         for (int i = 0; i < str.length(); i++) { //i: index numbers of str

@@ -188,6 +188,10 @@ public class ArraysUtility {
         return false;
 
     }
+    public static void printUniqueNumbers(int[] nums){
+
+
+    }
     /*public static int[] remove(int[]array, int index){
 
 

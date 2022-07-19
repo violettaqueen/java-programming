@@ -6,7 +6,7 @@ public class Employee {
     public char gender;
     public String jobTitle;
     public double salary;
-public int age;
+    public int age;
     public String id;
 
     // sets all the attributes of the employee object at once
@@ -19,7 +19,7 @@ public int age;
         this.id = id;
     }//right click, constructor
 
-    // need a two string method, to avoid
+    // need a two string method, to avoid hash-code
 
     public String toString() {
         return "Employee{" +

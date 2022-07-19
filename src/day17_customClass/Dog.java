@@ -17,6 +17,7 @@ public class Dog {
         this.age = age;
         this.size = size;
         this.color = color;
+        // this method can help us to set all the information of the dog at once
     }
 
 
@@ -29,7 +30,7 @@ public class Dog {
     }
 
 
-    public String toString() {  //helping us to avoid getting a hashcodes when we print the class objects
+    public String toString() {  //helping us to avoid getting a hash-codes when we print the class objects
         return "Dog{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +

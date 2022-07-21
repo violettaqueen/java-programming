@@ -4,10 +4,10 @@ package utilities;
 //import static day26_Statics.StaticMembers.Data.method3();
 
 
-import static day26_Static.StaticMembers.Data.d;
+import static day26_static.StaticMembers.Data.d;
 // without importing the class, just import the static variable
 // import as many times (variables) as you want
-import static day26_Static.StaticMembers.Data.*;
+import static day26_static.StaticMembers.Data.*;
 
 public class Test2 {
 

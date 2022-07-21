@@ -1,7 +1,7 @@
 package utilities;
 
-import day26_Static.StaticMembers.Data;
-import day27_AccessModifiers.AccessModifiers;
+import day26_static.StaticMembers.Data;
+import day27_accessModifiers.AccessModifiers;
 
 public class Test {
 

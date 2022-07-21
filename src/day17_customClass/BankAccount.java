@@ -25,7 +25,7 @@ public class BankAccount {
     public void deposit(double amount){// deposit method
 
         if(amount < 1){
-            System.out.println("Insufficient amount: " + amount);
+            System.err.println("Insufficient amount: " + amount);
             return;
         }
         System.out.println("Depositing " + amount + " to " + accountHolder);
@@ -34,7 +34,7 @@ public class BankAccount {
 
     public void withdraw(double amount){
 
-        if(amount > balance){
+        if(amount > balance){ // AMOUNT HAS TO BE LESS THAN BALANCE
             System.out.println("Insufficient withdraw amount: " + amount);
             return;
         }

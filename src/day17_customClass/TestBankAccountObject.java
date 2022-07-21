@@ -27,7 +27,7 @@ public class TestBankAccountObject {
 
         BankAccount bankAccount3 = new BankAccount();
 
-        bankAccount2.setInfo("Nathan", 5464748490l);
+        bankAccount2.setInfo("Nathan", 5464748490L);
 
 
     }

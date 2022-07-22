@@ -30,6 +30,8 @@ public class AverageNumber {
         System.out.println(Arrays.toString(numbers));
         System.out.println("sum: " + sum);
         System.out.println("average:" + df.format(average));
+
+        input.close();
     }
 
 }

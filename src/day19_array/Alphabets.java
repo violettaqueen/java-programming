@@ -9,7 +9,7 @@ public class Alphabets {
         char[]ascending = new char[26]; //index: 0 - 25;
         char[]descending = new char[26];
 
-        for (int i = 0, j = 'A', k = 'Z'; i < ascending.length; i++, j++, k--) {
+        for (int i = 0, j = 'A', k = 'Z'; i < ascending.length; i++, j++, k--) {  // j for assigning a character
             ascending[i] = (char) j; //explicit casting to convert int to char //A-z
             descending[i] = (char) k; //Z-A
         }

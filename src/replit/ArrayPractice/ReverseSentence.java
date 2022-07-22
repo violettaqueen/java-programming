@@ -8,7 +8,7 @@ public class ReverseSentence {
 
         String sentence = "Java is fun";
 
-        String[] sentenceArray = {"Java is fun"}; // convert String object to an array object
+        String[] sentenceArray = new String[]{"Java is fun"}; // convert String object to an array object
 
         sentenceArray = sentence.split(" "); // split array into an array of Strings
 

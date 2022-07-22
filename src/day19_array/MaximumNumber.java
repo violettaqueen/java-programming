@@ -6,7 +6,7 @@ public class MaximumNumber {
 
         int[] numbers = {100, 20, 500, 40, -10, 30};
 
-        int max = numbers[0]; // assume that first element is the maximum number
+        int max = numbers[0]; // 100,  assume that first element is the maximum number
 
         for (int i = 1; i < numbers.length; i++) { // i: 1, 2, 3, 4...
 

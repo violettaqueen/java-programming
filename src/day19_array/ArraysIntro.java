@@ -19,12 +19,17 @@ public class ArraysIntro {
         scores[3] = 88;
         scores[4] = 95;
 
+
         // you can reassign a variable to a new object:
         // scores = new int[49];
 
         System.out.println(  Arrays.toString(scores)  );
 
+        System.out.println("----------------------------------------------------------------------------------------");
+
         System.out.println(scores[2]);
+
+        System.out.println("-----------------------------------------------------------------------------------------");
 
         // if you want to print all the elements
 

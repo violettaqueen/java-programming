@@ -192,6 +192,16 @@ public class ArraysUtility {
 
 
     }
+    public static int countAppearance(String[] arr, String word){
+        int countAppearance = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i].equals(word)){
+                countAppearance +=1;
+            }
+        }
+        return countAppearance;
+    }
     /*public static int[] remove(int[]array, int index){
 
 

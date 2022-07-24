@@ -227,6 +227,25 @@ public class ArraysUtility {
         }
         return  initials;
     }
+    public static String reverseSecondWord(String sentence){
+
+        String [] splitSent = sentence.split(" ");
+        String result = "";
+
+        for (int i = 0; i < splitSent.length; i++) {
+
+            if( i == 1){
+                String word = splitSent[i];
+                for (int j = word.length()-1; j >= 0 ; j--) {
+                    result += word.charAt(j);
+                }
+                result += " ";
+            }else{
+                result += splitSent[i] + " ";
+            }
+        }
+        return result;
+    }
     /*public static int[] remove(int[]array, int index){
 
 

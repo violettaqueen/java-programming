@@ -1,5 +1,7 @@
 package selfPractice.ArrayPractice.day20_ArrayPractice;
 
+import utilities.ArraysUtility;
+
 import java.util.Arrays;
 
 public class ReverseTheSecondWord {
@@ -25,7 +27,12 @@ public class ReverseTheSecondWord {
             }
         }
         System.out.println(result);
+
+        System.out.println(ArraysUtility.reverseSecondWord("I love Violetta"));
+
     }
+
+
 
 }
 /*

@@ -6,16 +6,18 @@ public class ForEachLoop { //to access all elements
 
         int[] numbers = {10, 20, 30, 40, 50};
 
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
         for (int each : numbers) { //going to run depends on number of elements
-            //elements
+
             System.out.println(each);
         }
         System.out.println("--------------------------------------------------------");
 
 
-        for(int  each : numbers){
-            System.out.println(each);
-        }
+
 
     }
 

@@ -219,6 +219,14 @@ public class ArraysUtility {
         }
         return reversedSentence.trim();
     }
+    public static String initials(String[] names){
+
+        String initials = "";
+        for (String eachName : names) {
+            initials = eachName.charAt(0) + "." + eachName.charAt(eachName.lastIndexOf(" ") +1);
+        }
+        return  initials;
+    }
     /*public static int[] remove(int[]array, int index){
 
 

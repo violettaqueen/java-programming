@@ -53,6 +53,14 @@ public class ForeachLoopPractice {
         }
 
         System.out.println(Arrays.toString(a3));
+        System.out.println("-------------------------------------------");
+
+        String[] names = {"Mohammad Karimi", "Vasyl Dobrianski", "Gadir Ibrahimov", "Abidullah Rahimi"};
+
+        for (String each : names) {
+            System.out.println(each.charAt(0) +"."+each.charAt( each.lastIndexOf(" ") +1) );
+        }
     }
+
 
 }

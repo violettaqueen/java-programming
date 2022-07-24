@@ -4,14 +4,17 @@ public class Pairs {
 
     public static void main(String[] args) {
 
-        String[] pairs = {"apple", "banana", "kiwi", "grape", "milk", "soda", "juice", "coffee"};
+        String[] arr = {"apple", "banana", "kiwi", "grape", "milk", "soda", "juice", "coffee"};
+        String [] result = {};
 
-        for (int i = 0; i < pairs.length; i++) {
-            System.out.println(pairs[i] +" " + pairs[i+1]);
 
-            }
+        for (int i = 0; i < arr.length-1; i++) {
+            System.out.println(arr[i] +", " +arr[i+1]);
+
         }
+
     }
+}
 
 /*
 Given a String [] arr, print a pair of items together in one line until all the pairs are printed. A pair is a element and the

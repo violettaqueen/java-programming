@@ -209,6 +209,16 @@ public class ArraysUtility {
         Collections.swap(list, pos1, pos2);
         return list;
     }
+    public static String reverseSentence(String sentence){
+
+        String[] sentenceArray = sentence.split(" ");
+        String reversedSentence = "";
+        for (int i = sentenceArray.length - 1; i >= 0; i--) { // iterate in reverse order
+            reversedSentence += sentenceArray[i] + " ";
+
+        }
+        return reversedSentence.trim();
+    }
     /*public static int[] remove(int[]array, int index){
 
 

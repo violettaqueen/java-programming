@@ -12,7 +12,6 @@ public class Pairs {
             System.out.println(arr[i] +", " +arr[i+1]);
 
         }
-
     }
 }
 

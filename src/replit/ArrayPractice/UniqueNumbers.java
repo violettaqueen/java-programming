@@ -6,16 +6,15 @@ public class UniqueNumbers {
 
         int[] nums = {2, 5, 5, 6, 3, 6, 9, 34, 3};
         int unique = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != nums[i]) {
-                System.out.println(nums[i]);
-            }
-        }
 
-    }
+
+
+        }
 }
+
 /*
-Finish the method called printUniqueNumbers() that will take anint [] and print out all of the unique numbers in the array. A number is unique when it is only found in the array one time.
+Finish the method called printUniqueNumbers() that will take an int [] and print out all the unique numbers in the array.
+ A number is unique when it is only found in the array one time.
 This is a void method with an int [] parameter
 Main topics: methods, Scanner, loops, arrays, primitive datatypes, operators, if statements
 

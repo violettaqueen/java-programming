@@ -246,6 +246,23 @@ public class ArraysUtility {
         }
         return result;
     }
+    public static void countEvenOddArray(int[] array){
+
+        int evenCount = 0;
+        int oddCount = 0;
+
+        for (int eachNum : array) {
+
+            if(eachNum %2 == 0){
+                evenCount ++;
+            }else{
+                oddCount ++;
+            }
+        }
+        System.out.println(evenCount);
+        System.out.println(oddCount);
+    }
+
     /*public static int[] remove(int[]array, int index){
 
 

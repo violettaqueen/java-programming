@@ -13,6 +13,9 @@ public class ForEachLoop { //to access all elements
         System.out.println("--------------------------------------------------------");
 
 
+        for(int  each : numbers){
+            System.out.println(each);
+        }
 
     }
 

@@ -7,17 +7,15 @@ public class BiggestWord {
 
     public static void main(String[] args) {
 
-        String str = "aaa, bbbbb, whasstupppp, longg, jaaaaavvaaaaaaaaaa";
 
         String[] words = {"aaa, bbbbb, whasstupppp, longg, jaaaaavvaaaaaaaaaa"};
 
-        words = str.split(" ");
         String longest = "";
+        int max = -2147483648;
 
-        for (String eachWord : words) {
+        for (int i = 0; i < words.length; i++) {
 
         }
-        System.out.println(longest);
     }
 
 }

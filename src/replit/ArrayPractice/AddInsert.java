@@ -1,6 +1,7 @@
 package replit.ArrayPractice;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class AddInsert {
 
@@ -9,9 +10,27 @@ public class AddInsert {
         words.add("app");
         words.add("downtown");
         words.add("raining");
+        words.add("hey");
+        words.add("yo");
 
-        for (int i = 0; i < words.size(); i++) {
 
-        }
+
+
+
+        System.out.println(words);
+
+
+
+
+
     }
+    public static void combineAL(Integer numbersOne, Integer numbersTwo ){
+
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(numbersOne);
+        numbers.add(numbersTwo);
+        System.out.println(numbers);
+    }
+
+
 }

@@ -15,17 +15,16 @@ public class Populate {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[5];
-        ArrayList<Integer> list = new ArrayList<>();
+        int[] array = {};
+        int num = 5;
+        int array1 = 0;
 
-        for (int i = 0; i <= array.length - 1; i++) {
-            int num = 5;
-            if (num == list.lastIndexOf(list)) {
-                list.add(array[i]);
+        for (int i = 0; i < 5; i++) {
 
-            }
+
         }
-        System.out.println(list);
+        System.out.println(Arrays.toString(array));
+
     }
 }
 

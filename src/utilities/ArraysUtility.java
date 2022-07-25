@@ -305,7 +305,16 @@ public class ArraysUtility {
         }
         return unique;
     }
+    public static void populateArray(int nums) {
 
+        int[] array = new int[nums];
+
+        for (int i = 0, j = 1; i < array.length; i++, j++) {
+            array[i] += j;
+
+        }
+        System.out.println(Arrays.toString(array));
+    }
 
 
 

@@ -7,14 +7,28 @@ public class Populate {
 
     public static void populate(int nums) {
 
-        for (int i = 0, j =1; i < nums; i++, j++) {
+        int[] array = new int[nums];
+
+        for (int i = 0, j = 1; i < array.length; i++, j++) {
+            array[i] += j;
 
         }
+        System.out.println(Arrays.toString(array));
     }
+
 
     public static void main(String[] args) {
 
-       populate(5);
+        int num = 7;
+
+        int[] array = new int[num];
+
+        for (int i = 0, j = 1; i < array.length; i++, j++) {
+            array[i] += j;
+
+        }
+        System.out.println(Arrays.toString(array));
+
 
     }
 }

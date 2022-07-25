@@ -44,7 +44,7 @@ public class IteratingMultiDimensionalArray {
         System.out.println("----------------------------------------------------------");
 
 
-        for (int[] each1DArray : arr2D) {
+        for (int[] each1DArray : arr2D) { // each 1 dimensional array
             for (int eachElement : each1DArray) {
                 System.out.println(eachElement);
             }

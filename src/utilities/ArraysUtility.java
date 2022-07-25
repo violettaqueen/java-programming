@@ -262,6 +262,19 @@ public class ArraysUtility {
         System.out.println(evenCount);
         System.out.println(oddCount);
     }
+    public static String commonElements(int[] arr1, int[] arr2){
+
+        String common = "";
+        for (int each1 : arr1) {
+            for (int each2 : arr2) {
+                if(each1 == each2){
+                    common += each1 + " ";
+
+                }
+            }
+        }
+       return common;
+    }
 
     /*public static int[] remove(int[]array, int index){
 

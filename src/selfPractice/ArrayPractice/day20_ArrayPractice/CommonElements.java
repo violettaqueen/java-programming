@@ -17,6 +17,8 @@ public class CommonElements {
             }
             }
         System.out.println(); // to append a new line after printing all the common elements in one line
+
+
         }
 
 

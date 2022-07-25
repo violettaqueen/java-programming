@@ -155,6 +155,7 @@ public class ArraysUtility {
         return false;
 
     }
+
     public static boolean contains(char[] array, char element) {
 
         for (char each : array) {
@@ -190,26 +191,30 @@ public class ArraysUtility {
         return false;
 
     }
-    public static void printUniqueNumbers(int[] nums){
+
+    public static void printUniqueNumbers(int[] nums) {
 
 
     }
-    public static int countAppearance(String[] arr, String word){
+
+    public static int countAppearance(String[] arr, String word) {
         int countAppearance = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i].equals(word)){
-                countAppearance +=1;
+            if (arr[i].equals(word)) {
+                countAppearance += 1;
             }
         }
         return countAppearance;
     }
+
     public static ArrayList<String> swap(ArrayList<String> list, int pos1, int pos2) {
 
         Collections.swap(list, pos1, pos2);
         return list;
     }
-    public static String reverseSentence(String sentence){
+
+    public static String reverseSentence(String sentence) {
 
         String[] sentenceArray = sentence.split(" ");
         String reversedSentence = "";
@@ -219,62 +224,88 @@ public class ArraysUtility {
         }
         return reversedSentence.trim();
     }
-    public static String initials(String[] names){
+
+    public static String initials(String[] names) {
 
         String initials = "";
         for (String eachName : names) {
-            initials = eachName.charAt(0) + "." + eachName.charAt(eachName.lastIndexOf(" ") +1);
+            initials = eachName.charAt(0) + "." + eachName.charAt(eachName.lastIndexOf(" ") + 1);
         }
-        return  initials;
+        return initials;
     }
-    public static String reverseSecondWord(String sentence){
 
-        String [] splitSent = sentence.split(" ");
+    public static String reverseSecondWord(String sentence) {
+
+        String[] splitSent = sentence.split(" ");
         String result = "";
 
         for (int i = 0; i < splitSent.length; i++) {
 
-            if( i == 1){
+            if (i == 1) {
                 String word = splitSent[i];
-                for (int j = word.length()-1; j >= 0 ; j--) {
+                for (int j = word.length() - 1; j >= 0; j--) {
                     result += word.charAt(j);
                 }
                 result += " ";
-            }else{
+            } else {
                 result += splitSent[i] + " ";
             }
         }
         return result;
     }
-    public static void countEvenOddArray(int[] array){
+
+    public static void countEvenOddArray(int[] array) {
 
         int evenCount = 0;
         int oddCount = 0;
 
         for (int eachNum : array) {
 
-            if(eachNum %2 == 0){
-                evenCount ++;
-            }else{
-                oddCount ++;
+            if (eachNum % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
             }
         }
         System.out.println(evenCount);
         System.out.println(oddCount);
     }
-    public static String commonElements(int[] arr1, int[] arr2){
+
+    public static String commonElements(int[] arr1, int[] arr2) {
 
         String common = "";
         for (int each1 : arr1) {
             for (int each2 : arr2) {
-                if(each1 == each2){
+                if (each1 == each2) {
                     common += each1 + " ";
 
                 }
             }
         }
-       return common;
+        return common;
     }
+
+    public static String uniqueElements(int[] nums) {
+
+        String unique = "";
+
+        for (int element : nums) {
+
+            int count = 0;
+
+            for (int each : nums) {
+
+                if (each == element) {
+                    count++;
+                }
+            }
+            if (count == 1) {
+                unique += element +" ";
+            }
+        }
+        return unique;
+    }
+
 
     /*public static int[] remove(int[]array, int index){
 

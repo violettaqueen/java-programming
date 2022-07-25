@@ -2,7 +2,7 @@ package selfPractice.map;
 
 import java.util.*;
 
-public class ListOfMaps {
+public class mapOfList {
 
     public static void main(String[] args) {
 

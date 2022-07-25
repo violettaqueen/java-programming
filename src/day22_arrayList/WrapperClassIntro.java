@@ -13,11 +13,12 @@ public class WrapperClassIntro {
         System.out.println("-----------------------------------");
 
         int b1 = 100;
+        Integer b2 = b1; // auto boxing
 
         double c1 = b1;
         long c2 = b1;
 
-        Integer b2 = b1; //auto boxing
+        Integer b3 = b1; //auto boxing
         //  Long b3 = (long)b1;
         //   Double b4 = b1;
 
@@ -37,7 +38,7 @@ public class WrapperClassIntro {
         //    long n3 = n1;
         //    double n4 =n1;
 
-        Character e1 = 'Z';
+        Character e1 = 'Z';  // wrapper class to primitive
 
         char e2 =e1; // unboxing
 

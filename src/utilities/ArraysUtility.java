@@ -300,11 +300,12 @@ public class ArraysUtility {
                 }
             }
             if (count == 1) {
-                unique += element +" ";
+                unique += element + " ";
             }
         }
         return unique;
     }
+
     public static void populateArray(int nums) {
 
         int[] array = new int[nums];
@@ -317,17 +318,23 @@ public class ArraysUtility {
     }
 
 
+    /*public static int[] remove(int[] array, int index) {
 
-
-    /*public static int[] remove(int[]array, int index){
+        int[] newArray = Arrays.copyOf(array, array.length - 1);
+        for (int eachElement : array) {
+            if (eachElement == index) {
+                newArray[array.length - 1] = eachElement;
+            }
+        }
+        return newArray;
 
 
     }
     
-    public static int[] removeDuplicates(int[]array){
+   public static int[] removeDuplicates(int[]array){
 
     }
 
-    
-   */
+    */
+
 }

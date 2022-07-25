@@ -13,8 +13,10 @@ public class MaximumMinimumNumbers {
 
         int max = array[0][0];
         int min = array[0][0];
+
         for (int[] eachArray : array) {
             for (int eachElement : eachArray) {
+
                 if(eachElement > max){
                     max = eachElement;
                 }

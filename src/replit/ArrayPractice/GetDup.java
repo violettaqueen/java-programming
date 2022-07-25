@@ -5,19 +5,18 @@ public class GetDup {
     public static void main(String[] args) {
 
 
-        int count = 0;
+        int count = 0; // return the number of duplicate
         String[] r = {"1", "2", "aa", "1"};
+        String nonDup = "";
 
         for (int i = 0; i < r.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if(r[i].equals(j)){
-                    count++;
-                }
+            if(r[i].equals(r)){
+                nonDup+=i;
             }
+
+
         }
-        System.out.println(count);
-
-
+        System.out.println(nonDup);
     }
 }
 /*

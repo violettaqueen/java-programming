@@ -9,13 +9,19 @@ public class BiggestWord {
 
 
         String[] words = {"aaa, bbbbb, whasstupppp, longg, jaaaaavvaaaaaaaaaa"};
+        String biggest = "";
+        int max = 0;
 
-        String longest = "";
-        int max = -2147483648;
+        for (String each : words) {
+            for (int i = 0; i < each.length(); i++) {
+                if (each.length() > max) {
+                    max = each.length();
+                }
 
-        for (int i = 0; i < words.length; i++) {
+            }
+            System.out.println(biggest);
 
         }
-    }
 
+    }
 }

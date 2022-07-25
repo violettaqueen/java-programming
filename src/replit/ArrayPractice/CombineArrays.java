@@ -5,6 +5,21 @@ import java.util.Arrays;
 
 public class CombineArrays {
 
+    public static void main(String[] args) {
+
+        String [] r1 = {"f","o","o"}, r2 = {" b","a","r"};
+
+        ArrayList<String> combineRs = new ArrayList<>();
+
+        for (String each : r1) {
+            combineRs.add(each.trim());
+        }
+        for (String each : r2) {
+            combineRs.add(each.trim());
+        }
+        System.out.println(combineRs);
+    }
+
 }
 
 /*

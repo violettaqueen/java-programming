@@ -2,7 +2,7 @@ package selfPractice.ArrayPractice.day21_MultiDimensial;
 
 import java.util.Arrays;
 
-public class MultiDimensialPractice {
+public class items {
 
     public static void main(String[] args) {
 

@@ -33,10 +33,11 @@ public class CydeoStudentTask {
         for (String[][] eachBatch : cydeoStudents) {
             for (String[] eachGroup : eachBatch) {
                 for (String eachStudent : eachGroup) {
-                    System.out.println(eachStudent);
+                    System.out.print(eachStudent+"\t");
                 }
             }
         }
+        System.out.println();
 
     }
 }

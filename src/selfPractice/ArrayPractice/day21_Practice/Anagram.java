@@ -7,15 +7,22 @@ public class Anagram {
 
     public static void main(String[] args) {
 
-        String str1 = "heart",
-                str2 = "earth";
+        String str1 = "heart",  // "aehtr"
+                str2 = "earth"; //" aehtr"
+
+        // we do not have a sort method in the string but we have it in arrays
+
+        //String [] a1 = str1.split("");
+        //String[] a2 = str2.split("");
+
         char[] s1 = str1.toCharArray();
         char[] s2 = str2.toCharArray();
 
         Arrays.sort(s1);
         Arrays.sort(s2);
 
-
+        boolean isAnagram = Arrays.equals(s1,s2);
+        System.out.println("isAnagram = " + isAnagram);
 
 
 

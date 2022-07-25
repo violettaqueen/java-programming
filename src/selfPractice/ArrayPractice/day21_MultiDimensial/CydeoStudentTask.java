@@ -1,4 +1,4 @@
-package selfPractice.ArrayPractice.day21_Practice;
+package selfPractice.ArrayPractice.day21_MultiDimensial;
 
 public class CydeoStudentTask {
 

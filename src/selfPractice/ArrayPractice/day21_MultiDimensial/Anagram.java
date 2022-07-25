@@ -1,7 +1,6 @@
-package selfPractice.ArrayPractice.day21_Practice;
+package selfPractice.ArrayPractice.day21_MultiDimensial;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Anagram {
 

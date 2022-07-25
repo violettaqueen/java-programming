@@ -1,6 +1,4 @@
-package selfPractice.ArrayPractice.day21_Practice;
-
-import java.util.Arrays;
+package selfPractice.ArrayPractice.day21_MultiDimensial;
 
 public class RemoveExtraSpaces {
 

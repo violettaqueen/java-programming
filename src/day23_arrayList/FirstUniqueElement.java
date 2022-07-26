@@ -13,8 +13,10 @@ public class FirstUniqueElement {
 
     public static void main(String[] args) {
 
+        // return first unique element:
+
         ArrayList<Integer> list = new ArrayList<>();
-// 1. create list of elements
+        // 1. create list of elements
         list.add(1);
         list.add(1);
         list.add(2);
@@ -24,31 +26,33 @@ public class FirstUniqueElement {
         list.add(5);
         list.add(5);
         list.add(6);
-// 2. print list of elements
+       // 2. print list of elements
         System.out.println(list);
 
-// 3. Declare 2 int variables:
+       // 3. Declare 2 int variables:
 
         //int element = 1;
         int frequency = 0;
 
         // 4. find frequency of all elements
         // 5. all elements in the list
-        for (Integer element :list) {
 
+        // to find frequency of every single element:
+        for (Integer element : list) { // accessing all elements in list
+
+            // this is how we find frequency of one element
             for (Integer each : list) {
-                if(each == element){
+                if (each == element) { // if element I want to find frequency of matching with every element from the list
                     frequency++;
-            }
+                }
 
             }
-            if(frequency == 1){
+            if (frequency == 1) {
                 System.out.println(element);
                 break; // no need to repeat this loop, exiting the loop, in order to return the first unique element only
             }
 
         }
-
 
 
     }

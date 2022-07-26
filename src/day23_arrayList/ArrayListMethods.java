@@ -90,14 +90,14 @@ public class ArrayListMethods {
         System.out.println("-------------------------------------------------");
 
         ArrayList<Integer> list1 = new ArrayList<>();
-        ArrayList<Integer> list2 = list1;
+        ArrayList<Integer> list2 = list1;  // only one object in heap memory, but sharing 2 reference variables
 
         list1.add(10);
 
         System.out.println(list1);
         System.out.println(list2);
 
-        System.out.println(list1 == list2);
+        System.out.println(list1 == list2); // referencing to a same object --> return true
 
 
         ArrayList<Integer> l1 = new ArrayList<>();
@@ -111,7 +111,7 @@ public class ArrayListMethods {
 
         System.out.println(l1 == l2);
 
-        System.out.println(l1.equals(l2));
+        System.out.println(l1.equals(l2));  // comparing if 2 lists have same elements amd same order --> return true
 
 
         System.out.println("-------------------------------------------------");
@@ -132,7 +132,7 @@ public class ArrayListMethods {
         System.out.println(n1.equals(n2));
 
 
-        System.out.println(n1.isEmpty());
+        System.out.println(n1.isEmpty()); // to check if list has any elements, returns boolean
         System.out.println(n2.isEmpty());
 
         n1.clear();

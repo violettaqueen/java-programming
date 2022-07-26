@@ -20,16 +20,21 @@ public class IteratingArrayList {
         System.out.println("---------------------------------------------------------");
 
         for (int i = 0; i < numbers.size(); i++) {
-            int each = numbers.get(i);
+            int each = numbers.get(i);  // assign it to a variable
             System.out.println(each);
         }
         System.out.println("-------------------------------------------------------------");
 
 
-        for (int i = numbers.size() - 1; i >= 0; i--) {
+        for (int i = numbers.size() - 1; i >= 0; i--) {  // last index number - size -1
             System.out.println(numbers.get(i));
         }
         System.out.println("-------------------------------------------------------------");
+
+        for (Integer each : numbers) {
+            System.out.println(each);
+        }
+
 
 
 

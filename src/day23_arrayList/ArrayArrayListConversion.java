@@ -7,6 +7,7 @@ public class ArrayArrayListConversion {
 
     public static void main(String[] args) {
 
+        // convert Array to ArrayList
         String[] arr = {"A", "B", "C", "D"};
 
         ArrayList<String> list = new ArrayList<>( Arrays.asList(arr) );
@@ -16,7 +17,7 @@ public class ArrayArrayListConversion {
 
         System.out.println("------------------------------------------------------");
 
-        // how to convert ArrayList to Array
+        // how to convert ArrayList to Array:
 
 
         ArrayList<String> list2 = new ArrayList<>( Arrays.asList("Java", "Python", "C#") );

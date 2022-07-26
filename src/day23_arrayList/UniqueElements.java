@@ -26,9 +26,10 @@ public class UniqueElements {
         // 1. to get all the names of the Array List
 
         for (String each :names) {
-            if(names.indexOf(each) == names.lastIndexOf(each)){
+            if(names.indexOf(each) == names.lastIndexOf(each)){ // if each element has occured at first position is equal to last time
+                // this occured in the list
                 System.out.println(each);
-                break; //exit the loop
+                break; //exit the loop, display only first unique
             }
         }
 

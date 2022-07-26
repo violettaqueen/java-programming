@@ -24,6 +24,17 @@ public class ArrayListUtility {
         }
         return firstUniqueElement;
     }
+    public static String firstUniqueElementByIndex(ArrayList<String> list){
+
+        String unique = "";
+        for (String eachElement : list) {
+            if(eachElement.indexOf(eachElement) == eachElement.lastIndexOf(eachElement)){
+                unique += eachElement;
+                break;
+            }
+        }
+        return unique;
+    }
 
 }
 

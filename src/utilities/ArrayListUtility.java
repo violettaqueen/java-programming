@@ -35,6 +35,21 @@ public class ArrayListUtility {
         }
         return unique;
     }
+    public static ArrayList<String> removeDuplicates(ArrayList<String> list){
+
+        ArrayList<String> nonDup = new ArrayList<>();
+
+        for (String eachName : list) {
+
+            if(nonDup.contains(eachName)){
+                continue;
+            }
+            nonDup.add(eachName);
+            list = nonDup;
+        }
+        return nonDup;
+
+    }
 
 }
 

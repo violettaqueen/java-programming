@@ -8,7 +8,7 @@ write a program that can multiply each odd number by 2
 
 import java.util.ArrayList;
 
-public class ArrayPracticeMultiply {
+public class ArrayListPracticeMultiply {
 
     public static void main(String[] args) {
 

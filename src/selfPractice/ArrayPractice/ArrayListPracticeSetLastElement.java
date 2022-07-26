@@ -3,7 +3,7 @@ package selfPractice.ArrayPractice;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayPracticeSetLastElement {
+public class ArrayListPracticeSetLastElement {
 
     public static void main(String[] args) {
 

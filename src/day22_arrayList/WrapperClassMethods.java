@@ -44,7 +44,7 @@ public class WrapperClassMethods {
 
         boolean isDigit =Character.isDigit(ch);
 
-        boolean isLetter = Character.isLetter(ch);
+        boolean isLetter = Character.isLetter(ch); // returns boolean
 
         boolean isLowerCaseLetter = Character.isLowerCase(ch);
 
@@ -65,14 +65,14 @@ public class WrapperClassMethods {
 
         System.out.println("------------------------------------------------");
 
-        String string = "a1b2c3d4e5";
+        String string = "a1b2c3d4e5";  //find sum of all the
 
         int sum = 0;
 
-        for (char each : string.toCharArray()) {
+        for (char each : string.toCharArray()) { // convert string to array, now we have an array
 
-            if(Character.isDigit(each)){
-                sum += Integer.parseInt(""+each);
+            if(Character.isDigit(each)){ // check if it's a digit
+                sum += Integer.parseInt(""+each); // convert it to a number, add it to a sum
             }
 
         }

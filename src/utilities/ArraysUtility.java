@@ -316,25 +316,94 @@ public class ArraysUtility {
         }
         System.out.println(Arrays.toString(array));
     }
-
-
-    /*public static int[] remove(int[] array, int index) {
-
-        int[] newArray = Arrays.copyOf(array, array.length - 1);
-        for (int eachElement : array) {
-            if (eachElement == index) {
-                newArray[array.length - 1] = eachElement;
+    public static int[] replace(int[] array, int index, int newElement){
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){
+                array[i] = newElement;
             }
         }
-        return newArray;
+        return array;
+    }
+    public static double[] replace(double[] array, int index, double newElement){
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){
+                array[i] = newElement;
+            }
+        }
+        return array;
+    }
+    public static String[] replace(String[] array, int index, String newElement){
+        for (int i = 0; i < array.length; i++) {
+            if(i== index){
+                array[i] = newElement;
+            }
+        }
+        return array;
+    }
+    public static char[] replace(char[] array, int index, char newElement){
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){
+                array[i] = newElement;
+            }
+        }
+        return array;
+    }
 
+    public static int[] removeTheElement(int[] array, int index) {
+
+        int[] newArray = new int[array.length - 1]; // create a new array with the size of one less
+
+        for (int i = 0, j = 0; i < array.length; i++) {
+            if (i == index) {
+                continue;
+            }
+            newArray[j++] = array[i];
+        }
+        return newArray;
+    }
+    public static double[] removeTheElement(double[] array, int index) {
+
+        double[] newArray = new double[array.length - 1]; // create a new array with the size of one less
+
+        for (int i = 0, j = 0; i < array.length; i++) {
+            if (i == index) {
+                continue;
+            }
+            newArray[j++] = array[i];
+        }
+        return newArray;
+    }
+    public static String[] removeTheElement(String[] array, int index) {
+
+        String[] newArray = new String[array.length - 1]; // create a new array with the size of one less
+
+        for (int i = 0, j = 0; i < array.length; i++) {
+
+            if (i == index) {
+                continue;
+            }
+            newArray[j++] = array[i];
+        }
+        return newArray;
+    }
+    public static char[] removeTheElement(char[] array, int index) {
+
+        char[] newArray = new char[array.length - 1]; // create a new array with the size of one less
+
+        for (int i = 0, j = 0; i < array.length; i++) {
+            if (i == index) {
+                continue;
+            }
+            newArray[j++] = array[i];
+        }
+        return newArray;
+    }
 
     }
     
-   public static int[] removeDuplicates(int[]array){
+   /*public static int[] removeDuplicates(int[]array){
 
     }
 
     */
 
-}

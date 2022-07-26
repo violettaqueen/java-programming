@@ -10,12 +10,12 @@ public class ArrayListMethods {
 
         System.out.println(list);
 
-        list.add(10); //0
+        list.add(10); //0  - autoboxing
         list.add(20); //1
         list.add(30); //2
         list.add(10); //3
 
-        list.add(1, 15);
+        list.add(1, 15);  // other indexes shifted to right
 
 
         System.out.println(list);

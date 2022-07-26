@@ -1,5 +1,7 @@
 package day22_arrayList.day22_ArrayList_Wrapper_PracticeTasks;
 
+import utilities.ArraysUtility;
+
 import java.util.Arrays;
 
 public class ReplaceTask {
@@ -10,9 +12,12 @@ public class ReplaceTask {
         arr[2] = 30;
         System.out.println(Arrays.toString(arr));
 
+        int[] numbers = {1, 2, 3, 4, 5};
+        numbers = ArraysUtility.removeTheElement(numbers, 1);
+        System.out.println(Arrays.toString(numbers));
 
     }
-    }
+}
 
    /* public static int replace(int[] array, int[] index, int[] newElement){
         int[] arr = {1, 2, 3, 4, 5};

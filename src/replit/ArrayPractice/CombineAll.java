@@ -7,12 +7,25 @@ public class CombineAll {
 
     public static ArrayList<Integer> combineAll(ArrayList<Integer> numbersOne, ArrayList<Integer> numbersTwo){
 
-        ArrayList<Integer> listAll = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
+        for (Integer eachNumber1 : numbersOne) {
+            list.addAll(Arrays.asList(eachNumber1));
+        }
+        for (Integer eachNumber2 : numbersTwo) {
+            list.addAll(Arrays.asList(eachNumber2));
+        }
 
-        return listAll;
+        return list;
     }
 
+    public static void main(String[] args) {
+
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1,2,3));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(4,5,6));
+
+        System.out.println(combineAll(list1, list2));
+    }
 
 }
 /*

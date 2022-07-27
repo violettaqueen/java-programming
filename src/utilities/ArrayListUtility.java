@@ -50,6 +50,17 @@ public class ArrayListUtility {
         return nonDup;
 
     }
+    public static ArrayList<String> combineRs(String[] r1, String[] r2) {
+
+        ArrayList<String> combineRs = new ArrayList<>();
+        for (String each : r1) {
+            combineRs.add(each.trim());
+        }
+        for (String each : r2) {
+            combineRs.add(each.trim());
+        }
+        return combineRs;
+    }
 
 }
 

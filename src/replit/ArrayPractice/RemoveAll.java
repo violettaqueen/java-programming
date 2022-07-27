@@ -12,7 +12,7 @@ public class RemoveAll {
 
         for (int i = 0; i < wordList.size(); i++) {
             if(wordList.get(i).equals(targetWord)){
-                wordList.remove(i);
+                wordList.remove(targetWord);
             }
         }
         System.out.println(wordList);

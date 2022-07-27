@@ -9,14 +9,7 @@ public class GetDup {
         String[] r = {"1", "2", "aa", "1"};
         String nonDup = "";
 
-        for (int i = 0; i < r.length; i++) {
-            if(r[i].equals(r)){
-                nonDup+=i;
-            }
 
-
-        }
-        System.out.println(nonDup);
     }
 }
 /*

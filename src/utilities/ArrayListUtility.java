@@ -93,6 +93,19 @@ public class ArrayListUtility {
 
         return newList;
     }
+    public static ArrayList<Integer> combineAll(ArrayList<Integer> numbersOne, ArrayList<Integer> numbersTwo){
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for (Integer eachNumber1 : numbersOne) {
+            list.addAll(Arrays.asList(eachNumber1));
+        }
+        for (Integer eachNumber2 : numbersTwo) {
+            list.addAll(Arrays.asList(eachNumber2));
+        }
+
+        return list;
+    }
 
 }
 

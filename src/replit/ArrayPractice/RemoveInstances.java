@@ -13,7 +13,7 @@ public class RemoveInstances {
         list.addAll(Arrays.asList(1,1,2,3,1,4)); // p --> index number of arrayList elements
         Integer n = 1;
 
-        list.removeIf(p -> p.equals(n));
+
 
 
 
@@ -22,10 +22,9 @@ public class RemoveInstances {
 
     public static ArrayList <Integer> removeInstances(ArrayList<Integer> r, Integer n) {
 
-        ArrayList<Integer> list1 = new ArrayList<>();
-        list1.addAll(Arrays.asList(n));
-        list1.removeIf(p -> p.equals(n));
-        return list1;
+        r.removeAll(Arrays.asList(n));
+
+        return r;
     }
     }
 

@@ -61,7 +61,7 @@ public class BulkOperations {
 
         boolean hasAlena = employeesList.contains("Alena");
 
-        boolean hasAlenaGadir = employeesList.containsAll( Arrays.asList("Alena", "Gadir") );
+        boolean hasAlenaGadir = employeesList.containsAll( Arrays.asList("Alena", "Gadir") );  // to verify if multiple elements contains in ArrayList
 
         boolean hasMuhtarAliKuzzat = employeesList.containsAll( Arrays.asList("Muhtar", "Ali", "Kuzzat") );
 
@@ -75,7 +75,7 @@ public class BulkOperations {
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll( Arrays.asList(10, 10, 20, 30, 40, 50, 60, 70, 10, 10, 10, 10, 20, 20, 20, 20) );
 
-        list.removeAll( Arrays.asList(10, 20) );
+        list.removeAll( Arrays.asList(10, 20) );   // remove all elements that are matching with 10, 20. To remove
 
         System.out.println(list);
 
@@ -83,6 +83,8 @@ public class BulkOperations {
 
         ArrayList<String> developers = new ArrayList<>();
         developers.addAll( Arrays.asList(  "Alena", "Muhtar", "Gadir", "Ali", "Khashayar", "Madiyar", "Muhtar", "Muhtar" , "Alena")  );
+
+        // retainAll() --> decrease the size. Keeping a specific elements, others will be removed
 
         developers.retainAll(  Arrays.asList("Alena", "Khashayar", "Muhtar") );
 

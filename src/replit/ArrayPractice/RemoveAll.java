@@ -8,16 +8,17 @@ public class RemoveAll {
     public static void main(String[] args) {
 
         ArrayList<String> wordList = new ArrayList<String>(Arrays.asList("hi", "hey", "hi", "yo"));
-        String targetWord = "hi";
 
-        for (int i = 0; i < wordList.size(); i++) {
-            if(wordList.get(i).equals(targetWord)){
-                wordList.remove(targetWord);
-            }
-        }
+        String targetWord = "hi";
+        removeAll(wordList, "hi");
         System.out.println(wordList);
         }
+    public static ArrayList<String> removeAll(ArrayList<String>wordList, String targetWord){
 
+       wordList.removeAll(Arrays.asList(targetWord));
+
+        return wordList;
+    }
 
     }
 

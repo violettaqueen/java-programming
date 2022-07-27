@@ -61,7 +61,9 @@ public class BulkOperations {
 
         boolean hasAlena = employeesList.contains("Alena");
 
-        boolean hasAlenaGadir = employeesList.containsAll( Arrays.asList("Alena", "Gadir") );  // to verify if multiple elements contains in ArrayList
+        // to verify if multiple elements contains in ArrayList
+
+        boolean hasAlenaGadir = employeesList.containsAll( Arrays.asList("Alena", "Gadir") );
 
         boolean hasMuhtarAliKuzzat = employeesList.containsAll( Arrays.asList("Muhtar", "Ali", "Kuzzat") );
 

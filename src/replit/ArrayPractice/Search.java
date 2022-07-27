@@ -10,15 +10,20 @@ public class Search {
         String result = "";
         String word = "";
 
-        for (int i = 0; i < r.size(); i++) {
-          word = r.get(i);
-        }
-            if (word.contains(find)) {
-                result = word;
+        for (String eachWord : r) {
 
-            } else {
-                result = "search failed";
+            for (int i = 0; i < eachWord.length(); i++) {
+
+                if(eachWord.contains(find)){
+                    result = eachWord.trim();
+                }else{
+                    result = "search failed";
+                }
             }
+        }
+
+
+
 
         return result;
     }
@@ -26,9 +31,9 @@ public class Search {
     public static void main(String[] args) {
 
         ArrayList<String> list = new ArrayList<>();
-        list.addAll(Arrays.asList("4", "lea","led","mop","lead","make"));
+        list.addAll(Arrays.asList("hello","world", "lead"));
 
-        System.out.println(search(list, "4"));
+        System.out.println(search(list, "lead"));
     }
 
 

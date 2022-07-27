@@ -9,11 +9,20 @@ public class TimesTwo {
 
         ArrayList<Integer> nums = new ArrayList<>();
         nums.addAll(Arrays.asList(2,3,4));
-        for (int i = 0; i < nums.size(); i++) {
 
-            System.out.println(nums);
+        timesTwo(nums);
+        System.out.println(nums);
+
         }
-        }
+
+    public static ArrayList<Integer> timesTwo(ArrayList<Integer> nums){
+
+
+
+
+        return nums;
+    }
+
     }
 
 

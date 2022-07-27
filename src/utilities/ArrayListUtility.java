@@ -1,6 +1,7 @@
 package utilities;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListUtility {
 
@@ -72,6 +73,25 @@ public class ArrayListUtility {
         }
 
         return words;
+    }
+    public static ArrayList<Integer> appendPosSum(ArrayList<Integer> list) {
+
+        ArrayList<Integer> newList = new ArrayList<>();
+
+        for (Integer eachNum : list) {
+
+            if (eachNum > 0) {
+                newList.addAll(Arrays.asList(eachNum));
+            }
+        }
+        int sum = 0;
+        for (Integer each : newList) {
+            sum += each;
+        }
+
+        newList.add(newList.size() , sum);  // this statement out of loop
+
+        return newList;
     }
 
 }

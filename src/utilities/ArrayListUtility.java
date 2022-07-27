@@ -61,6 +61,18 @@ public class ArrayListUtility {
         }
         return combineRs;
     }
+    public static ArrayList<String> removeEveryOther(ArrayList<String> words) {
+
+        for (int i = 0; i < words.size(); i++) {  // words
+            for (int j = 0; j < words.size(); j++) { // indexes
+                if(i == j){
+                    words.remove(i);
+                }
+            }
+        }
+
+        return words;
+    }
 
 }
 

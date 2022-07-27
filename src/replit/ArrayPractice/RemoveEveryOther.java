@@ -9,11 +9,22 @@ public class RemoveEveryOther {
     public static void main(String[] args) {
 
         ArrayList<String> list = new ArrayList<>();
-        list.addAll(Arrays.asList("hi","yo","sup","yolo","book"));
-        for (int i = 0; i < list.size(); i++) {
-
-        }
+        list.addAll(Arrays.asList("hi", "yo", "sup", "yolo", "book"));
+        removeEveryOther(list);
         System.out.println(list);
+    }
+
+    public static ArrayList<String> removeEveryOther(ArrayList<String> words) {
+
+        for (int i = 0; i < words.size(); i++) {  // words
+            for (int j = 0; j < words.size(); j++) { // indexes
+                if(i == j){
+                    words.remove(i);
+                }
+            }
+        }
+
+        return words;
     }
 }
 /*

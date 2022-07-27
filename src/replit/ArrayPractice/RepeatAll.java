@@ -8,18 +8,21 @@ public class RepeatAll {
 
     public static void main(String[] args) {
 
-        ArrayList<Boolean> list = new ArrayList<>();
+        ArrayList<Boolean> list = new ArrayList<>(Arrays.asList(true, false, false));
 
-        list.addAll(Arrays.asList(true, false, false));
+        repeatAll(list);
+        System.out.println(list);
+    }
+
+    public static void repeatAll(ArrayList<Boolean> list) {
+
+        list.addAll(list);
+        System.out.println(list);
+    }
+
+}
 
 
-
-
-            System.out.println(list);
-
-            }
-
-        }
 
 /*
 Create a static method that:

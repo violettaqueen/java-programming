@@ -13,15 +13,22 @@ public class BiggestWord {
         String biggest = "";
         ArrayList<String> list = new ArrayList<>();
 
+        int max = 0;
+
 
         for (int i = 0; i < words.length; i++) {
-            String each = words[i];
-
-            }
+           if( words[i].length() > max){
+               max = words[i].length();
+               if(words[i].equals(max)){
+                   System.out.println(words[i]);
+               }
+           }
         }
 
-            }
+    }
 
+
+}
 
 
 

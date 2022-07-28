@@ -9,10 +9,9 @@ public class NonDuplicate {
         int nonDup = 0;
 
         for (int i = 0; i < nums.length; i++) {
-           nonDup = nums[i];
-        }
-        if (nonDup == 1){
-            System.out.println(nonDup);
+           int each = nums[i];
+
+
         }
 
 

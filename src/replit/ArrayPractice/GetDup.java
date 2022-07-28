@@ -5,13 +5,30 @@ public class GetDup {
     public static void main(String[] args) {
 
 
-        int count = 0; // return the number of duplicate
+        int count = 0; // return the number of duplicates
         String[] r = {"1", "2", "aa", "1"};
         String nonDup = "";
+        String word = "";
+
+        for (int i = 0; i < r.length; i++) {
+            word = r[i]; // each element
+
+            for (int j = 0; j < word.length(); j++) {
+                char ch = word.charAt(j);
+
+                if (word.equals(ch + "")) {
+                    nonDup += j;
+
+                }
+
+            }
 
 
+        }
+        System.out.println(word);
     }
 }
+
 /*
 getDup accepts an array and returns an int.
 

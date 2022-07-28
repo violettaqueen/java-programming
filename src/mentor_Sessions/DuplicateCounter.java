@@ -1,7 +1,6 @@
 package mentor_Sessions;
 
 public class DuplicateCounter {
-
     public static int duplicateCounter(String name) {
         int count = 0;
         String example = "";
@@ -22,6 +21,7 @@ public class DuplicateCounter {
         }
         return example.length();
     }
+
 }
 
 /*

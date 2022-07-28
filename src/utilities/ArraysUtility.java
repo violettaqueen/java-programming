@@ -458,6 +458,79 @@ public class ArraysUtility {
         return newArray;
 
     }
+    public static int[] insert (int[]array, int index, int element){
+
+        int[] newArray = new int[array.length+1];
+
+        for (int i = 0; i < array.length; i++) {
+
+
+            if (i == index) {
+                newArray[i] = element;
+                newArray[i+1] = array[i];
+            }else{
+                if(newArray[i] != 0){
+                    newArray[i+1] = array[i];
+                }else{
+                    newArray[i] = array[i];
+                }
+            }
+        }
+
+        return newArray;
+    }
+    public static double[] insert(double[] array, int index, double element){
+
+        double [] newArray = new double[array.length+1];
+
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){
+                newArray[i] = element;
+                newArray[i+1] = array[i];
+            } else if (newArray[i] != 0) {
+                newArray[i+1] = array[i];
+            }else{
+                newArray[i] = array[i];
+            }
+        }
+        return newArray;
+    }
+    public static char[] insert(char[]array, int index, char element){
+
+        char [] arr = new char[array.length+1];
+
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] == index){
+                arr[i] = element;
+                arr[i+1] = array[i];
+            } else  {
+                if(arr[i] != 0){
+                    arr[i+1] = array[i];
+                }else{
+                    arr[i] = array[i];
+                }
+            }
+        }
+        return arr;
+    }
+    public static String [] insert(String[] array, int index, String element){
+
+        String[] result = new String[array.length+1];
+
+        for (int i = 0; i < array.length; i++) {
+            if(i == index){
+                result[i] = element;
+                result[i+1] = array[i];
+            }else{
+                if(result[i] != null){
+                    result[i+1] = array[i];
+                }else {
+                    result[i] = array[i];
+                }
+            }
+        }
+        return result;
+    }
 
 }
     

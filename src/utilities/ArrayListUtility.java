@@ -106,6 +106,11 @@ public class ArrayListUtility {
 
         return list;
     }
+    public static ArrayList<Integer> removeElements(ArrayList<Integer> list){
+
+        list.removeIf(p -> p < 4);
+        return list;
+    }
 
 }
 

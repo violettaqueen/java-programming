@@ -1,5 +1,7 @@
 package selfPractice.ArrayPractice.day22_Practice;
 
+import utilities.ArraysUtility;
+
 import java.util.Arrays;
 
 public class ReplaceAll {
@@ -19,10 +21,10 @@ public class ReplaceAll {
 
     public static void main(String[] args) {
 
-        int[] arr = {10, 10, 20, 30, 40, 30, 30, 30};
+        char[] arr = {'a','b','c','d','d'};
 
-        int[] arr2 = replaceAll(arr, 30, 300);
-        System.out.println(Arrays.toString(arr2));
+       char[] newArray = ArraysUtility.replaceAll(arr, 'd', 'm');
+        System.out.println(Arrays.toString(arr));
 
     }
 }

@@ -316,33 +316,37 @@ public class ArraysUtility {
         }
         System.out.println(Arrays.toString(array));
     }
-    public static int[] replace(int[] array, int index, int newElement){
+
+    public static int[] replace(int[] array, int index, int newElement) {
         for (int i = 0; i < array.length; i++) {
-            if(i == index){
+            if (i == index) {
                 array[i] = newElement;
             }
         }
         return array;
     }
-    public static double[] replace(double[] array, int index, double newElement){
+
+    public static double[] replace(double[] array, int index, double newElement) {
         for (int i = 0; i < array.length; i++) {
-            if(i == index){
+            if (i == index) {
                 array[i] = newElement;
             }
         }
         return array;
     }
-    public static String[] replace(String[] array, int index, String newElement){
+
+    public static String[] replace(String[] array, int index, String newElement) {
         for (int i = 0; i < array.length; i++) {
-            if(i== index){
+            if (i == index) {
                 array[i] = newElement;
             }
         }
         return array;
     }
-    public static char[] replace(char[] array, int index, char newElement){
+
+    public static char[] replace(char[] array, int index, char newElement) {
         for (int i = 0; i < array.length; i++) {
-            if(i == index){
+            if (i == index) {
                 array[i] = newElement;
             }
         }
@@ -361,6 +365,7 @@ public class ArraysUtility {
         }
         return newArray;
     }
+
     public static double[] removeTheElement(double[] array, int index) {
 
         double[] newArray = new double[array.length - 1]; // create a new array with the size of one less
@@ -373,6 +378,7 @@ public class ArraysUtility {
         }
         return newArray;
     }
+
     public static String[] removeTheElement(String[] array, int index) {
 
         String[] newArray = new String[array.length - 1]; // create a new array with the size of one less
@@ -386,6 +392,7 @@ public class ArraysUtility {
         }
         return newArray;
     }
+
     public static char[] removeTheElement(char[] array, int index) {
 
         char[] newArray = new char[array.length - 1]; // create a new array with the size of one less
@@ -399,7 +406,60 @@ public class ArraysUtility {
         return newArray;
     }
 
+    public static int[] replaceAll(int[] array, int oldElement, int newElement) {
+
+        int[] newArray = Arrays.copyOf(array, array.length);
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == oldElement) {
+                array[i] = newElement;
+                newArray[i] = newElement;
+            }
+        }
+        return newArray;
     }
+
+    public static double[] replaceAll(double[] array, double oldElement, double newElement) {
+
+        double[] newArray = Arrays.copyOf(array, array.length);
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == oldElement) {
+                array[i] = newElement;
+                newArray[i] = newElement;
+            }
+        }
+        return newArray;
+    }
+
+    public static String[] replaceAll(String[] array, String oldElement, String newElement) {
+
+        String[] newArray = Arrays.copyOf(array, array.length);
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals(oldElement)) {
+                array[i] = newElement;
+                newArray[i] = newElement;
+            }
+        }
+        return newArray;
+    }
+
+    public static char[] replaceAll(char[] array, char oldElement, char newElement) {
+
+        char[] newArray = Arrays.copyOf(array, array.length);
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == oldElement) {
+                array[i] = newElement;
+                newArray[i] = newElement;
+            }
+        }
+        return newArray;
+
+    }
+
+}
     
    /*public static int[] removeDuplicates(int[]array){
 

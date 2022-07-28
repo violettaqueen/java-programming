@@ -4,11 +4,16 @@ public class Next3 {
 
     public static void main(String[] args) {
 
-        int num = 5;
+        next3(10);
 
 
+    }
 
+    public static void next3(int num) {
 
+        for (int i = 0, j = num; i < 3; i++, j++) { // i --> number of times to repeat
+            System.out.print(j + 1 + " ");
+        }
     }
 }
 /*

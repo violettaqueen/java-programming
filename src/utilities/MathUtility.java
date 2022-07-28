@@ -12,6 +12,12 @@ public class MathUtility {
         }
         return factorial;
     }
+    public static void next3(int num) {
+
+        for (int i = 0, j = num; i < 3; i++, j++) { // i --> number of times to repeat
+            System.out.print(j + 1 + " ");
+        }
+    }
 
 
 

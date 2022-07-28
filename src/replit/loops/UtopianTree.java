@@ -8,22 +8,26 @@ public class UtopianTree {
         int growth = 0;
         int treeSize = 0;
 
-        for (int i = 0, k = 1; year <= 10; i++, k++) {
-            year = i;
-            for (int j = 0; j < i; j++) {
-                growth = j;
-                if (i == 1) {
-                    growth++;
-                    treeSize+= i;
-                }
 
+
+        for (int i = 1; i <= 10; i++) {
+            year = i;
+
+            if (year >= 1 && year <= 3) {
+                growth = 1;
+                treeSize++;
+                System.out.println("year " + year + " - growth " + growth + " cm\ntree size: " + treeSize + " cm");
+
+            } else {
+                growth = 2;
+                treeSize += 2;
+                System.out.println("year " + year + " - growth " + growth + " cm\ntree size: " + treeSize + " cm");
 
             }
+
         }
-        System.out.println(treeSize);
+
     }
-
-
 }
 
 /*

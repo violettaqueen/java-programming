@@ -22,9 +22,7 @@ public class GetDup {
         int count = 0;
 
         for (String each : array) {
-            if (Collections.frequency(Arrays.asList(array), each) > 1) {
-                count++;
-            }
+
 
 
         }

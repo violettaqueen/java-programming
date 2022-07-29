@@ -1,5 +1,8 @@
 package replit.ArrayPractice;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class GetDup {
 
     public static void main(String[] args) {
@@ -9,26 +12,25 @@ public class GetDup {
         String[] r = {"1", "2", "aa", "1"};
         String nonDup = "";
         String word = "";
+        System.out.println(getDup(r));
 
-        for (int i = 0; i < r.length; i++) {
-            word = r[i]; // each element
 
-            for (int j = 0; j < word.length(); j++) {
-                char ch = word.charAt(j);
+    }
 
-                if (word.equals(ch + "")) {
-                    nonDup += j;
+    public static int getDup(String[] array) {
 
-                }
+        int count = 0;
 
+        for (String each : array) {
+            if (Collections.frequency(Arrays.asList(array), each) > 1) {
+                count++;
             }
 
 
         }
-        System.out.println(word);
+        return count;
     }
 }
-
 /*
 getDup accepts an array and returns an int.
 

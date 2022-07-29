@@ -13,7 +13,7 @@ public class FrequencyOfCharacters {
 
         String result = ""; //to contain the final result
 
-        // create a collection out if a string --> create a string array
+        // create a collection out of a string --> create a string array
 
         // split the string
         for(String each : str.split("")){

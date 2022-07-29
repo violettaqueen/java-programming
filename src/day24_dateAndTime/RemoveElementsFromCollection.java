@@ -34,9 +34,9 @@ public class RemoveElementsFromCollection {
 
         ArrayList<String> names = new ArrayList<>();
 
-        names.addAll(Arrays.asList("Java", "Python", "C#", "Java", "Ruby", "JavaScript", "C+", "C"));
+        names.addAll(Arrays.asList("Java", "Python", "C#", "Java", "Ruby", "JavaScript", "C+", "C")); // p == each
 
-                          // each is a String
+                          // each is a String (p)
         names.removeIf( each -> each.startsWith("J") ); //each element from list, loop is created as long as you call remove if method
         System.out.println(names);
 

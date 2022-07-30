@@ -122,6 +122,11 @@ public class ArrayListUtility {
         list.set(list.size()-1, 0);
         return list;
     }
+    public static ArrayList<String> removeAllSpecificNames(ArrayList<String> list, String name){
+
+        list.removeAll(Arrays.asList(name));
+        return list;
+    }
 
 }
 

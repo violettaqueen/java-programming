@@ -8,22 +8,16 @@ public class Search {
     public static String search(ArrayList<String> r, String find) {
 
         String result = "";
-        String word = "";
 
         for (String eachWord : r) {
 
-            for (int i = 0; i < eachWord.length(); i++) {
+            if(eachWord.contains(find)) {
+                result = eachWord.trim() + find;
 
-                if(eachWord.contains(find)){
-                    result = eachWord.trim();
-                }else{
+        }else{
                     result = "search failed";
                 }
             }
-        }
-
-
-
 
         return result;
     }

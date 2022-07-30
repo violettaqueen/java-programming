@@ -189,6 +189,15 @@ public class ArrayListUtility {
         }
         return list;
     }
+    public static ArrayList<Integer> multiplyElements(ArrayList<Integer> nums) {
+
+        for (int i = 0; i < nums.size(); i++) {
+
+            nums.set(i, nums.get(i) * 2);
+
+        }
+        return nums;
+    }
     public static ArrayList<Character> retrieveCharacters(String str){
 
         ArrayList<Character> list = new ArrayList<>();

@@ -193,7 +193,18 @@ public class ArraysUtility {
     }
 
     public static void printUniqueNumbers(int[] nums) {
+        for (int element : nums) { // each element of array
 
+            int count = 0;
+            for (int each : nums) {
+                if(each == element){
+                    count ++;
+                }
+            }
+            if(count == 1){
+                System.out.println(element);
+            }
+        }
 
     }
 
@@ -366,7 +377,7 @@ public class ArraysUtility {
         return newArray;
     }
 
-    public static double[] removeTheElement(double[] array, int index) {
+    public static double[] removeElement(double[] array, int index) {
 
         double[] newArray = new double[array.length - 1]; // create a new array with the size of one less
 
@@ -379,7 +390,7 @@ public class ArraysUtility {
         return newArray;
     }
 
-    public static String[] removeTheElement(String[] array, int index) {
+    public static String[] removeElement(String[] array, int index) {
 
         String[] newArray = new String[array.length - 1]; // create a new array with the size of one less
 
@@ -393,7 +404,7 @@ public class ArraysUtility {
         return newArray;
     }
 
-    public static char[] removeTheElement(char[] array, int index) {
+    public static char[] removeElement(char[] array, int index) {
 
         char[] newArray = new char[array.length - 1]; // create a new array with the size of one less
 
@@ -572,29 +583,52 @@ public class ArraysUtility {
 
         return arr;
     }
-    public static int firstUniqueNumber(int[] nums){
+
+    public static int firstUniqueNumber(int[] nums) {
         int firstUnique = 0;
 
         for (int element : nums) {
             int count = 0;
 
             for (int each : nums) {
-                if(each == element){
+                if (each == element) {
                     count++;
                 }
             }
-            if (count == 1){
+            if (count == 1) {
                 firstUnique = element;
             }
         }
         return firstUnique;
     }
 
-}
-    
-   /*public static int[] removeDuplicates(int[]array){
+    public static int countDuplicates(String[] array) {
 
+        int getDup = 0;
+
+        for (String element : array) {
+            int count = 0;
+            for (String each : array) {
+                if (each.equals(element)) {
+                    count++;
+                }
+            }
+            if (count > 1) {
+                getDup++;
+            }
+        }
+        return getDup;
     }
 
+}
+
+   /* public static int[] removeDuplicates(int[] array) {
+
+        int uniQueNumbers = 0;
+        return uniQueNumbers;
+    }
+
+
     */
+
 

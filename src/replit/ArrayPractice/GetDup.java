@@ -9,9 +9,8 @@ public class GetDup {
 
 
         int count = 0; // return the number of duplicates
-        String[] r = {"1", "2", "aa", "1"};
-        String nonDup = "";
-        String word = "";
+        String[] r = {"1","2","aa","1", "aa"};
+
         System.out.println(getDup(r));
 
 
@@ -19,14 +18,22 @@ public class GetDup {
 
     public static int getDup(String[] array) {
 
-        int count = 0;
+        int getDup = 0;
 
-        for (String each : array) {
-
-
-
+        for (String element : array) {
+            int count = 0;
+            for (String each : array) {
+                if(each.equals(element)){
+                    count++;
+                }
+            }
+            if(count > 1){
+                getDup++;
+            }
         }
-        return count;
+
+
+        return getDup;
     }
 }
 /*

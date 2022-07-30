@@ -8,22 +8,23 @@ public class TimesTwo {
     public static void main(String[] args) {
 
         ArrayList<Integer> nums = new ArrayList<>();
-        nums.addAll(Arrays.asList(2,3,4));
+        nums.addAll(Arrays.asList(2, 3, 4));
 
         timesTwo(nums);
         System.out.println(nums);
 
+    }
+
+    public static ArrayList<Integer> timesTwo(ArrayList<Integer> nums) {
+
+        for (int i = 0; i < nums.size(); i++) {
+
+            nums.set(i, nums.get(i) * 2);
+
         }
-
-    public static ArrayList<Integer> timesTwo(ArrayList<Integer> nums){
-
-
-
-
         return nums;
     }
-
-    }
+}
 
 
 /*

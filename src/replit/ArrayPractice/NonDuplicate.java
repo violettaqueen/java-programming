@@ -8,14 +8,28 @@ public class NonDuplicate {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 2, 3, 4, 3, 4, 1};
-
+        int[] nums = {6, 44, 6, 4, 3, 4, 1};
 
         int nonDup = 0;
 
-        for (int each : nums) {
+        for (int element: nums) { // element
+
+            int count = 0;
+
+            for (int each : nums) {
+
+                if( each == element){
+                    count++;
+                }
+            }
+            if(count == 1){
+                nonDup = element;
+                break;
+            }
 
         }
+        System.out.println(nonDup);
+
     }
 }
 /*

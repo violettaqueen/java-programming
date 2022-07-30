@@ -2,6 +2,7 @@ package utilities;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayListUtility {
 
@@ -131,6 +132,13 @@ public class ArrayListUtility {
 
         list.addAll(list);
         return list;
+    }
+    public static int nthLargestNumber(ArrayList<Integer> list, int n) {
+
+        for (int i = 1; i < n; i++) { // i: elements
+            list.removeIf(p -> Collections.max(list) == p);
+        }
+        return Collections.max(list);
     }
 
 }

@@ -117,6 +117,11 @@ public class ArrayListUtility {
         list.removeIf(p -> p < 4);
         return list;
     }
+    public static ArrayList<Integer> setLastElement(ArrayList<Integer> list, int element){
+
+        list.set(list.size()-1, 0);
+        return list;
+    }
 
 }
 

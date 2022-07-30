@@ -154,6 +154,24 @@ public class ArrayListUtility {
         }
         return list;
     }
+    public static ArrayList<Integer> multiplyOddNumbersBy2(ArrayList<Integer> list){
+
+        for (int i = 0; i < list.size(); i++) {
+            if(list.get(i) %2 !=0){
+                list.set(i, list.get(i) *2);
+            }
+        }
+        return list;
+    }
+    public static ArrayList<Integer> multiplyEvenNumberBy2(ArrayList<Integer> list){
+
+        for (int i = 0; i < list.size(); i++) {
+            if(list.get(i) %2 == 0){
+                list.set(i, list.get(i)*2);
+            }
+        }
+        return list;
+    }
 
 }
 

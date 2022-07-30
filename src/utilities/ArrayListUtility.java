@@ -215,6 +215,11 @@ public class ArrayListUtility {
         list.removeIf(p -> p.length() >10);
         return list;
     }
+    public static ArrayList<String> removeStringWithTheSameFirstAndLastChar(ArrayList<String> list){
+
+        list.removeIf(p -> p.substring(0,1).equalsIgnoreCase(p.substring(p.length()-1)));
+        return list;
+    }
 
 }
 

@@ -62,6 +62,12 @@ public class ArrayListUtility {
         }
         return combineRs;
     }
+    public static ArrayList<String> combineTwoArrays(String[] arr1, String[] arr2){
+
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(Arrays.toString(arr1)));
+        list.add(Arrays.toString(arr2));
+        return list;
+    }
     public static ArrayList<String> removeEveryOther(ArrayList<String> words) {
 
         for (int i = 0; i < words.size(); i++) {  // words

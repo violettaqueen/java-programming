@@ -86,6 +86,18 @@ public class ArrayListUtility {
 
         return words;
     }
+    public static ArrayList<Character> removeAllDigits(ArrayList<Character> list){
+        list.removeIf(p -> Character.isDigit(p));
+        return list;
+    }
+    public static ArrayList<Character> removeAllSpecialCharacters(ArrayList<Character> list){
+        list.removeIf(p -> (!(Character.isLetterOrDigit(p))));
+        return list;
+    }
+    public static ArrayList<Character> removeAllLetters(ArrayList<Character> list){
+        list.removeIf(p -> Character.isLetter(p));
+        return list;
+    }
     public static ArrayList<Integer> appendPosSum(ArrayList<Integer> list) {
 
         ArrayList<Integer> newList = new ArrayList<>();

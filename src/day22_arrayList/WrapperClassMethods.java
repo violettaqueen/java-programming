@@ -65,7 +65,7 @@ public class WrapperClassMethods {
 
         System.out.println("------------------------------------------------");
 
-        String string = "a1b2c3d4e5";  //find sum of all the
+        String string = "a1b2c3d4e5";  //find sum of all the digits
 
         int sum = 0;
 
@@ -74,10 +74,7 @@ public class WrapperClassMethods {
             if(Character.isDigit(each)){ // check if it's a digit
                 sum += Integer.parseInt(""+each); // convert it to a number, add it to a sum
             }
-
         }
-
-
         System.out.println("sum = " + sum);
 
 

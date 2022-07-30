@@ -554,7 +554,8 @@ public class ArraysUtility {
 
         return arr;
     }
-    public static String[] swap(String[] arr, int i, int j){
+
+    public static String[] swap(String[] arr, int i, int j) {
 
         String temp = arr[i];
         arr[i] = arr[j];
@@ -562,13 +563,31 @@ public class ArraysUtility {
 
         return arr;
     }
-    public static char[] swap(char[] arr, int i, int j){
+
+    public static char[] swap(char[] arr, int i, int j) {
 
         char temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
 
         return arr;
+    }
+    public static int firstUniqueNumber(int[] nums){
+        int firstUnique = 0;
+
+        for (int element : nums) {
+            int count = 0;
+
+            for (int each : nums) {
+                if(each == element){
+                    count++;
+                }
+            }
+            if (count == 1){
+                firstUnique = element;
+            }
+        }
+        return firstUnique;
     }
 
 }

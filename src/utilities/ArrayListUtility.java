@@ -37,6 +37,11 @@ public class ArrayListUtility {
         }
         return unique;
     }
+    public static ArrayList<Integer> uniqueElements(ArrayList<Integer> list){
+
+        list.removeIf(p -> Collections.frequency(list, p) > 1);
+        return list;
+    }
     public static ArrayList<String> removeDuplicates(ArrayList<String> list){
 
         ArrayList<String> nonDup = new ArrayList<>();

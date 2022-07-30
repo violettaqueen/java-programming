@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10046-096b-445f-b629-56c61624cb8c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/Java_E_Commerce/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_E_Commerce/src/StaticConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_E_Commerce/src/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_E_Commerce/src/category/Electronic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_E_Commerce/src/category/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_E_Commerce/src/category/SkinCare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day25_Constructor/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/day25_Constructor/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_E_Commerce/src/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_E_Commerce/src/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfPractice/ArrayPractice/day22_Practice/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfPractice/ArrayPractice/day22_Practice/Swap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vquee/IdeaProjects/Java_Programming/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vquee/Downloads/java-lab-ecommerce-tasks-master/java-lab-ecommerce-tasks-master&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
@@ -145,6 +154,8 @@
       <workItem from="1655252250334" duration="3186000" />
       <workItem from="1655298265921" duration="93696000" />
       <workItem from="1655580530022" duration="12428000" />
+      <workItem from="1659142707008" duration="214000" />
+      <workItem from="1659143279714" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1655307045194</created>

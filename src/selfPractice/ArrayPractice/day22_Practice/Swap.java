@@ -1,24 +1,34 @@
 package selfPractice.ArrayPractice.day22_Practice;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Swap {
 
-    public static int[] swap (int[] array, int i, int j){
+    public static int[] swap (int[] arr, int i, int j){
 
-        int[] newArray = new int[array.length];
+        int temp = arr[i];
 
-        for (int each : array) {
-            Collections.swap(Arrays.asList(array), i, j);
-        }
-        return newArray;
+        arr[i] = arr[j];
+        arr[j] = temp;
+
+        return arr;
     }
 
     public static void main(String[] args) {
 
         int [] arr = {10, 20, 30, 40, 50};
+        int i = 2;
+        int j = 4;
+        System.out.println(Arrays.toString(swap(arr, i, j)));
+
+
+
+
+
+
+
     }
+
 }
 /*
 Swap Task:

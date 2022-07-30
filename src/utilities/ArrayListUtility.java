@@ -127,6 +127,11 @@ public class ArrayListUtility {
         list.removeAll(Arrays.asList(name));
         return list;
     }
+    public static ArrayList<Integer> duplicateElements(ArrayList<Integer> list){
+
+        list.addAll(list);
+        return list;
+    }
 
 }
 

@@ -211,6 +211,10 @@ public class ArrayListUtility {
 
         return list;
     }
+    public static ArrayList<String> removeAllNamesLengthMoreThenTen(ArrayList<String> list){
+        list.removeIf(p -> p.length() >10);
+        return list;
+    }
 
 }
 

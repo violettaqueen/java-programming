@@ -140,6 +140,20 @@ public class ArrayListUtility {
         }
         return Collections.max(list);
     }
+    public static ArrayList<Integer> moveAllZeros(ArrayList<Integer> list){
+
+        // count zeros:
+        int countZeros = Collections.frequency(list, 0);
+
+        // remove all zeros:
+        list.removeAll(Arrays.asList(0));
+
+        // add zeros to the end of list:
+        for (int i = 0; i < countZeros; i++) { // indexes
+            list.add(0);
+        }
+        return list;
+    }
 
 }
 

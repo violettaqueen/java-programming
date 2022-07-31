@@ -24,6 +24,6 @@ public class Sign {
 
     public static void main(String[] args) {
 
-        sign(0);
+        sign(-20);
     }
 }

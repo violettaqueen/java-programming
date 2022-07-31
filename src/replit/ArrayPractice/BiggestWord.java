@@ -11,24 +11,29 @@ public class BiggestWord {
 
         String[] words = {"aaa", "bbbbb", "whasstupppp", "longg", "jaaaaavvaaaaaaaaaa"};
         String biggest = "";
-        ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(words));
 
-        int max = 0;
+        int max = list.get(0).length();
 
+        for (String each : list) {
 
-        for (int i = 0; i < words.length; i++) {
-           if( words[i].length() > max){
-               max = words[i].length();
-               if(words[i].equals(max)){
-                   System.out.println(words[i]);
-               }
-           }
+            if(each.length() > max){
+                max = each.length();
+                biggest = each;
+            }
         }
+        System.out.println(biggest);
+        }
+
+
+
+
+
 
     }
 
 
-}
+
 
 
 

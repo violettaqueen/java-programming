@@ -14,7 +14,8 @@ public class OrdinaryTask {
 
         int time = 50;
         int mass = 100;
-        double result3 = 1 / (time + 3 * mass);
+        double result3 = 1 / (time + 3 * mass); // (1/2) + (3*max)
+        double result4 = 1 / (time + 2 * mass);
 
 
 

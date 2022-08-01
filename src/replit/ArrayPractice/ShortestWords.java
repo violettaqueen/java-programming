@@ -1,17 +1,26 @@
 package replit.ArrayPractice;
 
-public class Shortest_word {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class ShortestWords {
 
     public static void main(String[] args) {
 
         String str = "olive, fish, pursuit, old, warning, python, java, coffee, cat, ray";
 
-        str = str.replace(" ", "");
+        String [] array = str.split(" ");
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(array));
 
-        for (int i = 0; i < str.length()-1; i++) {
+        // assume that the max number is index 0 of list:
+
+        int min = list.get(0).length();
+        int max = list.get(0).length();
+        String shortestWord = "";
 
 
-        }
+
     }
 }
 /*

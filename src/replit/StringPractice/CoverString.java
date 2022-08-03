@@ -3,8 +3,8 @@ package replit.StringPractice;
 public class CoverString {
 
     public static void main(String[] args) {
-        String main = "Certified Wooden Spoon";
-        String coverMe = "o";
+        String main = "hello hello";
+        String coverMe = "ello";
         String result = "";
 
 
@@ -19,7 +19,7 @@ public class CoverString {
                result = "[" + main + "]";
             }
         }
-        System.out.println(main);
+        System.out.println(result);
     }
 }
 /*

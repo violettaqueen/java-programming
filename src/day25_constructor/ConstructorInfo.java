@@ -14,7 +14,8 @@ public class ConstructorInfo {
 
     public static void main(String[] args) {
 
-        // no argument constructor, no parameters, default constructor, no return type, no specifier
+        // no argument constructor, no parameters, default constructor, no return type, no specifier:
+
         ConstructorInfo obj1 = new ConstructorInfo(10); //to create object
         ConstructorInfo obj2 = new ConstructorInfo();
         // ConstructorInfo obj3 = new ConstructorInfo("Java");

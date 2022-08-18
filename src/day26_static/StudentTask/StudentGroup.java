@@ -20,7 +20,7 @@ public class StudentGroup {  //StudentsGroup Has A Student - has relationship
         this.groupId = groupId;
        // students = new ArrayList<>(); // size is 0 at the beginning
     }
-    // add student function , create instance method, each object have it's own method
+    // add student function , create instance method, each object have its own method
 
 
     public void addStudent(Student student){ // you have to have a student object(argument)

@@ -17,7 +17,7 @@ public class TestCarObjects {
         Car car4 = new Car("Bently", "Coupe", 2024, 120000);
         System.out.println(car4);
 
-        Car car5 = new Car("Porche", "Cayenne", 2025, 110000, "red");
+        Car car5 = new Car("Porsche", "Cayenne", 2025, 110000, "red");
         System.out.println(car5);
 
 

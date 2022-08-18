@@ -1,9 +1,9 @@
 package day43_generics;
 
-public class OddPredicate implements UnaryPredicate{
+public class OddPredicate implements UnaryPredicate<Integer>{
 
     @Override
-    public boolean test(Object obj) {
-        return false;
+    public boolean test(Integer obj) {
+        return obj %2 != 0;
     }
 }

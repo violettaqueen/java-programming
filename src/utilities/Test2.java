@@ -21,5 +21,8 @@ public class Test2 {
 
         // can be used in utility classes
 
+        char[] arr = {'c','a','t'};
+        System.out.println(ArraysUtility.reverse(arr));
+
     }
 }

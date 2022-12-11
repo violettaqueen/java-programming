@@ -8,7 +8,8 @@ public class ArraysUtility {
 
     public static int[] merge(int[] arr1, int[] arr2) {
 
-        int[] arr3 = new int[arr1.length + arr2.length]; //to make sure that 3d array has enough capacity to contain arr1 and arr2
+        int[] arr3 = new int[arr1.length + arr2.length]; //to make sure that 3d array has enough
+        // capacity to contain arr1 and arr2
 
         int k = 0; // k is for third arrays index numbers
 
@@ -104,7 +105,7 @@ public class ArraysUtility {
 
 
         for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
-            reverse[i] = array[i];
+            reverse[j] = array[i];
         }
         return reverse;
     }
@@ -620,6 +621,8 @@ public class ArraysUtility {
         return getDup;
     }
 
+    public static void removeElement(char[] arr) {
+    }
 }
 
    /* public static int[] removeDuplicates(int[] array) {

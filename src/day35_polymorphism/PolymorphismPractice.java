@@ -12,6 +12,8 @@ public class PolymorphismPractice {
 
         tiger.eat();
         tiger.sleep();
+        WildAnimal tiger1 = new Tiger("Sher Khan", "bengal", 'M', 5, "large", "Orange");
+        tiger1.hunt();
 
 
     }

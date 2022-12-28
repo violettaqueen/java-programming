@@ -1,6 +1,7 @@
 package day35_polymorphism;
 
 
+import day29_Inheritance.AnimalTask.Animal;
 import day34_interface.AnimalTask.*;
 import day34_interface.CarTask.Tesla;
 
@@ -32,13 +33,14 @@ public class PolymorphismIntro {
         /// Animal animal = new Tesla("Model Y", "Blue", 2022, 60000);
         // there is not "IS A" relationship between Animal and Tesla
 
-       // Animal animal = new Dog("Max", "Husky", 'M', 4, "Small", "White");
-       // animal.eat();
-       // animal.drink();
-       // animal.sleep();
-
-        //  animal.play();
-        //  animal.bark();
+        //Animal animal = new Dog("Max", "Husky", 'M', 4, "Small", "White");
+//
+//        animal.eat();
+//        animal.drink();
+//        animal.sleep();
+//
+//          animal.play();
+//          animal.bark();
 
 
 

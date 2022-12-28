@@ -16,7 +16,7 @@ public abstract class Animals {
     public Animals(String name, String breed, char gender, String size, String color, LocalDate dateOfbirth) {
         setName(name);
         setBreed(breed);
-        if (!(gender=='M' || gender=='F')){
+        if (!(gender == 'M' || gender == 'F')) {
             System.err.println("Invalid gender: " + gender);
             System.exit(1);
         }
@@ -51,7 +51,6 @@ public abstract class Animals {
         return gender;
     }
 
-
     public int getAge() {
         return age;
     }
@@ -61,29 +60,26 @@ public abstract class Animals {
     }
 
     public void setSize(String size) {
+
         String[] sizes = {"large", "medium", "small", "tiny"};
 
-        if ( ! Arrays.asList(sizes).contains(size)){
+        if (!Arrays.asList(sizes).contains(size)) {
             System.err.println("Invalid size: " + size);
             System.exit(1);
-
         }
         this.size = size;
     }
-
     public String getColor() {
         return color;
     }
-
     public void setColor(String color) {
         this.color = color;
     }
     public abstract void eat();
     public abstract void sleep();
-
     @Override
     public String toString() {
-        return getClass().getSimpleName()+"{" +
+        return getClass().getSimpleName() + "{" +
                 " name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +

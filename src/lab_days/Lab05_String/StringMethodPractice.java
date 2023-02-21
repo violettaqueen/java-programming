@@ -5,7 +5,7 @@ public class StringMethodPractice {
     public static void main(String[] args) {
 
         String name = "Violetta Queen";
-        name.charAt(4);
+        //name.charAt(4);
         char ch = name.charAt(4);
         System.out.println(ch);
 

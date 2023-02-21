@@ -8,5 +8,6 @@ public class TestEqualMethod {
         IPhone iphone2 = new IPhone("Apple", "IPhone12", "Medium", "Blue", 1200);
 
         System.out.println(iphone1.equals(iphone2));
+
     }
 }

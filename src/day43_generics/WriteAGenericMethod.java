@@ -13,11 +13,11 @@ public class WriteAGenericMethod {
 
 
     }
-    private static void swap(Integer[] a, int i, int j){ // not a generic method
+    private static void swap(Integer[] array, int i, int j){ // not a generic method
 
-        Integer temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
+        Integer temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
 
     }
     private static<T> void swap(T[] a, int i, int j){

@@ -30,22 +30,34 @@ public class JadenCased {
         }
         return result.trim();
     }
-    public static String toJadenCase(String phrase){
 
-        if(phrase == null || phrase.isEmpty()){
+    public static String toJadenCase(String phrase) {
+
+        if (phrase == null || phrase.isEmpty()) {
             return "";
         }
         char[] array = phrase.toCharArray();
 
         for (int i = 0; i < array.length; i++) {
-            if(i == 0 || array[i -1] == ' '){
+            if (i == 0 || array[i - 1] == ' ') {
                 array[i] = Character.toUpperCase(array[i]);
             }
         }
-return new String(array);
+        return new String(array);
     }
 
-}
+//    public static String convertToCamelCase(String word) {
+//
+//       for (Character ch : word.toCharArray()){
+//
+//           if (ch == '_' || ch == '-'){
+//               word.substring(ch);
+//           }
+//       }
+//
+
+    }
+
 
 
 

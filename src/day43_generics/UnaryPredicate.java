@@ -2,7 +2,7 @@ package day43_generics;
 
 public interface UnaryPredicate <T>{
 
-    public boolean test(T obj);
+     boolean test(T obj);
 
 
 }

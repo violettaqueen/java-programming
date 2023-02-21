@@ -94,7 +94,7 @@ public class ArraysUtility {
 
 
         for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
-            reverse[i] = array[i];
+            reverse[j] = array[i];
         }
         return reverse;
     }
@@ -116,7 +116,7 @@ public class ArraysUtility {
 
 
         for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
-            reverse[i] = array[i];
+            reverse[j] = array[i];
         }
         return reverse;
     }

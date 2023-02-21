@@ -23,7 +23,8 @@ public class CamelCasing {
 
     public static void main(String[] args) {
 
-        System.out.println(camelCasing(""));
+        String word = "The Stealth Warrior";
+        System.out.println(camelCasing(word));
 
     }
 }
